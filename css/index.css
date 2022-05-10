@@ -153,7 +153,44 @@ ul {
   padding: 0 20px;
 }
 
+.header {
+  padding-top: 44px;
+  background: linear-gradient(92.09deg, #5e3928 -79.4%, #e4a16f 84.12%);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 77px;
+}
+
+.header__item {
+  margin-right: 55px;
+}
+
+.header__list {
+  display: flex;
+}
+
 .header__link {
   font-family: "Mont";
+  color: white;
+  transition: .5s;
+}
+
+.header__link:hover {
+  background: linear-gradient(92.09deg, #5e3928 -79.4%, #e4a16f 84.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 /*# sourceMappingURL=index.css.map */
