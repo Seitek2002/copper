@@ -1,0 +1,12 @@
+.hero {
+    height: 100vh;
+    background: url(../assets/img/hero/bg.png) center;
+    background-size: cover;
+    &__title {
+        font-weight: 400;
+        font-size: 100px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: "Lighthaus";
+    }
+}
