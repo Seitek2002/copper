@@ -264,6 +264,7 @@ ul {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .thankss__footertitle {
@@ -274,5 +275,30 @@ ul {
   text-align: center;
   margin-top: 24px;
   color: #ADADAD;
+  margin-bottom: 50px;
+}
+
+.thankss__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 350px;
+}
+
+.thankss__input {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  margin-top: 53px;
+  font-family: 'Mont';
+  font-weight: 400;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=index.css.map */
