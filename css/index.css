@@ -260,6 +260,7 @@ body {
 .card-content h2, .card-content a h2 {
   font-size: 1rem;
   font-weight: 500;
+  color: black;
 }
 
 .card-content p, .card-content a p {
