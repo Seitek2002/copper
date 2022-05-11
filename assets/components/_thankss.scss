@@ -1,0 +1,84 @@
+.thankss {
+    &__content {
+        background: url(../assets/img/thanks/header.png) center;
+    
+        background-size: cover;
+        max-width: 1920px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+   
+    &__backmain {
+        font-family: 'Mont';
+        font-weight: 700;
+        font-size: 18px;
+        color: #A1A1A1;
+        border: 1px solid #A1A1A1;
+        background: white;
+        padding: 17px 77px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    &__main {
+        display: flex;
+        justify-content: center;
+        
+        margin-top: 120px;
+        
+    }
+    &__ok {
+        background: url(../assets/img/thanks/bottle.svg) center;
+        background-size: cover;
+        width: 106.8px;
+        height: 205.42px;
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        
+        
+    }
+    &__bottle {
+        width: 212px;
+        height: 169px;
+        margin-left: -160px;
+    }
+    &__title {
+        display: flex;
+        justify-content: center;
+        margin-top: 37px;
+        margin-bottom: 37px;
+    }
+    &__time {
+        font-family: 'Mont';
+        font-weight: 400;
+        font-size: 27px;
+        width: 320px;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__bottom {
+        background: url(../assets/img/thanks/footer.png) center;
+        background-size: cover;
+        max-width: 1920px;
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+    &__footertitle {
+        font-family: 'Mont';
+        font-weight: 300;
+        font-size: 14px;
+        width: 214px;
+        text-align: center;
+        margin-top: 24px;
+    }
+}
