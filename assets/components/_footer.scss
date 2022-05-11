@@ -1,0 +1,102 @@
+.footer{
+    background:url(https://avatars.mds.yandex.net/get-images-cbir/934547/EOAh-LJgPefMB17PtivzcA5158/ocr);
+    background-size: cover;
+    background-position: center;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    &__list{
+        display: flex;
+    }
+    &__item{
+        margin-right: 410px;
+    }
+    &__item__two{
+        margin-right: 110px;
+    }
+    &__item__four{
+        margin-left: 50px;
+    }
+    &__item__text{
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: 24px;
+        color: #ADADAD;
+    }
+    &__item__taxt{
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 21px;
+        color: #ADADAD;
+    }
+    &__iten__link{
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        
+    }
+    
+    &__item__two__text{
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 16px;
+        color: #FFFFFF;
+    }
+    &__item__two__link{
+        display: flex;
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        margin-bottom: 15px;
+        
+        
+    }
+    &__item__two__link:hover{
+        content: '';
+        bottom: 5px;
+        left: 5px;
+        text-decoration-line: underline;
+        
+     
+        
+    }
+
+    &__button{
+        background:linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        font-family: 'Mont';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        width: 176px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border: none;
+        color: #FFFFFF;
+        margin-top: 300px;
+        padding-right: 100px;
+        transform: rotate(90deg);
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+
+    }
+    .social__icon{
+        margin-right: 18px;
+    }
+
+}
+a{
+    color: #FFFFFF;
+}
