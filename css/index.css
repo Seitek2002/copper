@@ -288,4 +288,123 @@ ul {
   font-weight: 700;
   margin-left: 110px;
 }
+
+.thankss__content {
+  background: url(../assets/img/thanks/header.png) center;
+  background-size: cover;
+  max-width: 1920px;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thankss__backmain {
+  font-family: 'Mont';
+  font-weight: 700;
+  font-size: 18px;
+  color: #A1A1A1;
+  border: 1px solid #A1A1A1;
+  background: white;
+  padding: 17px 77px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thankss__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 120px;
+}
+
+.thankss__ok {
+  background: url(../assets/img/thanks/bottle.svg) center;
+  background-size: cover;
+  width: 106.8px;
+  height: 205.42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.thankss__bottle {
+  width: 212px;
+  height: 169px;
+  margin-left: -160px;
+}
+
+.thankss__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+
+.thankss__time {
+  font-family: 'Mont';
+  font-weight: 400;
+  font-size: 27px;
+  width: 320px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.thankss__bottom {
+  background: url(../assets/img/thanks/footer.png) center;
+  background-size: cover;
+  max-width: 1920px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.thankss__footertitle {
+  font-family: 'Mont';
+  font-weight: 300;
+  font-size: 14px;
+  width: 214px;
+  text-align: center;
+  margin-top: 24px;
+  color: #ADADAD;
+}
 /*# sourceMappingURL=index.css.map */
