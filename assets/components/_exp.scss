@@ -1,0 +1,57 @@
+.sales {
+    text-align: center;
+    &__group {
+      display: flex;
+      &__block {
+        position: relative;
+        width: 446px;
+        margin: 0 15px;
+        img {
+          margin-bottom: 36px;
+          &:hover {
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+          }
+        }
+        &-text {
+          display: flex;
+          justify-content: space-between;
+          align-items: end;
+          p {
+          
+            max-width: 212px;
+            font-size: 20px;
+            color: #031412;
+            line-height: 19px;
+            text-align: start;
+          }
+          span {
+            font-family: MontBold;
+            font-weight: 800;
+            font-size: 30px;
+            color: #031412;
+            line-height: 29px;
+          }
+        }
+       
+        &-heart {
+          z-index: 2;
+          right: 0%;
+          width: 50px;
+          height: 63px;
+          background-color: #fff;
+          position: absolute;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          cursor: pointer;
+          svg {
+            &:hover {
+              path {
+                fill: url(#paint0_linear_35_404);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
