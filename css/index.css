@@ -248,44 +248,34 @@ ul {
   z-index: -1;
 }
 
-.hero {
-  height: 100vh;
-  background: url(../assets/img/hero/BG.png) center;
-  background-size: cover;
+.products__item {
+  max-width: 445px;
+  height: 491px;
+  overflow: hidden;
+  position: relative;
+  background: url(../assets/img/products/dark-shadow.png) bottom no-repeat;
 }
 
-.hero__left {
-  max-width: 700px;
-  color: #ffffff;
+.products__item:hover {
+  background: url(../assets/img/products/bright-shadow.png) bottom no-repeat;
 }
 
-.hero__title {
+.products__img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.products__name {
+  font-family: "Mont";
+  position: absolute;
+  bottom: 27px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
   font-weight: 400;
-  font-size: 100px;
-  text-transform: uppercase;
-  font-family: "Lighthaus";
-}
-
-.hero__name {
-  font-family: "Mont";
-  font-weight: 700;
-  font-size: 50px;
-  max-width: 500px;
-  line-height: 96.4%;
-  margin: 50px 0;
-}
-
-.hero__price {
-  font-family: "Mont";
   font-size: 30px;
-}
-
-.hero__price--title {
-  font-weight: 300;
-}
-
-.hero__price--number {
-  font-weight: 700;
-  margin-left: 110px;
 }
 /*# sourceMappingURL=index.css.map */
