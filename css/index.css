@@ -250,15 +250,42 @@ ul {
 
 .hero {
   height: 100vh;
-  background: url(../assets/img/hero/bg.png) center;
+  background: url(../assets/img/hero/BG.png) center;
   background-size: cover;
+}
+
+.hero__left {
+  max-width: 700px;
+  color: #ffffff;
 }
 
 .hero__title {
   font-weight: 400;
   font-size: 100px;
-  color: #ffffff;
   text-transform: uppercase;
   font-family: "Lighthaus";
+}
+
+.hero__name {
+  font-family: "Mont";
+  font-weight: 700;
+  font-size: 50px;
+  max-width: 500px;
+  line-height: 96.4%;
+  margin: 50px 0;
+}
+
+.hero__price {
+  font-family: "Mont";
+  font-size: 30px;
+}
+
+.hero__price--title {
+  font-weight: 300;
+}
+
+.hero__price--number {
+  font-weight: 700;
+  margin-left: 110px;
 }
 /*# sourceMappingURL=index.css.map */
