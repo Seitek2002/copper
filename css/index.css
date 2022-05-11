@@ -172,12 +172,19 @@ ul {
           justify-content: center;
 }
 
+.news__img {
+  max-width: 100%;
+}
+
 .news__item {
-  position: relative;
   max-width: 683px;
   height: 209px;
   padding-left: 28px;
   padding-bottom: 130px;
+}
+
+.news__top {
+  position: relative;
 }
 
 .news__item--mini {
