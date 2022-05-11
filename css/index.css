@@ -156,4 +156,81 @@ ul {
 .header__link {
   font-family: "Mont";
 }
+
+.news {
+  padding-top: 120px;
+}
+
+.news__sector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news__item {
+  position: relative;
+  max-width: 683px;
+  height: 209px;
+  padding-left: 28px;
+  padding-bottom: 130px;
+}
+
+.news__item--mini {
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  width: 90px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.news__item--date {
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.news__item--title {
+  font-size: 20px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  margin: 0;
+}
+
+.news__item--text {
+  margin-bottom: 34px;
+}
+
+.news__item--text--text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 132.4%;
+  color: #031412;
+  margin-bottom: 20px;
+}
+
+.news__continuation {
+  background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
 /*# sourceMappingURL=index.css.map */
