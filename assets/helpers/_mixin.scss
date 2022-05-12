@@ -3,3 +3,8 @@
     font-weight: $fw;
     color: $cl;
 }
+
+@mixin dp_jc ($jc){
+display: flex;
+justify-content:$jc;    
+}
