@@ -1,0 +1,162 @@
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+}
+
+
+.box{
+    padding: 0 30px;
+}
+
+.section_title{
+
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 96.4%;
+/* or 17px */
+
+
+color: #031412;
+
+}
+
+.box_title{
+    font-family: 'Lighthaus';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 105.9%;
+margin-top: 0px;
+
+/* or 42px */
+
+
+color: #031412;
+margin-bottom: 40px;
+
+}
+.dog{
+    display: -webkit-box;
+}
+.vector{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 132.4%;
+margin-bottom: 35px;
+
+/* or 21px */
+
+
+color: #4B7159;
+}
+.articul{
+    padding: 0 350px;
+}
+.line{
+    border: 1px solid #E6E8E7;
+    margin-bottom: 0;
+    width: 685px;
+
+}
+.p_h3{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 132.4%;
+/* or 21px */
+
+
+color: #031412;
+
+}
+.h3_title{
+    margin-bottom: 35px;
+}
+.h2_title{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 96.4%;
+margin-top: 45px;
+/* identical to box height, or 34px */
+
+
+color: #031412;
+}
+.grn{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 96.4%;
+padding-left: 230px ;
+/* or 43px */
+
+
+color: #9B0000;
+
+}
+
+.skidka{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 96.4%;
+padding-left: 30px;
+margin-top: 45px;
+/* or 24px */
+
+
+color: #031412;
+
+opacity: 0.3;
+}
+.dog_2{
+    display: flex;
+    // align-items: baseline;
+}
+.solid{
+    opacity: 0.3;
+border: 1px solid #031412;
+transform: rotate(12.92deg);
+margin-top: -10px;
+}
+
+.line_sun{
+    border: 1px solid #E6E8E7;
+    width: 210px;
+    height: 50px;
+}
+
+.btn{
+    width: 450px;
+    height: 50px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    margin-left: 30px;
+    cursor: pointer;
+}
+.lines{
+    display: flex;
+    margin-bottom: 35px;
+}
+.img{
+    padding-left: 50px;
+}
+.twitter{
+    padding-left: 50px;
+}
+.facebook{
+    padding-left: 18px;
+}
+.instagram{
+    padding-left: 18px;
+}
