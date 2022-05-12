@@ -190,6 +190,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .thankss__main {
@@ -199,7 +200,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 120px;
+  margin-top: 130px;
 }
 
 .thankss__ok {
@@ -216,12 +217,25 @@ ul {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  margin-left: 10%;
 }
 
 .thankss__bottle {
   width: 212px;
   height: 169px;
   margin-left: -160px;
+}
+
+.thankss__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 50%;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .thankss__title {
@@ -287,18 +301,97 @@ ul {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 350px;
+  max-width: 375px;
+}
+
+.thankss__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 450px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
+  margin-bottom: 180px;
+}
+
+.thankss__parol {
+  font-family: 'Mont';
+  font-weight: 600;
+  font-size: 18px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  cursor: pointer;
+  margin-top: 27px;
+  margin-bottom: 27px;
 }
 
 .thankss__input {
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 20px;
-  margin-top: 53px;
+  margin-top: 30px;
   font-family: 'Mont';
+  padding-right: 160px;
   font-weight: 400;
   font-size: 18px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  border: 1px solid #A1A1A1;
+}
+
+.thankss__enter {
+  background: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 24px 36px;
+  margin-top: 48px;
+}
+
+.thankss__items {
+  margin-right: 92px;
+  font-family: 'Mont';
+  font-style: normal;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.thankss__items2 {
+  margin-left: 92px;
+  font-family: 'Mont';
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 950px) {
+  .thankss__top {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .thankss__items {
+    margin-right: 41px;
+  }
+  .thankss__items2 {
+    margin-left: 41px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
