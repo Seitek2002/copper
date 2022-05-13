@@ -43,6 +43,10 @@ color: #FFFFFF;
         font-size: 30px;
         color: #FFFFFF;
         margin-top: 100px;
+        max-width: 400px;
+        display: block;
+        flex-wrap: wrap;
+        text-align: left;
     }
     &__price{
         font-family: "Mont";
@@ -83,4 +87,74 @@ line-height: 0.7;
 }
 .destilator{
     height: 77vh;
+}
+@media screen and(max-width:1144px) {
+    .hero{
+        &__firma{
+            font-size: 130px;
+            max-width: 480px;  
+        }
+        &__destilator{
+            position: absolute;
+            z-index: 4;
+            right: 150px;
+        }
+        &__bg{
+            position: absolute;
+            right: -20%;
+            top: 0;
+            z-index: 1;
+    }
+}
+}
+@media screen and(max-width:998px) {
+    .hero{
+        &__firma{
+            font-size: 130px;
+            max-width: 480px;  
+        }
+        &__destilator{
+            position: absolute;
+            z-index: 4;
+            right: 40px;
+        }
+        &__bg{
+            position: absolute;
+            right: -40%;
+            top: 0;
+            z-index: 1;
+    }
+}
+}
+@media screen and(max-width:880px) {
+    .hero{
+        &__firma{
+            font-size: 130px;
+            max-width: 350px;  
+        }
+        &__destilator{
+            position: absolute;
+            z-index: 4;
+            right: 10px;
+        }
+        &__bg{
+            position: absolute;
+            right: -50%;
+            top: 0;
+            z-index: 1;
+    }
+    &__subject{    
+        font-weight: 400;
+        font-size: 40px;
+            }
+            &__name{
+                font-weight: 800;
+                font-size: 30px;
+                margin-top: 100px;
+                max-width: 300px;
+                display: block;
+                flex-wrap: wrap;
+                text-align: left;
+            }
+}
 }
