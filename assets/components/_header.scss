@@ -43,6 +43,11 @@
         top: 0;
         right: 20%;
     }
+    &__img--icon:hover{
+        border: 1px solid #fff;
+        padding: 140px 7px 7px 7px;
+        transition-duration: 1s;
+    }
     &__posi-user{
         position: absolute;
         top: 0;

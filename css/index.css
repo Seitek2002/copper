@@ -229,6 +229,13 @@ ul {
   right: 20%;
 }
 
+.header__img--icon:hover {
+  border: 1px solid #fff;
+  padding: 140px 7px 7px 7px;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .header__posi-user {
   position: absolute;
   top: 0;
