@@ -277,7 +277,7 @@ ul {
   height: 95vh;
 }
 
-@media screen and (max-width: 1144px) {
+@media screen and (max-width: 1256px) {
   .hero__firma {
     font-size: 130px;
     max-width: 480px;
@@ -295,7 +295,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 1083px) {
   .hero__firma {
     font-size: 130px;
     max-width: 480px;
@@ -313,7 +313,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 977px) {
   .hero__firma {
     font-size: 100px;
     max-width: 230px;
