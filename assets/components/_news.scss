@@ -26,7 +26,7 @@
     &__img{
         max-width: 100%;
     }
-    &__img--bottom{
+    &__img--bottom:hover{
         background: linear-gradient(180deg, rgba(7, 44, 38, 0.7) 0%, rgba(7, 44, 38, 0) 100%);
     }
     
@@ -42,14 +42,14 @@
     top: 0;
    }
    &__item--date{
-    font-weight: 800;
+    font-weight: 600;
     font-size: 18px;
     text-align: center;
     color: #FFFFFF;
 }
     &__item--title{
         font-size: 20px;
-        font-weight: 600;
+        font-weight: 400;
     color: #FFFFFF;
     position: absolute;
     bottom: 28px;
@@ -63,7 +63,7 @@
     margin-top: 26px;
  }
    &__item--text{
-    margin-bottom: 34px;
+    margin-bottom: 20px;
     
    }
    &__item--text--text{
@@ -71,10 +71,14 @@
     font-size: 14px;
     line-height: 132.4%;
     color: #031412;
-    margin-bottom: 20px;
+    
+    
     
    }
    &__continuation{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 134.4%;
     background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
