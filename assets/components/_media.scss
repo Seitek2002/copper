@@ -1,0 +1,14 @@
+@media screen and (max-width:768px) {
+    .news{
+        &__sector{
+            display: flex;
+        }
+        &__bottom{
+           margin-top: 26px;
+        }
+        &__item--text--text{
+            margin-top: 20px;
+        }
+    }
+
+}
