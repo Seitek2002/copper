@@ -17,7 +17,7 @@
 
 .button:hover {
     font-family: 'Mont';
-    @include font (700, 18px, $text-black);
-    @include btn (317px, 40px, transparent);
+    @include font (700, 18px, #8e6445);
+    @include btn (327px, 50px, $text-white);
     border: 5px solid #8e6445;
 }

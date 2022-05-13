@@ -183,10 +183,10 @@ ul {
   font-family: 'Mont';
   font-weight: 700;
   font-size: 18px;
-  color: #000;
-  width: 317px;
-  height: 40px;
-  background: transparent;
+  color: #8e6445;
+  width: 327px;
+  height: 50px;
+  background: #ffffff;
   border: 5px solid #8e6445;
 }
 
@@ -375,5 +375,51 @@ ul {
 
 .special__button {
   margin-top: -180px;
+}
+
+@media screen and (max-width: 785px) {
+  .special__bg {
+    text-align: center;
+    max-width: 770px;
+    min-height: 483px;
+    margin-left: -710px;
+  }
+  .special__promo {
+    font-family: 'Lighthaus';
+    font-weight: 400;
+    font-size: 100px;
+    color: #ffffff;
+    margin-top: 75px;
+    height: 1px;
+    width: 400px;
+  }
+  .special__proposal {
+    font-family: 'Mont';
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 19px;
+    width: 306px;
+    margin-top: -80px;
+  }
+  .special__button {
+    margin-top: -230px;
+  }
+  .special__img {
+    margin-top: -233px;
+    margin-left: -285px;
+  }
+  .special__title {
+    font-weight: 400;
+    font-size: 80px;
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    width: 421px;
+    height: 240px;
+    line-height: 60px;
+    margin-top: 350px;
+    margin-left: -55px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
