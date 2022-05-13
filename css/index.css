@@ -157,6 +157,121 @@ ul {
   font-family: "Mont";
 }
 
+.hero {
+  background: url(../assets/img/hero/hero-bg.png);
+  height: 80vh;
+  position: relative;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.hero__content {
+  max-width: 100%;
+}
+
+.hero__bg {
+  position: absolute;
+  right: -10%;
+  top: 0;
+  height: 80vh;
+  z-index: 1;
+}
+
+.hero__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 3;
+}
+
+.hero__left {
+  padding-top: 223px;
+  max-width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero__subject {
+  font-family: "Lighthaus";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: #FFFFFF;
+}
+
+.hero__name {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-top: 100px;
+}
+
+.hero__price {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 40px;
+  width: 300px;
+}
+
+.hero__buy {
+  margin-top: 40px;
+  width: 327px;
+  height: 50px;
+}
+
+.hero__firma {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: right;
+  font-family: "Lighthaus";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 160px;
+  color: #FFFFFF;
+  max-width: 610px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  line-height: 0.7;
+}
+
+.hero__destilator {
+  position: absolute;
+  bottom: -5px;
+  right: 300px;
+  z-index: 4;
+}
+
+.destilator {
+  height: 77vh;
+}
+
 .reviews__details {
   position: relative;
   max-width: 446px;
