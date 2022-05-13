@@ -159,7 +159,7 @@ ul {
 
 .hero {
   background: url(../assets/img/hero/hero-bg.png);
-  height: 80vh;
+  height: 100vh;
   position: relative;
   background-size: cover;
   overflow-x: hidden;
@@ -174,7 +174,7 @@ ul {
   position: absolute;
   right: -10%;
   top: 0;
-  height: 80vh;
+  height: 100vh;
   z-index: 1;
 }
 
@@ -269,12 +269,12 @@ ul {
 .hero__destilator {
   position: absolute;
   bottom: -5px;
-  right: 300px;
+  right: 320px;
   z-index: 4;
 }
 
 .destilator {
-  height: 77vh;
+  height: 95vh;
 }
 
 @media screen and (max-width: 1144px) {
@@ -315,8 +315,8 @@ ul {
 
 @media screen and (max-width: 880px) {
   .hero__firma {
-    font-size: 130px;
-    max-width: 350px;
+    font-size: 100px;
+    max-width: 230px;
   }
   .hero__destilator {
     position: absolute;
@@ -342,6 +342,9 @@ ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     text-align: left;
+  }
+  .hero__buy {
+    width: 250px;
   }
 }
 
