@@ -1,5 +1,133 @@
 .header {
+    background: url(../assets/img/header/header-bg.png);
+    position: relative;
+    
+    &__logo{
+        margin-right: 50px;
+    }
     &__link {
         font-family: "Mont";
+        margin: 0 25px;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 140px;
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__list--icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+    }
+    &__img--icon{
+        position: absolute;
+        background-color: #fff;
+        margin: 0 10px;
+        border: 1px solid #fff;
+        padding: 50px 7px 7px 7px;
+        top: 0;
+        right: 20%;
+    }
+    &__posi-user{
+        position: absolute;
+        top: 0;
+        right: 15%;
+    }
+    &__posi-shop{
+        position: absolute;
+        top: 0;
+        right: 10%;
     }
 }
+@media screen and(max-width:1100px) {
+    .header{  
+        &__posi-like{
+            display:none;
+        }
+        &__row{
+            display: block;
+        }
+        &__list{
+           margin: 20px 120px;
+        }
+        &__posi-user{
+            position: absolute;
+            top: 0;
+            right: 18%;
+        }
+        &__posi-shop{
+            position: absolute;
+            top: 0;
+            right: 10%;
+        }
+        &__img--icon{
+            padding: 30px 7px 7px 7px;
+            
+        }
+    }
+}
+@media screen and(max-width:877px) {
+    .header{
+        &__list{
+            max-width: 100%;
+            margin: 20px 80px;
+         }
+     }
+}
+@media screen and(max-width:877px) {
+    .header{
+        &__list{
+            max-width: 100%;
+            margin: 10px 50px;
+         }
+     }
+}
+@media screen and(max-width:768px) {
+    .header{
+        &__list{
+            max-width: 100%;
+            margin: 10px 10px;
+         }
+     }
+}
+@media screen and(max-width:656px) {
+    .header{
+        
+         &__link {
+            
+            margin: 0 15px;
+         }
+         &__posi-user{
+            position: absolute;
+            top: 0;
+            right: 20%;
+        }
+        &__posi-shop{
+            position: absolute;
+            top: 0;
+            right: 10%;
+        }
+     }
+}
+@media screen and(max-width:560px) {
+    .header{
+        &__link {            
+            margin: 0 10px;
+        }
+    }
+}     
