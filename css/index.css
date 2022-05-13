@@ -169,7 +169,7 @@ ul {
 
 .sales__group__block {
   position: relative;
-  width: 446px;
+  width: 602px;
   margin: 0 15px;
 }
 
@@ -186,6 +186,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: "Mont";
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -203,7 +204,7 @@ ul {
 }
 
 .sales__group__block-text span {
-  font-family: MontBold;
+  font-family: "Mont";
   font-weight: 800;
   font-size: 30px;
   color: #031412;

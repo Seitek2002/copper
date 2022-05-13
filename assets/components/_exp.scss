@@ -4,7 +4,7 @@
       display: flex;
       &__block {
         position: relative;
-        width: 446px;
+        width: 602px;
         margin: 0 15px;
         img {
           margin-bottom: 36px;
@@ -14,6 +14,7 @@
         }
         &-text {
           display: flex;
+          font-family: "Mont";
           justify-content: space-between;
           align-items: end;
           p {
@@ -25,7 +26,7 @@
             text-align: start;
           }
           span {
-            font-family: MontBold;
+            font-family: "Mont";
             font-weight: 800;
             font-size: 30px;
             color: #031412;
