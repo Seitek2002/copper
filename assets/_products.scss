@@ -5,7 +5,41 @@
     display: flex;
 }
 
+.block{
+    padding-left: 30px;
+    position: relative;
+}
+.sale{
+    position: absolute;
+ width: 85px;
+ height: 35px;
+ background: #9B0000;
+top: 40px;
+}
+.h3_sale{
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 900;
+font-size: 20px;
+line-height: 96.4%;
+/* or 19px */
 
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.heart{
+    width: 46px;
+    height: 59px;
+    background: #FFFFFF;
+
+position: absolute;
+margin-left: 520px;
+}
+.p_heart{
+    text-align: center;
+}
 .box{
     padding: 0 30px;
 }
