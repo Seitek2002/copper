@@ -1,0 +1,37 @@
+.values {
+    &__img {
+        position: relative;
+        max-width: 932px;
+        height: 622px;  
+    }
+
+    &__imgbox {
+        max-width: 932px;
+        height: 622px;
+        position: relative;
+    }
+
+    &__imgtext {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: Lighthaus;
+        font-weight:400;
+        font-size: 145px;
+        color: #fff;
+    }
+
+    &__name {
+        font-family: Lighthaus;
+        font-weight: 400;
+        font-size: 50px;
+        color: #031412;
+    }
+
+    &__text {
+        font-family: Mont;
+        font-weight: 400;
+        font-size: 20px;
+        color: #031412;
+    }
+}
