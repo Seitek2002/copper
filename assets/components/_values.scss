@@ -1,31 +1,25 @@
 .values {
-    &__img {
-        position: relative;
-        max-width: 932px;
-        height: 622px;  
-    }
 
-    &__imgbox {
-        max-width: 932px;
-        height: 622px;
-        position: relative;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+   
+
 
     &__imgtext {
-        position: absolute;
-        top: 0;
-        left: 0;
         font-family: Lighthaus;
         font-weight:400;
         font-size: 145px;
-        color: #fff;
+        color: pink;
     }
 
     &__name {
         font-family: Lighthaus;
         font-weight: 400;
         font-size: 50px;
-        color: #031412;
+        color: red;
     }
 
     &__text {
@@ -33,5 +27,9 @@
         font-weight: 400;
         font-size: 20px;
         color: #031412;
+    }
+
+    &__minibox {
+        display: flex;
     }
 }
