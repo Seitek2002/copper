@@ -1,22 +1,23 @@
 //colors//
-$text-black: #000;
+$text-black: #000000;
 $text-white: #ffffff;
+$text-deepRed: #9B0000;
+$text-satGreen: #4B7159;
+$text-darkFreen: #031412;
+$text-gray: #ADADAD;
 
-//general colors//
-$deepRed: #9B0000;
+//backgrounds//
+$bg-goldBlack: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+$bg-greenGold: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+$bg-goldGreen: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+$bg-deepGrey: #E6E8E7;
+$bg-deepRed: #9B0000;
+$bg-satGreen: #4B7159;
+$bg-black: #000000;
+$bg-white: #ffffff;
+$bg-orange: #FF7816;
+$bg-mintBlue: #029281;
+$bg-lightGray: #C4C4C4;
 
-//Backgrounds//
-$goldBlack: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-$greenGold: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
-
-
-//Font sizes//
-$font-size-sm: 12px;
-$font-size-md: 14px;
-$font-size-lg: 16px;
-$font-size-xl: 24px;
-$font-size-2xl: 30px;
-$font-size-3xl: 50px;
-$font-size-4xl: 60px;
-$font-size-5xl: 100px;
-$font-size-6xl: 250px;
+//box-shadow//
+$bs-gray: 0px 0px 40px rgba(0, 0, 0, 0.1);
