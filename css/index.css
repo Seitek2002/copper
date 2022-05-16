@@ -160,6 +160,10 @@ ul {
   font-family: "Mont";
 }
 
+.products__swiper {
+  height: 620px;
+}
+
 .products_block {
   padding-left: 30px;
   position: relative;

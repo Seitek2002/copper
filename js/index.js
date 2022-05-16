@@ -1,4 +1,4 @@
-const swiper = new Swiper('.product__swiper', {
+const swiper = new Swiper('.products__swiper', {
     // direction: 'vertical',
     slidesPerView: 5,
     // loop: true,
@@ -14,3 +14,11 @@ const swiper = new Swiper('.product__swiper', {
     },
     direction: "vertical",
   });
+
+//   export default {
+//     data () {
+//         return {
+//             quantity: null
+//         }
+//     }
+// }
