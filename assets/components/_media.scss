@@ -1,4 +1,22 @@
-@media screen and (max-width:320px) {
+@media screen and (max-width:490px) {
+    .news{
+
+        &__item--title{
+            font-size: 15px;
+            font-weight: 600;
+            
+            color: #FFFFFF;
+            position: absolute;
+            bottom: 15px;
+            left: 12px;
+            margin: 0;
+            line-height: 96.4%;
+            text-align: center;
+            
+        }
+   }
+}
+@media screen and (max-width:365px) {
     .news{
         padding-top: 120px;
     font-family: 'Mont';
@@ -24,10 +42,7 @@
     position: relative;
     
    }
-    &__img{
-        
-      max-width: 100%;
-    }
+   
  
     
    &__item--mini{
@@ -48,13 +63,12 @@
     color: #FFFFFF;
 }
     &__item--title{
-        font-size: 12px;
-        font-weight: 600;
-  
+    font-size: 12px;
+    font-weight: 600;
     color: #FFFFFF;
     position: absolute;
-    bottom: 12px;
-    left: 10px;
+    bottom: 14px;
+    left: 12px;
     margin: 0;
     line-height: 96.4%;
     text-align: center;
