@@ -157,197 +157,6 @@ ul {
   font-family: "Mont";
 }
 
-.hero {
-  background: url(../assets/img/hero/hero-bg.png);
-  height: 100vh;
-  position: relative;
-  background-size: cover;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-.hero__content {
-  max-width: 100%;
-}
-
-.hero__bg {
-  position: absolute;
-  right: -10%;
-  top: 0;
-  height: 100vh;
-  z-index: 1;
-}
-
-.hero__details {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: absolute;
-  z-index: 3;
-}
-
-.hero__left {
-  padding-top: 223px;
-  max-width: 100%;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.hero__subject {
-  font-family: "Lighthaus";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  color: #FFFFFF;
-}
-
-.hero__name {
-  font-family: "Mont";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 30px;
-  color: #FFFFFF;
-  margin-top: 100px;
-  max-width: 400px;
-  display: block;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  text-align: left;
-}
-
-.hero__price {
-  font-family: "Mont";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  color: #FFFFFF;
-  margin-top: 40px;
-  width: 300px;
-}
-
-.hero__buy {
-  margin-top: 40px;
-  width: 327px;
-  height: 50px;
-}
-
-.hero__firma {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  text-align: right;
-  font-family: "Lighthaus";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 160px;
-  color: #FFFFFF;
-  max-width: 610px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 2;
-  line-height: 0.7;
-}
-
-.hero__destilator {
-  position: absolute;
-  bottom: -5px;
-  right: 320px;
-  z-index: 4;
-}
-
-.destilator {
-  height: 95vh;
-}
-
-@media screen and (max-width: 1256px) {
-  .hero__firma {
-    font-size: 130px;
-    max-width: 480px;
-  }
-  .hero__destilator {
-    position: absolute;
-    z-index: 4;
-    right: 150px;
-  }
-  .hero__bg {
-    position: absolute;
-    right: -20%;
-    top: 0;
-    z-index: 1;
-  }
-}
-
-@media screen and (max-width: 1083px) {
-  .hero__firma {
-    font-size: 130px;
-    max-width: 480px;
-  }
-  .hero__destilator {
-    position: absolute;
-    z-index: 4;
-    right: 40px;
-  }
-  .hero__bg {
-    position: absolute;
-    right: -40%;
-    top: 0;
-    z-index: 1;
-  }
-}
-
-@media screen and (max-width: 977px) {
-  .hero__firma {
-    font-size: 100px;
-    max-width: 230px;
-  }
-  .hero__destilator {
-    position: absolute;
-    z-index: 4;
-    right: 10px;
-  }
-  .hero__bg {
-    position: absolute;
-    right: -50%;
-    top: 0;
-    z-index: 1;
-  }
-  .hero__subject {
-    font-weight: 400;
-    font-size: 40px;
-  }
-  .hero__name {
-    font-weight: 800;
-    font-size: 30px;
-    margin-top: 100px;
-    max-width: 300px;
-    display: block;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    text-align: left;
-  }
-  .hero__buy {
-    width: 250px;
-  }
-}
-
 .reviews__details {
   position: relative;
   max-width: 446px;
@@ -404,6 +213,400 @@ ul {
     font-style: italic;
     font-weight: 400;
     font-size: 14px;
+  }
+}
+
+.exx {
+  background: url(../assets/img/hero/hero-bg.png);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.exx__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.exx__left {
+  padding: 225px 0;
+  max-width: 637px;
+}
+
+.exx__logo {
+  line-height: 4;
+}
+
+.exx__name {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 435px;
+  margin-top: 50px;
+}
+
+.exx__price {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 96.4%;
+  color: #FFFFFF;
+  line-height: 4;
+  word-spacing: 150px;
+}
+
+.exx__buy {
+  cursor: pointer;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  width: 327px;
+  height: 50px;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.trees {
+  position: absolute;
+  right: -10%;
+  top: 0;
+  z-index: 2;
+}
+
+.bulba {
+  position: absolute;
+  right: 200px;
+  bottom: -5%;
+  z-index: 4;
+}
+
+.copper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  max-width: 586px;
+}
+
+.point__one {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  z-index: 5;
+  top: 135px;
+  right: 600px;
+}
+
+.point__one--ell {
+  display: none;
+}
+
+.point__two {
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  top: 370px;
+  right: 670px;
+}
+
+.point__three {
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  top: 620px;
+  right: 600px;
+}
+
+.point__one--btn:active .point__one--ell {
+  display: block;
+}
+
+@media screen and (max-width: 1330px) {
+  .trees {
+    position: absolute;
+    right: -20%;
+    top: 0;
+    z-index: 2;
+  }
+  .bulba {
+    position: absolute;
+    right: 100px;
+    bottom: -5%;
+    z-index: 4;
+  }
+  .copper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    max-width: 486px;
+  }
+  .point__one {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    z-index: 5;
+    top: 135px;
+    right: 500px;
+  }
+  .point__one--ell {
+    display: none;
+  }
+  .point__two {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 370px;
+    right: 570px;
+  }
+  .point__three {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 620px;
+    right: 500px;
+  }
+  .copperpro {
+    max-width: 445px;
+  }
+}
+
+@media screen and (max-width: 1225px) {
+  .trees {
+    position: absolute;
+    right: -30%;
+    top: 0;
+    z-index: 2;
+  }
+  .bulba {
+    position: absolute;
+    right: 0px;
+    bottom: -5%;
+    z-index: 4;
+  }
+  .copper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+    max-width: 486px;
+  }
+  .point__one {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    z-index: 5;
+    top: 135px;
+    right: 400px;
+  }
+  .point__one--ell {
+    display: none;
+  }
+  .point__two {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 370px;
+    right: 470px;
+  }
+  .point__three {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 620px;
+    right: 400px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .trees {
+    position: absolute;
+    right: -35%;
+    top: 0;
+    z-index: 2;
+  }
+  .bulba {
+    max-width: 800px;
+    position: absolute;
+    right: 0px;
+    bottom: -5%;
+    z-index: 4;
+  }
+  .copper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+  }
+  .point__one {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    z-index: 5;
+    top: 135px;
+    right: 300px;
+  }
+  .point__one--ell {
+    display: none;
+  }
+  .point__two {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 370px;
+    right: 370px;
+  }
+  .point__three {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 620px;
+    right: 300px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .trees {
+    position: absolute;
+    right: -40%;
+    top: 0;
+    z-index: 2;
+  }
+  .bulba {
+    max-width: 700px;
+    position: absolute;
+    right: 0px;
+    bottom: -5%;
+    z-index: 4;
+  }
+  .copper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+  }
+  .point__one {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    z-index: 5;
+    top: 135px;
+    right: 200px;
+  }
+  .point__one--ell {
+    display: none;
+  }
+  .point__two {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 370px;
+    right: 270px;
+  }
+  .point__three {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 620px;
+    right: 200px;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .trees {
+    position: absolute;
+    right: -50%;
+    top: 25%;
+    bottom: 25%;
+    z-index: 2;
+  }
+  .bulba {
+    max-width: 700px;
+    position: absolute;
+    right: 0px;
+    bottom: -5%;
+    z-index: 4;
+  }
+  .copper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+  }
+  .point__one {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    position: absolute;
+    z-index: 5;
+    top: 135px;
+    right: 200px;
+  }
+  .point__one--ell {
+    display: none;
+  }
+  .point__two {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 370px;
+    right: 270px;
+  }
+  .point__three {
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 620px;
+    right: 200px;
   }
 }
 /*# sourceMappingURL=index.css.map */
