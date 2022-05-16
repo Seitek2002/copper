@@ -471,28 +471,14 @@ ul {
   }
 }
 
-@media screen and (max-width: 760px) {
-  .products_box {
-    width: 450px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .products_box {
-    width: 100px;
-    height: 50px;
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 500px) {
   .products_block {
     width: 30px;
     height: 100px;
   }
   .products_box {
     margin-top: 700px;
-    width: 100px;
+    width: 700px;
     height: 100px;
   }
 }
