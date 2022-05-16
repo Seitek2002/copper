@@ -1,91 +1,117 @@
-@media screen and (max-width:320px) {
-    .news{
+@media screen and (max-width: 320px) {
+    .news {
         padding-top: 120px;
-    font-family: 'Mont';
-    &__sector{
-        
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-      
-    }
-    &__item{
-        
-        max-width: 683px;
-    height: 209px;
-    padding-left: 28px;
-    margin-bottom: 130px;
-    box-sizing: border-box;
-    
+        font-family: "Mont";
+        &__sector {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            max-width: 683px;
+            height: 209px;
+            padding-left: 28px;
+            margin-bottom: 130px;
+            box-sizing: border-box;
+        }
+        &__top {
+            position: relative;
+        }
+        &__img {
+            max-width: 100%;
+        }
 
-    
-   }
-   &__top{
-    position: relative;
-    
-   }
-    &__img{
-        
-      max-width: 100%;
-    }
- 
-    
-   &__item--mini{
-    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-    width: 76px;
-    height: 27px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: 0;
-    top: 0;
-   }
-   &__item--date{
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    color: #FFFFFF;
-}
-    &__item--title{
-        font-size: 12px;
-        font-weight: 600;
-  
-    color: #FFFFFF;
-    position: absolute;
-    bottom: 12px;
-    left: 10px;
-    margin: 0;
-    line-height: 96.4%;
-    text-align: center;
-    
-   }
-   &__bottom{
-    margin-top: 10px;
- }
-   &__item--text{
-    margin-bottom: 14px;
-    
-   }
-   &__item--text--text{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 132.4%;
-    color: #031412;
-    
-    
-   }
-   &__continuation{
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 134.4%;
-    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    
-   }
-     
+        &__item--mini {
+            background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+            width: 76px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        &__item--date {
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            color: #ffffff;
+        }
+        &__item--title {
+            font-size: 12px;
+            font-weight: 600;
+
+            color: #ffffff;
+            position: absolute;
+            bottom: 12px;
+            left: 10px;
+            margin: 0;
+            line-height: 96.4%;
+            text-align: center;
+        }
+        &__bottom {
+            margin-top: 10px;
+        }
+        &__item--text {
+            margin-bottom: 14px;
+        }
+        &__item--text--text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 132.4%;
+            color: #031412;
+        }
+        &__continuation {
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 134.4%;
+            background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
     }
 
+    @media screen and (max-width: 785px) {
+        .special {
+            &__bg {
+                text-align: center;
+                max-width: 770px;
+                min-height: 483px;
+                margin-left: -710px;
+            }
+            &__promo {
+                font-family: "Lighthaus";
+                @include font(400, 100px, $text-white);
+                margin-top: 75px;
+                height: 1px;
+                width: 400px;
+            }
+            &__proposal {
+                font-family: "Mont";
+                @include font(600, 20px, $text-white);
+                line-height: 19px;
+                width: 306px;
+                margin-top: -80px;
+            }
+            &__button {
+                margin-top: -230px;
+            }
+            &__img {
+                margin-top: -233px;
+                margin-left: -285px;
+            }
+            &__title {
+                @include font(400, 80px, $text-white);
+                text-align: right;
+                position: absolute;
+                width: 421px;
+                height: 240px;
+                line-height: 60px;
+                margin-top: 350px;
+                margin-left: -55px;
+            }
+        }
+    }
 }
