@@ -1,128 +1,136 @@
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-Black.eot");
-  src: local("Mont Black"), local("Mont-Black"), url("../assets/fonts/Mont-Black.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-Black.woff2") format("woff2"), url("../assets/fonts/Mont-Black.woff") format("woff"), url("../assets/fonts/Mont-Black.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-Black.eot");
+  src: local("Mont Black"), local("Mont-Black"), url("../assets/fonts/Mont/Mont-Black.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-Black.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-Black.woff") format("woff"), url("../assets/fonts/Mont/Mont-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-ThinItalic.eot");
-  src: local("Mont Thin Italic"), local("Mont-ThinItalic"), url("../assets/fonts/Mont-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-ThinItalic.woff2") format("woff2"), url("../assets/fonts/Mont-ThinItalic.woff") format("woff"), url("../assets/fonts/Mont-ThinItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-ThinItalic.eot");
+  src: local("Mont Thin Italic"), local("Mont-ThinItalic"), url("../assets/fonts/Mont/Mont-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-ThinItalic.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-ThinItalic.woff") format("woff"), url("../assets/fonts/Mont/Mont-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-ExtraLight.eot");
-  src: local("Mont ExtraLight"), local("Mont-ExtraLight"), url("../assets/fonts/Mont-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-ExtraLight.woff2") format("woff2"), url("../assets/fonts/Mont-ExtraLight.woff") format("woff"), url("../assets/fonts/Mont-ExtraLight.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-ExtraLight.eot");
+  src: local("Mont ExtraLight"), local("Mont-ExtraLight"), url("../assets/fonts/Mont/Mont-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-ExtraLight.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-ExtraLight.woff") format("woff"), url("../assets/fonts/Mont/Mont-ExtraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-Bold.eot");
-  src: local("Mont Bold"), local("Mont-Bold"), url("../assets/fonts/Mont-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-Bold.woff2") format("woff2"), url("../assets/fonts/Mont-Bold.woff") format("woff"), url("../assets/fonts/Mont-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-Bold.eot");
+  src: local("Mont Bold"), local("Mont-Bold"), url("../assets/fonts/Mont/Mont-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-Bold.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-Bold.woff") format("woff"), url("../assets/fonts/Mont/Mont-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-HeavyItalic.eot");
-  src: local("Mont Heavy Italic"), local("Mont-HeavyItalic"), url("../assets/fonts/Mont-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-HeavyItalic.woff2") format("woff2"), url("../assets/fonts/Mont-HeavyItalic.woff") format("woff"), url("../assets/fonts/Mont-HeavyItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-HeavyItalic.eot");
+  src: local("Mont Heavy Italic"), local("Mont-HeavyItalic"), url("../assets/fonts/Mont/Mont-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-HeavyItalic.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-HeavyItalic.woff") format("woff"), url("../assets/fonts/Mont/Mont-HeavyItalic.ttf") format("truetype");
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-BlackItalic.eot");
-  src: local("Mont Black Italic"), local("Mont-BlackItalic"), url("../assets/fonts/Mont-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-BlackItalic.woff2") format("woff2"), url("../assets/fonts/Mont-BlackItalic.woff") format("woff"), url("../assets/fonts/Mont-BlackItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-BlackItalic.eot");
+  src: local("Mont Black Italic"), local("Mont-BlackItalic"), url("../assets/fonts/Mont/Mont-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-BlackItalic.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-BlackItalic.woff") format("woff"), url("../assets/fonts/Mont/Mont-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-ExtraLightItalic.eot");
-  src: local("Mont ExtraLight Italic"), local("Mont-ExtraLightItalic"), url("../assets/fonts/Mont-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-ExtraLightItalic.woff2") format("woff2"), url("../assets/fonts/Mont-ExtraLightItalic.woff") format("woff"), url("../assets/fonts/Mont-ExtraLightItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-ExtraLightItalic.eot");
+  src: local("Mont ExtraLight Italic"), local("Mont-ExtraLightItalic"), url("../assets/fonts/Mont/Mont-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-ExtraLightItalic.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-ExtraLightItalic.woff") format("woff"), url("../assets/fonts/Mont/Mont-ExtraLightItalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-Heavy.eot");
-  src: local("Mont Heavy"), local("Mont-Heavy"), url("../assets/fonts/Mont-Heavy.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-Heavy.woff2") format("woff2"), url("../assets/fonts/Mont-Heavy.woff") format("woff"), url("../assets/fonts/Mont-Heavy.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-Heavy.eot");
+  src: local("Mont Heavy"), local("Mont-Heavy"), url("../assets/fonts/Mont/Mont-Heavy.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-Heavy.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-Heavy.woff") format("woff"), url("../assets/fonts/Mont/Mont-Heavy.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-SemiBold.eot");
-  src: local("Mont SemiBold"), local("Mont-SemiBold"), url("../assets/fonts/Mont-SemiBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-SemiBold.woff2") format("woff2"), url("../assets/fonts/Mont-SemiBold.woff") format("woff"), url("../assets/fonts/Mont-SemiBold.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-SemiBold.eot");
+  src: local("Mont SemiBold"), local("Mont-SemiBold"), url("../assets/fonts/Mont/Mont-SemiBold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-SemiBold.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-SemiBold.woff") format("woff"), url("../assets/fonts/Mont/Mont-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-RegularItalic.eot");
-  src: local("Mont Regular Italic"), local("Mont-RegularItalic"), url("../assets/fonts/Mont-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-RegularItalic.woff2") format("woff2"), url("../assets/fonts/Mont-RegularItalic.woff") format("woff"), url("../assets/fonts/Mont-RegularItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-RegularItalic.eot");
+  src: local("Mont Regular Italic"), local("Mont-RegularItalic"), url("../assets/fonts/Mont/Mont-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-RegularItalic.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-RegularItalic.woff") format("woff"), url("../assets/fonts/Mont/Mont-RegularItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-BoldItalic.eot");
-  src: local("Mont Bold Italic"), local("Mont-BoldItalic"), url("../assets/fonts/Mont-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-BoldItalic.woff2") format("woff2"), url("../assets/fonts/Mont-BoldItalic.woff") format("woff"), url("../assets/fonts/Mont-BoldItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-BoldItalic.eot");
+  src: local("Mont Bold Italic"), local("Mont-BoldItalic"), url("../assets/fonts/Mont/Mont-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-BoldItalic.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-BoldItalic.woff") format("woff"), url("../assets/fonts/Mont/Mont-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-SemiBoldItalic.eot");
-  src: local("Mont SemiBold Italic"), local("Mont-SemiBoldItalic"), url("../assets/fonts/Mont-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-SemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/Mont-SemiBoldItalic.woff") format("woff"), url("../assets/fonts/Mont-SemiBoldItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-SemiBoldItalic.eot");
+  src: local("Mont SemiBold Italic"), local("Mont-SemiBoldItalic"), url("../assets/fonts/Mont/Mont-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-SemiBoldItalic.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-SemiBoldItalic.woff") format("woff"), url("../assets/fonts/Mont/Mont-SemiBoldItalic.ttf") format("truetype");
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-LightItalic.eot");
-  src: local("Mont Light Italic"), local("Mont-LightItalic"), url("../assets/fonts/Mont-LightItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-LightItalic.woff2") format("woff2"), url("../assets/fonts/Mont-LightItalic.woff") format("woff"), url("../assets/fonts/Mont-LightItalic.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-LightItalic.eot");
+  src: local("Mont Light Italic"), local("Mont-LightItalic"), url("../assets/fonts/Mont/Mont-LightItalic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-LightItalic.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-LightItalic.woff") format("woff"), url("../assets/fonts/Mont/Mont-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-Thin.eot");
-  src: local("Mont Thin"), local("Mont-Thin"), url("../assets/fonts/Mont-Thin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-Thin.woff2") format("woff2"), url("../assets/fonts/Mont-Thin.woff") format("woff"), url("../assets/fonts/Mont-Thin.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-Thin.eot");
+  src: local("Mont Thin"), local("Mont-Thin"), url("../assets/fonts/Mont/Mont-Thin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-Thin.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-Thin.woff") format("woff"), url("../assets/fonts/Mont/Mont-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-Regular.eot");
-  src: local("Mont Regular"), local("Mont-Regular"), url("../assets/fonts/Mont-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-Regular.woff2") format("woff2"), url("../assets/fonts/Mont-Regular.woff") format("woff"), url("../assets/fonts/Mont-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-Regular.eot");
+  src: local("Mont Regular"), local("Mont-Regular"), url("../assets/fonts/Mont/Mont-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-Regular.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-Regular.woff") format("woff"), url("../assets/fonts/Mont/Mont-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mont';
-  src: url("../assets/fonts/Mont-Light.eot");
-  src: local("Mont Light"), local("Mont-Light"), url("../assets/fonts/Mont-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont-Light.woff2") format("woff2"), url("../assets/fonts/Mont-Light.woff") format("woff"), url("../assets/fonts/Mont-Light.ttf") format("truetype");
+  src: url("../assets/fonts/Mont/Mont-Light.eot");
+  src: local("Mont Light"), local("Mont-Light"), url("../assets/fonts/Mont/Mont-Light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Mont/Mont-Light.woff2") format("woff2"), url("../assets/fonts/Mont/Mont-Light.woff") format("woff"), url("../assets/fonts/Mont/Mont-Light.ttf") format("truetype");
   font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lighthaus';
+  src: url("../assets/fonts/Lighthouse/Lighthaus.eot");
+  src: local("Lighthaus"), url("../assets/fonts/Lighthouse/Lighthaus.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Lighthouse/Lighthaus.woff") format("woff"), url("../assets/fonts/Lighthouse/Lighthaus.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -153,122 +161,162 @@ ul {
   padding: 0 20px;
 }
 
+.header {
+  padding-top: 44px;
+  background: linear-gradient(92.09deg, #5e3928 -79.4%, #e4a16f 84.12%);
+}
+
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  margin-right: 77px;
+}
+
+.header__item {
+  margin-right: 55px;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header__link {
   font-family: "Mont";
+  color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.header__link:hover {
+  background: linear-gradient(92.09deg, #5e3928 -79.4%, #e4a16f 84.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-body {
-  padding: 1rem 0;
-  background: #f9f9fb;
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.card {
-  width: 300px;
-  display: inline-block;
-  margin: 1rem;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
+.profile__icon {
+  width: 30px;
+  height: 30px;
+  padding: 13px 10px;
+}
+
+.profile__icon path {
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.profile__item {
+  margin-left: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile__item::before {
+  content: "";
   background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: -1;
+}
+
+.products__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.products__item {
+  width: 445px;
+  -webkit-box-shadow: url(../img/products/dark-shadow.png);
+          box-shadow: url(../img/products/dark-shadow.png);
+  height: 491px;
   position: relative;
   overflow: hidden;
-}
-
-.card:hover, .card.hover {
-  -webkit-transform: translateY(-4px);
-          transform: translateY(-4px);
-  -webkit-box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
-          box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
-}
-
-.card:hover .card-content, .card.hover .card-content {
-  -webkit-box-shadow: inset 0 3px 0 0 #fff;
-          box-shadow: inset 0 3px 0 0 #fff;
-  border-color: #fff;
-}
-
-.card:hover .card-img .overlay, .card.hover .card-img .overlay {
-  background-color: rgba(25, 29, 38, 0.85);
-  -webkit-transition: opacity .2s ease;
-  transition: opacity .2s ease;
-  opacity: 1;
-}
-
-.card-img {
-  background: url(./img/samogon.jpg);
-  position: relative;
-  height: 224px;
-  width: 100%;
-  background-color: #fff;
-  -webkit-transition: opacity .2s ease;
-  transition: opacity .2s ease;
-  background-position: center center;
-  background-repeat: no-repeat;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background: url(../assets/img/products/item.png) center no-repeat;
   background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  background: url(../assets/img/products/dark-shadow.png) bottom no-repeat;
 }
 
-.card-img .overlay {
+.products__item::before {
+  content: '';
   position: absolute;
-  left: 0;
-  top: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
-  opacity: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
-.card-img .overlay .overlay-content {
-  line-height: 224px;
-  width: 100%;
+.products__item:hover {
+  background: url(../assets/img/products/bright-shadow.png) bottom no-repeat;
+}
+
+.products__item:hover::before {
+  background: linear-gradient(351.3deg, rgba(203, 141, 98, 0) 33.24%, #CB8D62 104.72%);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.products__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.products__name {
+  font-family: "Mont";
+  position: absolute;
+  bottom: 27px;
   text-align: center;
-  color: #fff;
-}
-
-.card-img .overlay .overlay-content a {
-  color: #fff;
-  padding: 0 2rem;
-  display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  height: 40px;
-  line-height: 40px;
-  border-radius: 20px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.card-content {
   width: 100%;
-  min-height: 104px;
-  background-color: #fff;
-  border-top: 1px solid #E9E9EB;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-  padding: 1rem 2rem;
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
-}
-
-.card-content h2, .card-content a h2 {
-  font-size: 1rem;
-  font-weight: 500;
-  color: black;
-}
-
-.card-content p, .card-content a p {
-  font-size: .8rem;
+  color: #fff;
   font-weight: 400;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: rgba(32, 41, 28, 0.8);
+  font-size: 30px;
 }
 /*# sourceMappingURL=index.css.map */
