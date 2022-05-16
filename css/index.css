@@ -231,7 +231,7 @@ ul {
 
 .header__img--icon:hover {
   border: 1px solid #fff;
-  padding: 140px 7px 7px 7px;
+  padding: 50px 7px 50px 7px;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
@@ -246,6 +246,71 @@ ul {
   position: absolute;
   top: 0;
   right: 10%;
+}
+
+.burger {
+  display: none;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.burger__list {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.burger__menu {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.burger__line {
+  background: #fff;
+  width: 35px;
+  margin: 0 auto;
+  height: 4px;
+}
+
+.burger__close {
+  display: none;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  line-height: 0.5;
+}
+
+.burger__menu.active .burger__close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.burger__menu.active .burger__line {
+  display: none;
+}
+
+.burger__menu.active ~ .burger__list {
+  display: block;
+}
+
+.burger .header__item {
+  margin-top: 15px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1100px) {
@@ -313,6 +378,44 @@ ul {
 @media screen and (max-width: 560px) {
   .header__link {
     margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 506px) {
+  .burger {
+    display: block;
+  }
+  .header__list {
+    display: none;
+  }
+  .header__posi-user {
+    position: absolute;
+    top: 0;
+    right: 40%;
+  }
+  .header__posi-shop {
+    position: absolute;
+    top: 0;
+    right: 25%;
+  }
+  .header__img--icon {
+    padding: 50px 7px 7px 7px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__logo {
+    width: 110px;
+  }
+  .header__posi-user {
+    position: absolute;
+    top: 0;
+    right: 40%;
+  }
+  .header__posi-shop {
+    position: absolute;
+    top: 0;
+    right: 23%;
   }
 }
 /*# sourceMappingURL=index.css.map */

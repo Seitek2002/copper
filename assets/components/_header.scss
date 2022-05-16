@@ -45,7 +45,7 @@
     }
     &__img--icon:hover{
         border: 1px solid #fff;
-        padding: 140px 7px 7px 7px;
+        padding: 50px 7px 50px 7px;
         transition-duration: 1s;
     }
     &__posi-user{
@@ -57,6 +57,59 @@
         position: absolute;
         top: 0;
         right: 10%;
+    }
+}
+.burger{
+    display: none;
+    position: relative;
+    cursor: pointer;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    &__list{
+        display: none;
+        position: absolute;
+        top:70px;
+        right: 0;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    }
+    &__menu{
+        padding: 10px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__line{
+        
+        background: #fff;
+        width: 35px;
+        margin: 0 auto;
+        height: 4px;
+    }
+    &__close{
+        display: none;
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        line-height: 0.5;
+       
+    
+    }
+    &__menu.active &__close{
+        display: flex;
+    }
+    &__menu.active &__line{
+        display: none;
+    }
+    &__menu.active ~ &__list{
+        display: block;
+    }
+    .header__item{
+        margin-top: 15px;
+        text-align: center;
+        
     }
 }
 @media screen and(max-width:1100px) {
@@ -136,3 +189,46 @@
         }
     }
 }     
+@media screen and(max-width:506px) {
+    .burger{
+        display: block;
+    }
+    .header{
+        &__list{
+            display: none;
+        }
+        &__posi-user{
+            position: absolute;
+            top: 0;
+            right: 40%;
+        }
+        &__posi-shop{
+            position: absolute;
+            top: 0;
+            right: 25%;
+        }
+        &__img--icon{
+            padding: 50px 7px 7px 7px;
+            
+        }
+    }
+    
+
+}
+@media screen and(max-width:400px){
+    .header{
+        &__logo{
+            width: 110px;
+        }
+        &__posi-user{
+            position: absolute;
+            top: 0;
+            right: 40%;
+        }
+        &__posi-shop{
+            position: absolute;
+            top: 0;
+            right: 23%;
+        }
+    }
+}
