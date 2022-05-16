@@ -8,8 +8,9 @@
 @media  screen and (max-width:500px) {
     .products{
         &_block {
-            width: 30px;
+            width: 0;
             height: 100px;
+            margin-right: 10px;
         }
         &_box{
             margin-top: 700px;

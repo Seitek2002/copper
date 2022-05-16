@@ -473,8 +473,9 @@ ul {
 
 @media screen and (max-width: 500px) {
   .products_block {
-    width: 30px;
+    width: 0;
     height: 100px;
+    margin-right: 10px;
   }
   .products_box {
     margin-top: 700px;
