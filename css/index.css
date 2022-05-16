@@ -345,24 +345,6 @@ ul {
   margin-bottom: 10px;
 }
 
-.description {
-  padding-top: 150px;
-}
-
-.description__text {
-  max-width: 100%;
-  font-family: 'Mont';
-  margin: 33px 0 190px 0;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 132.4%;
-  color: #031412;
-}
-
-.description p {
-  margin-bottom: 30px;
-}
-
 .profile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -496,11 +478,29 @@ ul {
   margin-top: -180px;
 }
 
+.description {
+  padding-top: 150px;
+}
+
+.description__text {
+  max-width: 100%;
+  font-family: 'Mont';
+  margin: 33px 0 190px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 132.4%;
+  color: #031412;
+}
+
+.description p {
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 490px) {
   .news__item--title {
     font-size: 15px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #ffffff;
     position: absolute;
     bottom: 15px;
     left: 12px;
@@ -513,7 +513,7 @@ ul {
 @media screen and (max-width: 365px) {
   .news {
     padding-top: 120px;
-    font-family: 'Mont';
+    font-family: "Mont";
   }
   .news__sector {
     display: -webkit-box;
@@ -536,8 +536,11 @@ ul {
   .news__top {
     position: relative;
   }
+  .news__img {
+    max-width: 100%;
+  }
   .news__item--mini {
-    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
     width: 76px;
     height: 27px;
     display: -webkit-box;
@@ -557,15 +560,15 @@ ul {
     font-weight: 600;
     font-size: 16px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .news__item--title {
     font-size: 12px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #ffffff;
     position: absolute;
-    bottom: 14px;
-    left: 12px;
+    bottom: 12px;
+    left: 10px;
     margin: 0;
     line-height: 96.4%;
     text-align: center;
@@ -586,10 +589,56 @@ ul {
     font-weight: 800;
     font-size: 14px;
     line-height: 134.4%;
-    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+    background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+}
+
+@media screen and (max-width: 365px) and (max-width: 785px) {
+  .special__bg {
+    text-align: center;
+    max-width: 770px;
+    min-height: 483px;
+    margin-left: -710px;
+  }
+  .special__promo {
+    font-family: "Lighthaus";
+    font-weight: 400;
+    font-size: 100px;
+    color: #ffffff;
+    margin-top: 75px;
+    height: 1px;
+    width: 400px;
+  }
+  .special__proposal {
+    font-family: "Mont";
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 19px;
+    width: 306px;
+    margin-top: -80px;
+  }
+  .special__button {
+    margin-top: -230px;
+  }
+  .special__img {
+    margin-top: -233px;
+    margin-left: -285px;
+  }
+  .special__title {
+    font-weight: 400;
+    font-size: 80px;
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    width: 421px;
+    height: 240px;
+    line-height: 60px;
+    margin-top: 350px;
+    margin-left: -55px;
   }
 }
 
