@@ -153,14 +153,14 @@ ul {
   padding: 0 20px;
 }
 
-.header__link {
-  font-family: "Mont";
+.thankss__container {
+  max-width: 1952px;
+  margin: 0 auto;
 }
 
 .thankss__content {
   background: url(../assets/img/thanks/header.png) center;
   background-size: cover;
-  max-width: 1920px;
   height: 140px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,15 +181,7 @@ ul {
   border: 1px solid #A1A1A1;
   background: white;
   padding: 17px 77px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-top: 80px;
   cursor: pointer;
 }
 
@@ -226,18 +218,6 @@ ul {
   margin-left: -160px;
 }
 
-.thankss__top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-right: 50%;
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
 .thankss__title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -265,7 +245,6 @@ ul {
 .thankss__bottom {
   background: url(../assets/img/thanks/footer.png) center;
   background-size: cover;
-  max-width: 1920px;
   height: 180px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -330,8 +309,7 @@ ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  border-bottom: 2px solid;
   cursor: pointer;
   margin-top: 27px;
   margin-bottom: 27px;

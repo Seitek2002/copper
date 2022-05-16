@@ -1,15 +1,16 @@
 .thankss {
+    &__container {
+        max-width: 1952px;
+        margin: 0 auto;
+    }
         
     &__content {
-        background: url(../assets/img/thanks/header.png) center;
-        
+        background: url(../assets/img/thanks/header.png) center;       
         background-size: cover;
-        max-width: 1920px;
         height: 140px;
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
    
     &__backmain {
@@ -20,11 +21,11 @@
         border: 1px solid #A1A1A1;
         background: white;
         padding: 17px 77px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        
+        margin-top: 80px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        cursor: pointer;  
     }
     &__main {
         display: flex;
@@ -39,22 +40,14 @@
         display: flex;
         justify-content: start;
         align-items: flex-end;
-        margin-left: 10%;
-        
+        margin-left: 10%;   
     }
     &__bottle {
         width: 212px;
         height: 169px;
         margin-left: -160px;
     }
-
-    &__top {
-        display: flex;
-        justify-content: center;
-        margin-right: 50%;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
+    
     &__title {
         display: flex;
         justify-content: center;
@@ -72,8 +65,7 @@
     }
     &__bottom {
         background: url(../assets/img/thanks/footer.png) center;
-        background-size: cover;
-        max-width: 1920px;
+        background-size: cover; 
         height: 180px;
         display: flex;
         justify-content: center;
@@ -96,8 +88,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        max-width: 375px;
-        
+        max-width: 375px;  
         
     }
     &__block {
@@ -107,11 +98,8 @@
         max-width: 450px;
         margin: 0 auto;
         box-shadow: 0px 0px 55px rgba(0, 0, 0, 0.05);
-        margin-bottom: 180px;
-        
+        margin-bottom: 180px;     
     }
-
-    
 
     &__parol {
         font-family: 'Mont';
@@ -121,12 +109,12 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        text-decoration-line: underline;
+        border-bottom: 2px solid ;
         cursor: pointer;
         margin-top: 27px;
         margin-bottom: 27px;
-
     }
+
     &__input {
         padding-top: 16px;
         padding-bottom: 16px;
@@ -136,18 +124,16 @@
         padding-right: 160px;
         font-weight: 400;
         font-size: 18px;
-        border: 1px solid #A1A1A1;
-        
-       
+        border: 1px solid #A1A1A1;   
     }
+
     &__enter {
         background: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
         display: flex;
         padding: 24px 36px;
-       
         margin-top: 48px;
-
     }
+
     &__items {
         margin-right: 92px;
         font-family: 'Mont';
@@ -155,9 +141,9 @@
         cursor: pointer;
         font-size: 18px;  
         text-align: center;
-
         color: #FFFFFF; 
     }
+
     &__items2 {
         margin-left: 92px;
         font-family: 'Mont';
@@ -165,7 +151,6 @@
         font-weight: 800;
         font-size: 18px;
         text-align: center;
-
         color: #FFFFFF;
     }
 }
@@ -178,7 +163,6 @@
             margin-left: auto;
             
         }
-       
     }
 }
 
