@@ -151,9 +151,252 @@ ul {
   max-width: 1380px;
   margin: 0 auto;
   padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .header__link {
   font-family: "Mont";
+}
+
+.products_block {
+  padding-left: 30px;
+  position: relative;
+}
+
+.products_block-sale {
+  position: absolute;
+  width: 85px;
+  height: 35px;
+  background: #9B0000;
+  top: 40px;
+}
+
+.products_block-h3 {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 900;
+  line-height: 96.4%;
+  /* or 19px */
+  margin-top: 9px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.products_heart {
+  width: 46px;
+  height: 59px;
+  background: #FFFFFF;
+  position: absolute;
+  margin-left: 520px;
+}
+
+.products_heart-p {
+  text-align: center;
+}
+
+.products_box {
+  padding: 0 30px;
+}
+
+.products_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products_box-title {
+  font-family: 'Lighthaus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 105.9%;
+  margin-top: 0px;
+  /* or 42px */
+  color: #031412;
+  margin-bottom: 40px;
+}
+
+.products_dog {
+  display: -webkit-box;
+}
+
+.products_dog--2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products_vector {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 132.4%;
+  margin-bottom: 35px;
+  /* or 21px */
+  color: #4B7159;
+}
+
+.products_articul {
+  padding: 0 350px;
+}
+
+.products_line1 {
+  border: 1px solid #E6E8E7;
+  margin-bottom: 37px;
+  width: 685px;
+}
+
+.products_line2 {
+  border: 1px solid #E6E8E7;
+  margin-bottom: 0px;
+  width: 685px;
+}
+
+.products_line3 {
+  border: 1px solid #E6E8E7;
+  margin-bottom: 0px;
+  width: 685px;
+  margin-top: 37px;
+}
+
+.products_p--h3 {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 132.4%;
+  /* or 21px */
+  color: #031412;
+  margin-top: 15px;
+  color: #031412;
+}
+
+.products_title--h3 {
+  margin-bottom: 35px;
+}
+
+.products_title--h2 {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 96.4%;
+  /* identical to box height, or 34px */
+  color: #031412;
+  margin-top: 45px;
+  /* identical to box height, or 34px */
+  color: #031412;
+}
+
+.products_lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 37 px;
+}
+
+.products_btn {
+  width: 450px;
+  height: 50px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.products_grn {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 96.4%;
+  padding-left: 230px;
+  margin-top: 37px;
+  margin-bottom: 31px;
+  /* or 43px */
+  color: #9B0000;
+}
+
+.products_skidka {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 96.4%;
+  padding-left: 30px;
+  margin-top: 45px;
+  margin-top: 49px;
+  /* or 24px */
+  color: #031412;
+  opacity: 0.3;
+}
+
+.products_solid {
+  opacity: 0.3;
+  border: 1px solid #031412;
+  -webkit-transform: rotate(12.92deg);
+          transform: rotate(12.92deg);
+  margin-top: -10px;
+}
+
+.products_line-sun {
+  border: 1px solid #E6E8E7;
+  width: 210px;
+  height: 50px;
+}
+
+.products_kupit {
+  font-style: normal;
+  font-weight: 800;
+  line-height: 96.4%;
+  /* or 17px */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.products_h3--title {
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 132.4%;
+  /* or 21px */
+  text-transform: uppercase;
+  color: #031412;
+  margin-top: 20px;
+}
+
+.img {
+  padding-left: 50px;
+}
+
+.img_heart {
+  cursor: pointer;
+}
+
+.img_twitter {
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+.img_facebook {
+  padding-left: 18px;
+  cursor: pointer;
+}
+
+.img_instagram {
+  padding-left: 18px;
+  cursor: pointer;
+}
+
+.img_swiper {
+  margin-bottom: 18px;
+}
+
+.img_heart {
+  margin-top: 18px;
 }
 /*# sourceMappingURL=index.css.map */
