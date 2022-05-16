@@ -244,6 +244,125 @@ ul {
   background-clip: text;
 }
 
+.news {
+  padding-top: 120px;
+  font-family: 'Mont';
+}
+
+.news__sector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news__item {
+  max-width: 683px;
+  height: 209px;
+  padding-left: 28px;
+  margin-bottom: 160px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news__top {
+  position: relative;
+}
+
+.news__img {
+  max-width: 100%;
+}
+
+.news__img--bottom:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(7, 44, 38, 0.7)), to(rgba(7, 44, 38, 0)));
+  background: linear-gradient(180deg, rgba(7, 44, 38, 0.7) 0%, rgba(7, 44, 38, 0) 100%);
+}
+
+.news__item--mini {
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  width: 90px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.news__item--date {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.news__item--title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 28px;
+  left: 26px;
+  margin: 0;
+  line-height: 96.4%;
+  text-align: center;
+}
+
+.news__bottom {
+  margin-top: 26px;
+}
+
+.news__item--text {
+  margin-bottom: 20px;
+}
+
+.news__item--text--text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 132.4%;
+  color: #031412;
+}
+
+.news__continuation {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 134.4%;
+  background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.description {
+  padding-top: 150px;
+}
+
+.description__text {
+  max-width: 100%;
+  font-family: 'Mont';
+  margin: 33px 0 190px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 132.4%;
+  color: #031412;
+}
+
+.description p {
+  margin-bottom: 30px;
+}
+
 .profile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -377,172 +496,6 @@ ul {
   margin-top: -180px;
 }
 
-@media screen and (max-width: 785px) {
-  .special__bg {
-    text-align: center;
-    max-width: 770px;
-    min-height: 483px;
-    margin-left: -710px;
-  }
-  .special__promo {
-    font-family: 'Lighthaus';
-    font-weight: 400;
-    font-size: 100px;
-    color: #ffffff;
-    margin-top: 75px;
-    height: 1px;
-    width: 400px;
-  }
-  .special__proposal {
-    font-family: 'Mont';
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    line-height: 19px;
-    width: 306px;
-    margin-top: -80px;
-  }
-  .special__button {
-    margin-top: -230px;
-  }
-  .special__img {
-    margin-top: -233px;
-    margin-left: -285px;
-  }
-  .special__title {
-    font-weight: 400;
-    font-size: 80px;
-    color: #ffffff;
-    text-align: right;
-    position: absolute;
-    width: 421px;
-    height: 240px;
-    line-height: 60px;
-    margin-top: 350px;
-    margin-left: -55px;
-  }
-}
-
-.news {
-  padding-top: 120px;
-  font-family: 'Mont';
-}
-
-.news__sector {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.news__item {
-  max-width: 683px;
-  height: 209px;
-  padding-left: 28px;
-  margin-bottom: 160px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.news__top {
-  position: relative;
-}
-
-.news__img {
-  max-width: 100%;
-}
-
-.news__img--bottom:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(7, 44, 38, 0.7)), to(rgba(7, 44, 38, 0)));
-  background: linear-gradient(180deg, rgba(7, 44, 38, 0.7) 0%, rgba(7, 44, 38, 0) 100%);
-}
-
-.news__item--mini {
-  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-  width: 90px;
-  height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.news__item--date {
-  font-weight: 600;
-  font-size: 18px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.news__item--title {
-  font-size: 20px;
-  font-weight: 400;
-  color: #FFFFFF;
-  position: absolute;
-  bottom: 28px;
-  left: 26px;
-  margin: 0;
-  line-height: 96.4%;
-  text-align: center;
-}
-
-.news__bottom {
-  margin-top: 26px;
-}
-
-.news__item--text {
-  margin-bottom: 20px;
-}
-
-.news__item--text--text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 132.4%;
-  color: #031412;
-}
-
-.news__continuation {
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 134.4%;
-  background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 10px;
-}
-
-.description {
-  padding-top: 150px;
-}
-
-.description__title {
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 105.9%;
-  color: #031412;
-}
-
-.description__text {
-  padding-top: 33px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 132.4%;
-  color: #031412;
-}
-
 @media screen and (max-width: 490px) {
   .news__item--title {
     font-size: 15px;
@@ -637,6 +590,46 @@ ul {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    padding-top: 65px;
+  }
+  .description__text {
+    font-family: 'Mont';
+    margin: 17px 0 92px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 132.4%;
+    color: #031412;
+  }
+  .description p {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .description {
+    padding-top: 64px;
+  }
+  .description .title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 105.9%;
+    color: #031412;
+  }
+  .description__text {
+    font-family: 'Mont';
+    margin: 13px 0 30px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 132.4%;
+    color: #031412;
+  }
+  .description p {
+    margin-bottom: 14px;
   }
 }
 /*# sourceMappingURL=index.css.map */
