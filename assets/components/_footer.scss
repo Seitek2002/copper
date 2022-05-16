@@ -1,8 +1,8 @@
 .footer{
-    background:url(https://avatars.mds.yandex.net/get-images-cbir/934547/EOAh-LJgPefMB17PtivzcA5158/ocr);
+    background:url(https://avatars.mds.yandex.net/get-images-cbir/1671447/PjSHzijvqKq9c06qTuwt2g656/ocr );
     background-size: cover;
     background-position: center;
-    height: 375px;
+    min-height: 375px;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -10,6 +10,7 @@
 
     &__list{
         display: flex;
+        flex-wrap: wrap;
     }
     &__item{
         margin-right: 410px;
