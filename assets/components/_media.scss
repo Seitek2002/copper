@@ -1,0 +1,16 @@
+@media only screen and (max-width:992px) {
+    .products_box{
+        width: 760px;
+    }
+}
+@media only screen and (max-width:760px) {
+    .products_box{
+        width: 450px;
+    }
+    .products_block{
+        width: 100%;
+        margin-top: 4px;
+        float: none;
+    }
+}
+
