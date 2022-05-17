@@ -151,7 +151,6 @@ a {
 }
 
 ul {
-  list-style: none;
   padding: 0;
 }
 
@@ -257,7 +256,7 @@ ul {
 .oil__essential {
   font-family: 'Lighthaus';
   font-weight: 400;
-  font-size: 50px;
+  font-size: 40px;
   color: #031412;
   max-width: 578px;
 }
@@ -290,6 +289,29 @@ ul {
 
 .oil__img {
   margin-left: 52px;
+}
+
+.oil__picture {
+  width: 100%;
+  margin-bottom: 46px;
+}
+
+.oil__info {
+  font-family: 'Mont';
+  font-weight: 300;
+  font-size: 16px;
+  color: #031412;
+}
+
+.oil__title {
+  font-family: 'Mont';
+  font-weight: 700;
+  font-size: 24px;
+  color: #031412;
+}
+
+.oil__advantages {
+  padding-left: 15px;
 }
 
 @media screen and (max-width: 785px) {
