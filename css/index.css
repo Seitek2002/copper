@@ -377,6 +377,52 @@ ul {
   margin-top: -180px;
 }
 
+.history {
+  background: url(../assets/img/history/bg.png) center;
+  padding-top: 72px;
+  padding-bottom: 74px;
+  position: relative;
+}
+
+.history__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.history__description {
+  max-width: 455px;
+  font-family: 'Mont';
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 28px 15px 0 15px;
+}
+
+.history__title {
+  font-weight: 400;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.history__aside--text {
+  font-family: 'Lighthaus';
+  font-weight: 400;
+  font-size: 120px;
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  max-width: 11%;
+  line-height: 74.9%;
+}
+
 @media screen and (max-width: 785px) {
   .special__bg {
     text-align: center;
