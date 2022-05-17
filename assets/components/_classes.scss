@@ -3,3 +3,21 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.title {
+    font-family: 'Lighthaus';
+    @include font (400, 40px, $text-black);
+}
+
+.button {
+    font-family: 'Mont';
+    @include font (700, 18px, $text-white);
+    @include btn (327px, 50px, $btn-bg);
+    border: none;
+    &:hover {
+        font-family: 'Mont';
+        @include font (700, 18px, #8e6445);
+        @include btn (327px, 50px, $text-white);
+        border: 5px solid #8e6445;
+    }
+}
