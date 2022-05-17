@@ -4,22 +4,31 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
     }
-   
+
 
 
     &__imgtext {
         font-family: Lighthaus;
-        font-weight:400;
+        font-weight: 400;
         font-size: 145px;
-        color: pink;
+        color: #fff;
+        max-width: 686px;
+        line-height: 74.9%;
+        text-align: right;
+        position: absolute;
+
+        bottom: 0;
+        left: 0;
     }
 
     &__name {
         font-family: Lighthaus;
         font-weight: 400;
         font-size: 50px;
-        color: red;
+        color: #031412;
+        max-width: 292px;
     }
 
     &__text {
@@ -27,9 +36,25 @@
         font-weight: 400;
         font-size: 20px;
         color: #031412;
+        max-width: 485px;
     }
 
     &__minibox {
         display: flex;
+        align-items: center;
+        margin-top: 51px;
+        max-width: 304px;
+    }
+
+    &__description {
+        font-family: 'Mont';
+        font-weight: 600;
+        font-size: 25px;
+        color: #031412;
+        margin-left: 29px;
+    }
+
+    &__left {
+        margin-right: 5px;
     }
 }
