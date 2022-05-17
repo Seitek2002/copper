@@ -4,14 +4,17 @@
     padding: 0 20px;
 }
 
-.red{
-    color: #9B0000;
-    padding-bottom: 22px;
+
+.join__btn--gold{
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    border: none;
+    @include font (18px,800,#fff);
+    font-family: "Mont";
 }
 
-.black{
- color: #031412;
- padding-bottom: 22px; 
- padding-top: 22px;
+.join__btn--black{
+    background: transparent;
+    border: 1px solid #031412;
+    @include font (16px,800,#031412);
+    font-family: "Mont";
 }
-

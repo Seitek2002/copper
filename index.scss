@@ -193,6 +193,18 @@
 }
 
 
+@font-face {
+	font-family: 'Lighthaus';
+	src: url('../assets/fonts/Lighthouse/Lighthaus.eot');
+	src: local('Lighthaus'),
+		url('../assets/fonts/Lighthouse/Lighthaus.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Lighthouse/Lighthaus.woff') format('woff'),
+		url('../assets/fonts/Lighthouse/Lighthaus.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 
 @import "./assets/helpers/variables";
 @import "./assets/helpers/mixin";
