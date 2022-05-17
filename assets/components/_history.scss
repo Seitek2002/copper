@@ -7,7 +7,7 @@
         display: flex;
         justify-content: center;
     }
-    &__description {
+    &__text {
         max-width: 455px;
         font-family: 'Mont';
         @include font(300, 16px, $text-white);
@@ -28,3 +28,22 @@
         line-height: 74.9%;
     }
 }
+@media screen and (max-width:1260px) {
+    .history__aside--text {
+        display: none;
+    }
+}
+@media screen and (max-width:965px) {
+   .history {
+    background: #000;
+   }
+}
+@media screen and (max-width:600px){
+    .history__info {
+        flex-wrap: wrap;
+    }
+    .history__title {
+        font-size: 20px;
+    }
+}
+
