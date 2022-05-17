@@ -156,4 +156,52 @@ ul {
 .header__link {
   font-family: "Mont";
 }
+
+.oil__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 31px;
+}
+
+.oil__essential {
+  font-family: 'Lighthaus';
+  font-weight: 400;
+  font-size: 50px;
+  color: #031412;
+  max-width: 578px;
+}
+
+.oil__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.oil__share {
+  font-family: 'Mont';
+  font-weight: 800;
+  font-size: 16px;
+  color: #031412;
+}
+
+.oil__icon {
+  width: 20px;
+  margin-left: 18px;
+}
+
+.oil__pic {
+  margin-left: 18px;
+  width: 12px;
+}
+
+.oil__img {
+  margin-left: 52px;
+}
 /*# sourceMappingURL=index.css.map */

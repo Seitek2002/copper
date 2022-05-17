@@ -1,0 +1,39 @@
+.oil {
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 31px;
+    }
+
+    &__essential {
+        font-family: 'Lighthaus';
+        font-weight: 400;
+        font-size: 50px;
+        color: #031412;
+        max-width: 578px;
+    }
+
+    &__right {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__share {
+        
+        font-family: 'Mont';
+        font-weight: 800;
+        font-size: 16px;
+        color: #031412;
+    }
+    &__icon{
+        width: 20px;
+        margin-left: 18px;
+    }
+    &__pic{
+        margin-left: 18px;
+        width: 12px;
+    }
+    &__img{
+        margin-left: 52px;
+    }
+}
