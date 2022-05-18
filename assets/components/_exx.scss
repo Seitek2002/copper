@@ -21,11 +21,10 @@
         font-family: "Mont";
 font-style: normal;
 font-weight: 800;
-font-size: 30px;
+font-size: 50px;
 color: #FFFFFF;
 display: flex;
 flex-wrap: wrap;
-max-width: 435px;
 margin-top: 50px;
     }
     &__price{
@@ -37,30 +36,22 @@ line-height: 96.4%;
 color: #FFFFFF;
 line-height: 4;
 word-spacing: 150px;
-}
-&__buy{
-    cursor: pointer;
-    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-    width: 327px;
-height: 50px;
-font-family: 'Mont';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-color: #FFFFFF;
-border: none;
-}
+   }
 }
 .trees{
     position: absolute;
     right: -10%;
-    top: 0;
+    bottom: 0%;;
     z-index: 2;
+    max-height: 100%;
+}
+.treestwo{
+    display: none;
 }
 .bulba{
     position: absolute;
     right: 200px;
-    bottom: -5%;
+    bottom: 0;
     z-index: 4;
 }
 .copper{
@@ -77,7 +68,7 @@ border: none;
         align-items: flex-start;
         position: absolute;
         z-index: 5;
-        top: 135px;
+        top: 145px;
         right: 600px;
         &--ell{
             display: none;
@@ -94,23 +85,10 @@ right: 670px;
         cursor: pointer;
 position: absolute;
 z-index: 5;
-top: 620px;
+top: 650px;
 right: 600px;
     }
 }
-// .ell{
-//     display: none;
-// position: absolute;
-// right: 610px;
-// top: 125px;
-// z-index: 5;
-// }
-.point__one--btn:active{
-.point__one--ell{
-    display: block;
-}
-}
-
 @media screen and(max-width:1330px){
     .trees{
         position: absolute;
@@ -121,15 +99,7 @@ right: 600px;
     .bulba{
         position: absolute;
         right: 100px;
-        bottom: -5%;
         z-index: 4;
-    }
-    .copper{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        z-index: 3;
-        max-width: 486px;
     }
     .point{
         &__one{ 
@@ -138,7 +108,7 @@ right: 600px;
             align-items: flex-start;
             position: absolute;
             z-index: 5;
-            top: 135px;
+            top: 145px;
             right: 500px;
             &--ell{
                 display: none;
@@ -155,12 +125,9 @@ right: 600px;
             cursor: pointer;
     position: absolute;
     z-index: 5;
-    top: 620px;
+    top: 650px;
     right: 500px;
         }
-    }
-    .copperpro{
-        max-width: 445px;
     }
 }
 @media screen and(max-width:1225px){
@@ -173,15 +140,7 @@ right: 600px;
     .bulba{
         position: absolute;
         right: 0px;
-        bottom: -5%;
         z-index: 4;
-    }
-    .copper{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        z-index: 4;
-        max-width: 486px;
     }
     .point{
         &__one{ 
@@ -190,7 +149,7 @@ right: 600px;
             align-items: flex-start;
             position: absolute;
             z-index: 5;
-            top: 135px;
+            top: 145px;
             right: 400px;
             &--ell{
                 display: none;
@@ -207,7 +166,7 @@ right: 600px;
             cursor: pointer;
     position: absolute;
     z-index: 5;
-    top: 620px;
+    top: 650px;
     right: 400px;
         }
     }
@@ -222,14 +181,6 @@ right: 600px;
     .bulba{
         max-width: 800px;
         position: absolute;
-        right: 0px;
-        bottom: -5%;
-        z-index: 4;
-    }
-    .copper{
-        position: absolute;
-        bottom: 0;
-        right: 0;
         z-index: 4;
     }
     .point{
@@ -239,7 +190,7 @@ right: 600px;
             align-items: flex-start;
             position: absolute;
             z-index: 5;
-            top: 135px;
+            top: 145px;
             right: 300px;
             &--ell{
                 display: none;
@@ -256,7 +207,7 @@ right: 600px;
             cursor: pointer;
     position: absolute;
     z-index: 5;
-    top: 620px;
+    top: 650px;
     right: 300px;
         }
     }
@@ -272,13 +223,7 @@ right: 600px;
         max-width: 700px;
         position: absolute;
         right: 0px;
-        bottom: -5%;
-        z-index: 4;
-    }
-    .copper{
-        position: absolute;
         bottom: 0;
-        right: 0;
         z-index: 4;
     }
     .point{
@@ -288,7 +233,7 @@ right: 600px;
             align-items: flex-start;
             position: absolute;
             z-index: 5;
-            top: 135px;
+            top: 145px;
             right: 200px;
             &--ell{
                 display: none;
@@ -305,31 +250,61 @@ right: 600px;
             cursor: pointer;
     position: absolute;
     z-index: 5;
-    top: 620px;
+    top: 650px;
     right: 200px;
         }
     }
 }
 @media screen and(max-width:945px){
+    .exx{
+        background: url(../assets/img/hero/hero-bg945.png);
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        &__hit{
+            max-width: 433px;
+            height: 84px;
+        }
+        &__left{
+            padding: 175px 0;
+            max-width:337px;
+        }
+        &__price{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 3;
+    word-spacing: 70px;
+       }
+       &__name{
+        font-weight: 800;
+        font-size: 30px;
+       }
+       &__line{
+           max-width:388px;
+       }
+    }
     .trees{
+        display: none;
+    }
+    .treestwo{
+        display: block;
         position: absolute;
-        right: -50%;
-       top: 25%;
-       bottom: 25%;
+        right: -10%;
+       bottom: -20%;
         z-index: 2;
     }
-    .bulba{
-        max-width: 700px;
-        position: absolute;
-        right: 0px;
-        bottom: -5%;
-        z-index: 4;
+    .destilator{
+        height: 492px;
     }
     .copper{
         position: absolute;
         bottom: 0;
         right: 0;
-        z-index: 4;
+        z-index: 3;
+    }
+    .copperpro{
+        max-width: 345px;
     }
     .point{
         &__one{ 
@@ -338,8 +313,8 @@ right: 600px;
             align-items: flex-start;
             position: absolute;
             z-index: 5;
-            top: 135px;
-            right: 200px;
+            top: 300px;
+            right: 270px;
             &--ell{
                 display: none;
             }
@@ -348,15 +323,25 @@ right: 600px;
             cursor: pointer;
     position: absolute;
     z-index: 5;
-    top: 370px;
-    right: 270px;
+    top: 450px;
+    right: 310px;
         }
         &__three{
             cursor: pointer;
     position: absolute;
     z-index: 5;
     top: 620px;
-    right: 200px;
+    right: 250px;
         }
+    }
+    .copperpro{
+        max-width: 345px;
+    }
+    .point{
+        width: 15px;
+        height: 15px;
+    }
+    .button{
+        max-width: 220px;
     }
 }
