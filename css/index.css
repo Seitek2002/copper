@@ -156,16 +156,15 @@ ul {
 }
 
 .container {
-  max-width: 1380px;
+  max-width: 1952px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .title {
   font-family: 'Lighthaus';
   font-weight: 400;
   font-size: 40px;
-  color: #000;
+  color: #031412;
 }
 
 .button {
@@ -173,10 +172,13 @@ ul {
   font-weight: 700;
   font-size: 18px;
   color: #ffffff;
-  width: 327px;
+  width: 394px;
   height: 50px;
   background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
   border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -184,10 +186,18 @@ ul {
   font-weight: 700;
   font-size: 18px;
   color: #8e6445;
-  width: 327px;
+  width: 394px;
   height: 50px;
   background: #ffffff;
   border: 5px solid #8e6445;
+}
+
+@media screen and (max-width: 460px) {
+  .button {
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  }
 }
 
 .header {
@@ -355,19 +365,6 @@ ul {
   margin-top: -40px;
 }
 
-.special__title {
-  font-weight: 400;
-  font-size: 160px;
-  color: #ffffff;
-  text-align: right;
-  position: absolute;
-  width: 686px;
-  height: 240px;
-  line-height: 120px;
-  margin-top: 235px;
-  margin-left: 486px;
-}
-
 .special__img {
   margin-top: -233px;
   margin-right: 240px;
@@ -397,6 +394,12 @@ ul {
           align-items: center;
 }
 
+.thankss__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .thankss__backmain {
   font-family: 'Mont';
   font-weight: 700;
@@ -406,6 +409,7 @@ ul {
   background: white;
   padding: 17px 77px;
   margin-top: 80px;
+  margin-bottom: 95px;
   cursor: pointer;
 }
 
@@ -434,6 +438,7 @@ ul {
       -ms-flex-align: end;
           align-items: flex-end;
   margin-left: 10%;
+  margin-bottom: 41px;
 }
 
 .thankss__bottle {
@@ -451,6 +456,21 @@ ul {
           justify-content: center;
   margin-top: 37px;
   margin-bottom: 37px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thankss__title2 {
+  font-family: 'Lighthaus';
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  color: #031412;
 }
 
 .thankss__time {
@@ -464,18 +484,22 @@ ul {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-top: 37px;
+  margin-bottom: 37px;
 }
 
 .thankss__bottom {
   background: url(../assets/img/thanks/footer.png) center;
   background-size: cover;
-  height: 300px;
+  height: 180px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 40px;
+  margin-top: 180px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 50px;
@@ -490,6 +514,10 @@ ul {
   margin-top: 24px;
   color: #ADADAD;
   margin-bottom: 50px;
+}
+
+.thankss__logo {
+  margin-left: 15px;
 }
 
 .thankss__second {
@@ -530,10 +558,17 @@ ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-bottom: 2px solid;
   cursor: pointer;
   margin-top: 27px;
   margin-bottom: 27px;
+}
+
+.thankss__parol::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
 }
 
 .thankss__input {
@@ -541,6 +576,19 @@ ul {
   padding-bottom: 16px;
   padding-left: 20px;
   margin-top: 30px;
+  font-family: 'Mont';
+  padding-right: 160px;
+  font-weight: 400;
+  font-size: 18px;
+  border: 1px solid #A1A1A1;
+}
+
+.thankss__input2 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   font-family: 'Mont';
   padding-right: 160px;
   font-weight: 400;
@@ -578,19 +626,94 @@ ul {
 }
 
 @media screen and (max-width: 950px) {
+  .thankss__backmain {
+    padding: 17px 109px;
+  }
   .thankss__top {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-right: auto;
     margin-left: auto;
   }
 }
 
 @media screen and (max-width: 460px) {
+  .thankss__title2 {
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .thankss__top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .thankss__items {
     margin-right: 41px;
   }
   .thankss__items2 {
     margin-left: 41px;
+  }
+  .thankss__input {
+    padding-right: 90px;
+  }
+  .thankss__input2 {
+    padding-right: 90px;
+  }
+  .thankss__title2 {
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .thankss__items {
+    margin-right: 29px;
+  }
+  .thankss__items2 {
+    margin-left: 29px;
+  }
+  .thankss__input {
+    padding-right: 80px;
+  }
+  .thankss__input2 {
+    padding-right: 80px;
+  }
+  .thankss__backmain {
+    padding: 17px 85px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .thankss__backmain {
+    padding: 17px 60px;
+  }
+  .thankss__items {
+    margin-right: 20px;
+  }
+  .thankss__items2 {
+    margin-left: 20px;
+  }
+  .thankss__input {
+    padding-right: 70px;
+  }
+  .thankss__input2 {
+    padding-right: 70px;
+  }
+  .thankss__title2 {
+    width: 250px;
   }
 }
 

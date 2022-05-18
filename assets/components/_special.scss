@@ -26,16 +26,7 @@
         width: 533px;
         margin-top: -40px;
     }
-    &__title {
-        @include font (400, 160px, $text-white);
-        text-align: right;
-        position: absolute;
-        width: 686px;
-        height: 240px;
-        line-height: 120px;
-        margin-top: 235px;
-        margin-left: 486px;
-    }
+  
     &__img {
         margin-top: -233px;
         margin-right: 240px;
@@ -44,3 +35,4 @@
         margin-top: -180px;
     }
 }
+
