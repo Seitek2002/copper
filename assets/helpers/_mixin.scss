@@ -1,21 +1,10 @@
-@mixin font($fz, $fw, $cl) {
-    font-size: $fz;
-    font-weight: $fw;
-    color: $cl;
-}
-
-@mixin flex($jc) {
-    display: flex;
-    justify-content: $jc;
-}
-
-@mixin font($weight, $size, $color) {
+@mixin font ($weight, $size, $color) {
     font-weight: $weight;
     font-size: $size;
     color: $color;
 }
 
-@mixin btn($width, $height, $bg) {
+@mixin btn ($width, $height, $bg) {
     width: $width;
     height: $height;
     background: $bg;

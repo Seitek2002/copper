@@ -4,58 +4,6 @@
     padding: 0 20px;
 }
 
-
-.join__btn--gold{
-    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-    border: none;
-    @include font (18px,800,#fff);
-    font-family: "Mont";
-    z-index: 2;
-}
-
-.join__btn--black{
-    background: transparent;
-    border: 1px solid #031412;
-    @include font (16px,800,#031412);
-    font-family: "Mont";
-    z-index: 2;
-    margin-left: 27px;
-}
-
-.data__column--margin{
-    margin-left: 30px;
-}
-
-
-
-.bistiller__item_padding{
-    padding-top: 22px;
-}
-
-
-.total__btn_size{
-  max-width: 380px;
-  height: 50px;
-  width: 100%;
-  @include font (14px,800,#fff);
-  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-  border: none;
-  font-family: "Mont";
-}
-
-.total__btn_size2{
-    max-width: 126px;
-    height: 50px;
-    width: 100%;
-    @include font (14px,800,#fff);
-    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-    border: none;
-    font-family: "Mont";
-}
-
-
-
-
 .title {
     font-family: 'Lighthaus';
     @include font (400, 40px, $text-black);
@@ -71,6 +19,5 @@
         @include font (700, 18px, #8e6445);
         @include btn (327px, 50px, $text-white);
         border: 5px solid #8e6445;
-        transition: 0.5s;
     }
 }
