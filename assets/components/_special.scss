@@ -1,0 +1,40 @@
+.special {
+    background: url(../assets/img/special/bg.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-top: 19px;
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+    &__left {
+        max-width: 533px;
+    }
+    &__right {
+        display: flex;
+    }
+    &__img {
+        margin-left: 146px;
+    }
+    &__promo {
+        font-family: "Lighthaus";
+        @include font(400, 140px, $text-white);
+        margin-top: 30px;
+        height: 1px;
+    }
+    &__proposal {
+        font-family: "Mont";
+        @include font(500, 35px, $text-white);
+        line-height: 35px;
+        margin: 50px 0;
+    }
+    &__title {
+        @include font(400, 160px, $text-white);
+        position: absolute;
+        bottom: -60px;
+        right: -50px;
+        max-width: 686px;
+        text-align: right;
+    }
+}

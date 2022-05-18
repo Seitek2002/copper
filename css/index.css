@@ -218,6 +218,7 @@ body {
   font-family: "Mont";
 }
 
+<<<<<<< HEAD
 .header__link {
   font-family: "Mont";
 }
@@ -644,6 +645,64 @@ body {
 .join__img {
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+.title {
+  font-family: 'Lighthaus';
+  font-weight: 400;
+  font-size: 40px;
+  color: #000;
+}
+
+.button {
+  font-family: 'Mont';
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  width: 327px;
+  height: 50px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  border: none;
+}
+
+.button:hover {
+  font-family: 'Mont';
+  font-weight: 700;
+  font-size: 18px;
+  color: #8e6445;
+  width: 327px;
+  height: 50px;
+  background: #ffffff;
+  border: 5px solid #8e6445;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header {
+  padding-top: 44px;
+  background: linear-gradient(92.09deg, #5e3928 -79.4%, #e4a16f 84.12%);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin-right: 77px;
+}
+
+.header__item {
+  margin-right: 55px;
+}
+
+.header__list {
+>>>>>>> 9a0290c837af84b1501d4e530976244b8f7ea05e
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -657,8 +716,15 @@ body {
   background: #fff;
 }
 
+<<<<<<< HEAD
 .join__info {
   margin-left: 23px;
+=======
+.header__link {
+  font-family: "Mont";
+  color: white;
+  transition: .5s;
+>>>>>>> 9a0290c837af84b1501d4e530976244b8f7ea05e
 }
 
 .join__title {
@@ -669,6 +735,7 @@ body {
   max-width: 302px;
 }
 
+<<<<<<< HEAD
 .join__subtitle {
   font-size: 14px;
   font-weight: 400;
@@ -678,6 +745,9 @@ body {
 .join__right {
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+.profile {
+>>>>>>> 9a0290c837af84b1501d4e530976244b8f7ea05e
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1002,6 +1072,7 @@ body {
   z-index: -1;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1309px) {
   .order__top {
     display: -webkit-box;
@@ -1120,6 +1191,137 @@ body {
   }
   .total__basket {
     display: none;
+=======
+.products__item {
+  max-width: 445px;
+  margin: 0 auto;
+  height: 491px;
+  overflow: hidden;
+  position: relative;
+  background: url(../assets/img/products/dark-shadow.png) bottom no-repeat;
+}
+
+.products__item:hover {
+  background: url(../assets/img/products/bright-shadow.png) bottom no-repeat;
+  box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.2);
+}
+
+.products__img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.products__name {
+  font-family: "Mont";
+  position: absolute;
+  bottom: 27px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.special {
+  background: url(../assets/img/special/bg.png) center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding-top: 19px;
+}
+
+.special__content {
+  display: flex;
+  align-items: center;
+}
+
+.special__left {
+  max-width: 533px;
+}
+
+.special__right {
+  display: flex;
+}
+
+.special__img {
+  margin-left: 146px;
+}
+
+.special__promo {
+  font-family: "Lighthaus";
+  font-weight: 400;
+  font-size: 140px;
+  color: #ffffff;
+  margin-top: 30px;
+  height: 1px;
+}
+
+.special__proposal {
+  font-family: "Mont";
+  font-weight: 500;
+  font-size: 35px;
+  color: #ffffff;
+  line-height: 35px;
+  margin: 50px 0;
+}
+
+.special__title {
+  font-weight: 400;
+  font-size: 160px;
+  color: #ffffff;
+  position: absolute;
+  bottom: -60px;
+  right: -50px;
+  max-width: 686px;
+  text-align: right;
+}
+
+@media screen and (max-width: 785px) {
+  .special__bg {
+    text-align: center;
+    max-width: 770px;
+    min-height: 483px;
+    margin-left: -710px;
+  }
+  .special__promo {
+    font-family: 'Lighthaus';
+    font-weight: 400;
+    font-size: 100px;
+    color: #ffffff;
+    margin-top: 75px;
+    height: 1px;
+    width: 400px;
+  }
+  .special__proposal {
+    font-family: 'Mont';
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 19px;
+    width: 306px;
+    margin-top: -80px;
+  }
+  .special__button {
+    margin-top: -230px;
+  }
+  .special__img {
+    margin-top: -233px;
+    margin-left: -285px;
+  }
+  .special__title {
+    font-weight: 400;
+    font-size: 80px;
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    width: 421px;
+    height: 240px;
+    line-height: 60px;
+    margin-top: 350px;
+    margin-left: -55px;
+>>>>>>> 9a0290c837af84b1501d4e530976244b8f7ea05e
   }
 }
-/*# sourceMappingURL=index.css.map */

@@ -5,8 +5,6 @@
 }
 
 
-
-
 .join__btn--gold{
     background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
     border: none;
@@ -53,4 +51,22 @@
     background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
     border: none;
     font-family: "Mont";
+}
+.title {
+    font-family: 'Lighthaus';
+    @include font (400, 40px, $text-black);
+}
+
+.button {
+    font-family: 'Mont';
+    @include font (700, 18px, $text-white);
+    @include btn (327px, 50px, $btn-bg);
+    border: none;
+    &:hover {
+        font-family: 'Mont';
+        @include font (700, 18px, #8e6445);
+        @include btn (327px, 50px, $text-white);
+        border: 5px solid #8e6445;
+        transition: 0.5s;
+    }
 }
