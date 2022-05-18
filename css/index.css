@@ -188,6 +188,8 @@ ul {
   height: 50px;
   background: #ffffff;
   border: 5px solid #8e6445;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header {

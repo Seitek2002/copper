@@ -19,5 +19,6 @@
         @include font (700, 18px, #8e6445);
         @include btn (327px, 50px, $text-white);
         border: 5px solid #8e6445;
+        transition: 0.5s;
     }
 }
