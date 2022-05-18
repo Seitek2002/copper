@@ -28,19 +28,19 @@
             color: #FFFFFF;
         }
     }
-    &_heart{
-        width: 46px;
-        height: 59px;
-        background: #FFFFFF;
+    // &_heart{
+    //     width: 46px;
+    //     height: 59px;
+    //     background: #FFFFFF;
     
-        position: absolute;
-        margin-left: 520px;
-    }
-    &_heart{
-        &-p{
-            text-align: center;
-        }
-    }
+    //     position: absolute;
+    //     margin-left: 520px;
+    // }
+    // &_heart{
+    //     &-p{
+    //         text-align: center;
+    //     }
+    // }
     &_box{
         padding: 0 30px;
     }
@@ -86,7 +86,19 @@
         color: #4B7159;
     }
     &_articul {
-        padding: 0 350px;
+        font-family: 'Mont';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 132.4%;
+margin-left: 437px;
+/* or 21px */
+
+
+color: #031412;
+    }
+    &_cp{
+
     }
     &_line1 {
         border: 1px solid #E6E8E7;
@@ -110,26 +122,32 @@
     &_p{
         &--h3 {
             font-family: 'Mont';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 132.4%;
-/* or 21px */
-
-
-color: #031412;
-
-            margin-top: 15px;
-
-        
-        
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 132.4%;
+            /* or 21px */
+            
+            
             color: #031412;
-        
+
+            margin-top: 15px; 
+            margin-bottom: 37px;     
         }
     }
     &_title{
         &--h3 {
-            margin-bottom: 35px;
+            margin-bottom: 15px;
+            font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 132.4%;
+/* or 21px */
+
+    text-transform: uppercase;
+
+    color: #031412;
         }
         
         &--h2 {
@@ -164,10 +182,15 @@ color: #031412;
     }
     &_grn {
         font-family: 'Mont';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 45px;
-        line-height: 96.4%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 96.4%;
+/* or 43px */
+
+
+color: #9B0000;
+
         padding-left: 230px;
         margin-top: 37px;
         margin-bottom: 31px;

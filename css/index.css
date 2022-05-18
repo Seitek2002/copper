@@ -189,18 +189,6 @@ ul {
   color: #FFFFFF;
 }
 
-.products_heart {
-  width: 46px;
-  height: 59px;
-  background: #FFFFFF;
-  position: absolute;
-  margin-left: 520px;
-}
-
-.products_heart-p {
-  text-align: center;
-}
-
 .products_box {
   padding: 0 30px;
 }
@@ -245,7 +233,14 @@ ul {
 }
 
 .products_articul {
-  padding: 0 350px;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 132.4%;
+  margin-left: 437px;
+  /* or 21px */
+  color: #031412;
 }
 
 .products_line1 {
@@ -276,11 +271,19 @@ ul {
   /* or 21px */
   color: #031412;
   margin-top: 15px;
-  color: #031412;
+  margin-bottom: 37px;
 }
 
 .products_title--h3 {
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+  font-family: 'Mont';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 132.4%;
+  /* or 21px */
+  text-transform: uppercase;
+  color: #031412;
 }
 
 .products_title--h2 {
@@ -315,8 +318,10 @@ ul {
   font-family: 'Mont';
   font-style: normal;
   font-weight: 800;
-  font-size: 45px;
+  font-size: 43px;
   line-height: 96.4%;
+  /* or 43px */
+  color: #9B0000;
   padding-left: 230px;
   margin-top: 37px;
   margin-bottom: 31px;
@@ -481,6 +486,7 @@ ul {
     margin-top: 700px;
     width: 700px;
     height: 100px;
+    margin-left: -150px;
   }
 }
 /*# sourceMappingURL=index.css.map */
