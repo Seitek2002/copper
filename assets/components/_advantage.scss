@@ -1,0 +1,100 @@
+.advantage{
+    font-family: 'Mont';
+    background-image: url(../img/advantage/bg.png);
+   .title{
+       display: flex;
+       justify-content: center;
+   }
+   &__sector{
+       display: flex;
+       justify-content: center;
+       
+   }
+    .box{
+        padding-top: 49px;
+        padding-right: 15px;
+        padding-bottom: 55px;
+        box-sizing: border-box;
+        &__bg--img{
+            width: 76px;
+            height: 76px;
+            background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+            position: relative;
+        }
+        &__icon1{
+            position: absolute;
+            left: 19px;
+            top: 16px;
+        }
+        &__icon2{
+            position: absolute;
+            left: 9px;
+            top: 10px;
+        }
+        &__icon3{
+            position: absolute;
+            left: 18px;
+            top: 17px;
+        }
+        &__icon4{
+            position: absolute;
+            left: 14px;
+            top: 16px;
+        }
+        &__icon5{
+            position: absolute;
+            left: 17px;
+            top: 16px;
+        }
+        &__icon6{
+            position: absolute;
+            left: 16px;
+            top: 16px;
+        }
+        &__icon7{
+            position: absolute;
+            left: 19px;
+            top: 16px;
+        }
+        &__icon8{
+            position: absolute;
+            left: 14px;
+            top: 16px;
+        }
+        &__name{
+            padding-top: 24px;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 96.4%;
+            color: #031412;
+        }
+        &__bottom{
+            padding-top: 15px;
+
+        }
+        &__text{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 134.4%;
+            color: #031412;
+            
+        }
+        &__bottom--continuation{
+            padding-top: 15px;
+        }
+        &__continuation{
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 134.4%;
+            background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            
+        }
+        .continuation__icon{
+            padding-left: 7px;
+        }
+
+    }
+}

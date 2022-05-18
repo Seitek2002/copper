@@ -164,7 +164,7 @@ ul {
 .title {
   font-family: 'Lighthaus';
   font-weight: 400;
-  font-size: 40px;
+  font-size: 50px;
   color: #000;
 }
 
@@ -494,6 +494,129 @@ ul {
 
 .description p {
   margin-bottom: 30px;
+}
+
+.advantage {
+  font-family: 'Mont';
+  background-image: url(../img/advantage/bg.png);
+}
+
+.advantage .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advantage__sector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advantage .box {
+  padding-top: 49px;
+  padding-right: 15px;
+  padding-bottom: 55px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.advantage .box__bg--img {
+  width: 76px;
+  height: 76px;
+  background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+  position: relative;
+}
+
+.advantage .box__icon1 {
+  position: absolute;
+  left: 19px;
+  top: 16px;
+}
+
+.advantage .box__icon2 {
+  position: absolute;
+  left: 9px;
+  top: 10px;
+}
+
+.advantage .box__icon3 {
+  position: absolute;
+  left: 18px;
+  top: 17px;
+}
+
+.advantage .box__icon4 {
+  position: absolute;
+  left: 14px;
+  top: 16px;
+}
+
+.advantage .box__icon5 {
+  position: absolute;
+  left: 17px;
+  top: 16px;
+}
+
+.advantage .box__icon6 {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+
+.advantage .box__icon7 {
+  position: absolute;
+  left: 19px;
+  top: 16px;
+}
+
+.advantage .box__icon8 {
+  position: absolute;
+  left: 14px;
+  top: 16px;
+}
+
+.advantage .box__name {
+  padding-top: 24px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #031412;
+}
+
+.advantage .box__bottom {
+  padding-top: 15px;
+}
+
+.advantage .box__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 134.4%;
+  color: #031412;
+}
+
+.advantage .box__bottom--continuation {
+  padding-top: 15px;
+}
+
+.advantage .box__continuation {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 134.4%;
+  background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.advantage .box .continuation__icon {
+  padding-left: 7px;
 }
 
 @media screen and (max-width: 490px) {

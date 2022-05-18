@@ -6,7 +6,7 @@
 
 .title {
     font-family: 'Lighthaus';
-    @include font (400, 40px, $text-black);
+    @include font (400, 50px, $text-black);
 }
 
 .button {
