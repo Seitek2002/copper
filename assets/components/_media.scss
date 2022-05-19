@@ -1,42 +1,29 @@
-@media screen and (max-width: 785px) {
-    .special {
-        &__bg {
-            text-align: center;
-            max-width: 770px;
-            min-height: 483px;
-            margin-left: -710px;
-        }
-        &__promo {
-            font-family: 'Lighthaus';
-            @include font (400, 100px, $text-white);
-            margin-top: 75px;
-            height: 1px;
-            width: 400px;
+@media screen and (max-width: 768px) {
+    .about__flex {
+        flex-wrap: wrap;
+        max-width: 500px;
+        // margin: 0 auto;
+    }
 
-        }
-        &__proposal {
-            font-family: 'Mont';
-            @include font (600, 20px, $text-white);
-            line-height: 19px;
-            width: 306px;
-            margin-top: -80px;
-        }
-        &__button {
-            margin-top: -230px;
-        }
-        &__img {
-            margin-top: -233px;
-            margin-left: -285px;
-        }
-        &__title {
-            @include font (400, 80px, $text-white);
-            text-align: right;
-            position: absolute;
-            width: 421px;
-            height: 240px;
-            line-height: 60px;
-            margin-top: 350px;
-            margin-left: -55px;
-        }
+    .about__hero{
+        margin: 0 auto;
+    }
+
+    .hero__img{
+        max-width: 100%;
+        padding: 0px 250px ;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .about__flex {
+        flex-wrap: wrap;
+        max-width: 500px;
+        // margin: 0 auto;
+    }
+
+    .about__hero {
+        margin: 0 auto;
     }
 }
