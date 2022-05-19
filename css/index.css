@@ -301,6 +301,7 @@ ul {
   font-weight: 300;
   font-size: 16px;
   color: #031412;
+  margin-bottom: 20px;
 }
 
 .oil__title {
@@ -308,10 +309,13 @@ ul {
   font-weight: 700;
   font-size: 24px;
   color: #031412;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .oil__advantages {
   padding-left: 15px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 785px) {
