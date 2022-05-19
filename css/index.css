@@ -244,6 +244,445 @@ ul {
   background-clip: text;
 }
 
+.hero {
+  background: url(../assets/img/hero/hero-bg.png);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__left {
+  padding: 205px 0;
+  max-width: 737px;
+}
+
+.hero__logo {
+  font-family: 'Lighthaus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  color: #FFFFFF;
+}
+
+.hero__line {
+  margin: 50px 0;
+}
+
+.hero__name {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 533px;
+}
+
+.hero__price {
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 96.4%;
+  color: #FFFFFF;
+  line-height: 4;
+  word-spacing: 150px;
+}
+
+.trees {
+  position: absolute;
+  right: -10%;
+  bottom: 0;
+  z-index: 2;
+  height: 100%;
+}
+
+.les {
+  height: 100%;
+}
+
+.treestwo {
+  display: none;
+}
+
+.bulba {
+  position: absolute;
+  right: 200px;
+  bottom: 0;
+  z-index: 4;
+}
+
+.destilatormobi {
+  display: none;
+}
+
+.copper {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  max-width: 586px;
+}
+
+.point__one {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: absolute;
+  z-index: 5;
+  top: 160px;
+  right: 600px;
+}
+
+.point__one--ell {
+  display: none;
+}
+
+.point__two {
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  top: 370px;
+  right: 670px;
+}
+
+.point__three {
+  cursor: pointer;
+  position: absolute;
+  z-index: 5;
+  top: 650px;
+  right: 600px;
+}
+
+@media screen and (max-width: 1408px) {
+  .trees {
+    right: -20%;
+    top: 0;
+    z-index: 2;
+  }
+  .bulba {
+    right: 100px;
+    z-index: 4;
+  }
+  .point__one {
+    right: 500px;
+  }
+  .point__two {
+    top: 370px;
+    right: 570px;
+  }
+  .point__three {
+    top: 650px;
+    right: 500px;
+  }
+}
+
+@media screen and (max-width: 1310px) {
+  .trees {
+    right: -30%;
+    z-index: 2;
+  }
+  .bulba {
+    right: 0px;
+    z-index: 4;
+  }
+  .point__one {
+    right: 400px;
+  }
+  .point__two {
+    top: 370px;
+    right: 470px;
+  }
+  .point__three {
+    top: 650px;
+    right: 400px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .trees {
+    right: -35%;
+    z-index: 2;
+  }
+  .bulba {
+    max-width: 800px;
+    z-index: 4;
+  }
+  .point__one {
+    right: 300px;
+  }
+  .point__two {
+    top: 370px;
+    right: 370px;
+  }
+  .point__three {
+    top: 650px;
+    right: 300px;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+  .trees {
+    right: -40%;
+    z-index: 2;
+  }
+  .bulba {
+    max-width: 700px;
+    z-index: 4;
+  }
+  .point__one {
+    right: 200px;
+  }
+  .point__two {
+    top: 370px;
+    right: 270px;
+  }
+  .point__three {
+    top: 650px;
+    right: 200px;
+  }
+}
+
+@media screen and (max-width: 1021px) {
+  .trees {
+    right: -50%;
+    z-index: 2;
+  }
+  .bulba {
+    max-width: 600px;
+    z-index: 4;
+  }
+  .point__one {
+    top: 145px;
+    right: 100px;
+  }
+  .point__two {
+    top: 370px;
+    right: 170px;
+  }
+  .point__three {
+    top: 650px;
+    right: 100px;
+  }
+  .copperpro {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .hero {
+    background: url(../assets/img/hero/hero-bg945.png);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .hero__logo {
+    font-weight: 400;
+    font-size: 60px;
+  }
+  .hero__left {
+    padding: 205px 0;
+    max-width: 453px;
+  }
+  .hero__price {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 3;
+    word-spacing: 70px;
+  }
+  .hero__name {
+    font-weight: 800;
+    font-size: 30px;
+    max-width: 317px;
+  }
+  .hero__line {
+    max-width: 388px;
+    margin: 15px;
+  }
+  .trees {
+    display: none;
+  }
+  .treestwo {
+    display: block;
+    position: absolute;
+    right: -10%;
+    bottom: -20%;
+    z-index: 2;
+  }
+  .destilator {
+    height: 580px;
+  }
+  .point__one {
+    top: 230px;
+    right: 260px;
+  }
+  .point__two {
+    top: 330px;
+    right: 310px;
+  }
+  .point__three {
+    top: 540px;
+    right: 260px;
+  }
+  .copperpro {
+    max-width: 275px;
+  }
+  .point {
+    width: 15px;
+    height: 15px;
+  }
+  .button {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__left {
+    padding: 285px 0;
+    max-width: 453px;
+  }
+  .trees {
+    display: none;
+  }
+  .treestwo {
+    display: block;
+    position: absolute;
+    right: -20%;
+    bottom: -30%;
+    z-index: 2;
+  }
+  .destilator {
+    height: 532px;
+  }
+  .point__one {
+    top: 430px;
+    right: 240px;
+  }
+  .point__two {
+    top: 540px;
+    right: 280px;
+  }
+  .point__three {
+    top: 715px;
+    right: 240px;
+  }
+  .point {
+    width: 12px;
+    height: 12px;
+  }
+  .copperpro {
+    max-width: 245px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .hero__logo {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .hero__left {
+    padding: 175px 0;
+    max-width: 453px;
+  }
+  .hero__price {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 3;
+    word-spacing: 40px;
+  }
+  .hero__name {
+    font-weight: 800;
+    font-size: 20px;
+    max-width: 188px;
+  }
+  .hero__line {
+    max-width: 199px;
+    margin: 12px;
+  }
+  .destilator {
+    height: 432px;
+  }
+  .point {
+    display: none;
+  }
+  .copperpro {
+    max-width: 245px;
+  }
+  .button {
+    margin-top: 60px;
+    max-width: 155px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .hero__logo {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .hero__left {
+    padding: 155px 0px 305px 0px;
+    max-width: 453px;
+  }
+  .hero__price {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 3;
+    word-spacing: 40px;
+  }
+  .hero__name {
+    font-weight: 800;
+    font-size: 20px;
+    max-width: 188px;
+  }
+  .hero__line {
+    max-width: 199px;
+    margin: 12px;
+  }
+  .treestwo {
+    display: none;
+  }
+  .bulba {
+    max-width: 320px;
+  }
+  .destilatormobi {
+    display: block;
+  }
+  .destilator {
+    display: none;
+  }
+  .copper {
+    display: none;
+  }
+  .button {
+    margin-top: 60px;
+  }
+}
+
 .reviews__details {
   position: relative;
   max-width: 446px;
@@ -300,394 +739,6 @@ ul {
     font-style: italic;
     font-weight: 400;
     font-size: 14px;
-  }
-}
-
-.exx {
-  background: url(../assets/img/hero/hero-bg.png);
-  background-size: cover;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
-.exx__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.exx__left {
-  padding: 225px 0;
-  max-width: 637px;
-}
-
-.exx__logo {
-  line-height: 4;
-}
-
-.exx__name {
-  font-family: "Mont";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 50px;
-  color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-top: 50px;
-}
-
-.exx__price {
-  font-family: "Mont";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 96.4%;
-  color: #FFFFFF;
-  line-height: 4;
-  word-spacing: 150px;
-}
-
-.trees {
-  position: absolute;
-  right: -10%;
-  bottom: 0%;
-  z-index: 2;
-  max-height: 100%;
-}
-
-.treestwo {
-  display: none;
-}
-
-.bulba {
-  position: absolute;
-  right: 200px;
-  bottom: 0;
-  z-index: 4;
-}
-
-.copper {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 3;
-  max-width: 586px;
-}
-
-.point__one {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  position: absolute;
-  z-index: 5;
-  top: 145px;
-  right: 600px;
-}
-
-.point__one--ell {
-  display: none;
-}
-
-.point__two {
-  cursor: pointer;
-  position: absolute;
-  z-index: 5;
-  top: 370px;
-  right: 670px;
-}
-
-.point__three {
-  cursor: pointer;
-  position: absolute;
-  z-index: 5;
-  top: 650px;
-  right: 600px;
-}
-
-@media screen and (max-width: 1330px) {
-  .trees {
-    position: absolute;
-    right: -20%;
-    top: 0;
-    z-index: 2;
-  }
-  .bulba {
-    position: absolute;
-    right: 100px;
-    z-index: 4;
-  }
-  .point__one {
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: absolute;
-    z-index: 5;
-    top: 145px;
-    right: 500px;
-  }
-  .point__one--ell {
-    display: none;
-  }
-  .point__two {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 370px;
-    right: 570px;
-  }
-  .point__three {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 650px;
-    right: 500px;
-  }
-}
-
-@media screen and (max-width: 1225px) {
-  .trees {
-    position: absolute;
-    right: -30%;
-    top: 0;
-    z-index: 2;
-  }
-  .bulba {
-    position: absolute;
-    right: 0px;
-    z-index: 4;
-  }
-  .point__one {
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: absolute;
-    z-index: 5;
-    top: 145px;
-    right: 400px;
-  }
-  .point__one--ell {
-    display: none;
-  }
-  .point__two {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 370px;
-    right: 470px;
-  }
-  .point__three {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 650px;
-    right: 400px;
-  }
-}
-
-@media screen and (max-width: 1125px) {
-  .trees {
-    position: absolute;
-    right: -35%;
-    top: 0;
-    z-index: 2;
-  }
-  .bulba {
-    max-width: 800px;
-    position: absolute;
-    z-index: 4;
-  }
-  .point__one {
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: absolute;
-    z-index: 5;
-    top: 145px;
-    right: 300px;
-  }
-  .point__one--ell {
-    display: none;
-  }
-  .point__two {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 370px;
-    right: 370px;
-  }
-  .point__three {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 650px;
-    right: 300px;
-  }
-}
-
-@media screen and (max-width: 1030px) {
-  .trees {
-    position: absolute;
-    right: -40%;
-    top: 0;
-    z-index: 2;
-  }
-  .bulba {
-    max-width: 700px;
-    position: absolute;
-    right: 0px;
-    bottom: 0;
-    z-index: 4;
-  }
-  .point__one {
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: absolute;
-    z-index: 5;
-    top: 145px;
-    right: 200px;
-  }
-  .point__one--ell {
-    display: none;
-  }
-  .point__two {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 370px;
-    right: 270px;
-  }
-  .point__three {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 650px;
-    right: 200px;
-  }
-}
-
-@media screen and (max-width: 945px) {
-  .exx {
-    background: url(../assets/img/hero/hero-bg945.png);
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-  }
-  .exx__hit {
-    max-width: 433px;
-    height: 84px;
-  }
-  .exx__left {
-    padding: 175px 0;
-    max-width: 337px;
-  }
-  .exx__price {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 3;
-    word-spacing: 70px;
-  }
-  .exx__name {
-    font-weight: 800;
-    font-size: 30px;
-  }
-  .exx__line {
-    max-width: 388px;
-  }
-  .trees {
-    display: none;
-  }
-  .treestwo {
-    display: block;
-    position: absolute;
-    right: -10%;
-    bottom: -20%;
-    z-index: 2;
-  }
-  .destilator {
-    height: 492px;
-  }
-  .copper {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-  }
-  .copperpro {
-    max-width: 345px;
-  }
-  .point__one {
-    cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: absolute;
-    z-index: 5;
-    top: 300px;
-    right: 270px;
-  }
-  .point__one--ell {
-    display: none;
-  }
-  .point__two {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 450px;
-    right: 310px;
-  }
-  .point__three {
-    cursor: pointer;
-    position: absolute;
-    z-index: 5;
-    top: 620px;
-    right: 250px;
-  }
-  .copperpro {
-    max-width: 345px;
-  }
-  .point {
-    width: 15px;
-    height: 15px;
-  }
-  .button {
-    max-width: 220px;
   }
 }
 

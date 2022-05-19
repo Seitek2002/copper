@@ -1,163 +1,422 @@
-// .hero{
-//     background: url(../assets/img/hero/hero-bg.png);
-//     height: 100vh;
-//     position: relative;
-//     background-size: cover;
-//     overflow-x: hidden;
-//     overflow-y: hidden;
-//     &__content{
-//         max-width: 100%;
-//     }
-//     &__bg{
-//         position: absolute;
-//         right: -10%;
-//         top: 0;
-//         height: 100vh;
-//         z-index: 1;
-//     }
-//     &__details{
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: center;
-//         position: absolute;
-//         z-index: 3;
-//     }
-//     &__left{
-//         padding-top: 223px;
-//         max-width: 100%;
-//         justify-content: flex-start;
-//         align-items: center;
-//         flex-direction: column;
-//     }
-//     &__subject{    
-// font-family: "Lighthaus";
-// font-style: normal;
-// font-weight: 400;
-// font-size: 60px;
-// color: #FFFFFF;
-//     }
-//     &__name{
-//         font-family: "Mont";
-//         font-style: normal;
-//         font-weight: 800;
-//         font-size: 30px;
-//         color: #FFFFFF;
-//         margin-top: 100px;
-//         max-width: 400px;
-//         display: block;
-//         flex-wrap: wrap;
-//         text-align: left;
-//     }
-//     &__price{
-//         font-family: "Mont";
-// font-style: normal;
-// font-weight: 300;
-// font-size: 16px;
-//         color: #FFFFFF;
-//         margin-top: 40px;
-//         width: 300px;
-//     }
-//     &__buy{
-//         margin-top: 40px;
-//         width: 327px;
-//         height: 50px;
-//     }
-//     &__firma{
-//         display: flex;
-//         justify-content: flex-end;
-//         text-align: right;
-//         font-family: "Lighthaus";
-// font-style: normal;
-// font-weight: 400;
-// font-size: 160px;
-// color: #FFFFFF;
-// max-width: 610px;
-// position: absolute;
-// right: 0;
-// bottom: 0;
-// z-index: 2;
-// line-height: 0.7;
-//     }
-//     &__destilator{
-//         position: absolute;
-//         bottom: -5px;
-//         right: 320px;
-//         z-index: 4;
-//     }
-// }
-// .destilator{
-//     height: 95vh;
-// }
-// @media screen and(max-width:1256px) {
-//     .hero{
-//         &__firma{
-//             font-size: 130px;
-//             max-width: 480px;  
-//         }
-//         &__destilator{
-//             position: absolute;
-//             z-index: 4;
-//             right: 150px;
-//         }
-//         &__bg{
-//             position: absolute;
-//             right: -20%;
-//             top: 0;
-//             z-index: 1;
-//     }
-// }
-// }
-// @media screen and(max-width:1083px) {
-//     .hero{
-//         &__firma{
-//             font-size: 130px;
-//             max-width: 480px;  
-//         }
-//         &__destilator{
-//             position: absolute;
-//             z-index: 4;
-//             right: 40px;
-//         }
-//         &__bg{
-//             position: absolute;
-//             right: -40%;
-//             top: 0;
-//             z-index: 1;
-//     }
-// }
-// }
-// @media screen and(max-width:977px) {
-//     .hero{
-//         &__firma{
-//             font-size: 100px;
-//             max-width: 230px;
-//         }
-//         &__destilator{
-//             position: absolute;
-//             z-index: 4;
-//             right: 10px;
-//         }
-//         &__bg{
-//             position: absolute;
-//             right: -50%;
-//             top: 0;
-//             z-index: 1;
-//     }
-//     &__subject{    
-//         font-weight: 400;
-//         font-size: 40px;
-//             }
-//             &__name{
-//                 font-weight: 800;
-//                 font-size: 30px;
-//                 margin-top: 100px;
-//                 max-width: 300px;
-//                 display: block;
-//                 flex-wrap: wrap;
-//                 text-align: left;
-//             }
-//             &__buy{
-//                 width: 250px;
-//             }
-// }
-// }
+.hero{
+    background: url(../assets/img/hero/hero-bg.png);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    &__content{
+     display: flex;
+     justify-content: space-between;;
+     flex-wrap: nowrap;
+     align-items: center;
+    }
+    &__left{
+        padding: 205px 0;
+        max-width:737px;
+    }
+    &__logo{
+        font-family: 'Lighthaus';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        color: #FFFFFF;
+    }
+    &__line{
+     margin: 50px 0;
+    }
+    &__name{
+        font-family: "Mont";
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+color: #FFFFFF;
+display: flex;
+flex-wrap: wrap;
+max-width: 533px;
+    }
+    &__price{
+        font-family: "Mont";
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 96.4%;
+color: #FFFFFF;
+line-height: 4;
+word-spacing: 150px;
+   }
+}
+.trees{
+    position: absolute;
+    right: -10%;
+    bottom: 0;
+    z-index: 2;
+    height: 100%;
+}
+.les{
+    height: 100%;
+}
+.treestwo{
+    display: none;
+}
+.bulba{
+    position: absolute;
+    right: 200px;
+    bottom: 0;
+    z-index: 4;
+}
+.destilatormobi{
+    display: none;
+}
+.copper{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    max-width: 586px;
+}
+.point{
+    &__one{ 
+        cursor: pointer;
+        display: flex;
+        align-items: flex-start;
+        position: absolute;
+        z-index: 5;
+        top: 160px;
+        right: 600px;
+        &--ell{
+            display: none;
+        }
+    }
+    &__two{
+        cursor: pointer;
+        position: absolute;
+        z-index: 5;
+        top: 370px;
+        right: 670px;
+    }
+    &__three{
+        cursor: pointer;
+        position: absolute;
+        z-index: 5;
+        top: 650px;
+        right: 600px;
+    }
+}
+@media screen and(max-width:1408px){
+    .trees{
+        right: -20%;
+        top: 0;
+        z-index: 2;
+    }
+    .bulba{
+        right: 100px;
+        z-index: 4;
+    }
+    .point{
+        &__one{ 
+            right: 500px;
+        }
+        &__two{
+        top: 370px;
+        right: 570px;
+        }
+        &__three{
+        top: 650px;
+        right: 500px;
+        }
+    }
+}
+@media screen and(max-width:1310px){
+    .trees{
+        right: -30%;
+        z-index: 2;
+    }
+    .bulba{
+        right: 0px;
+        z-index: 4;
+    }
+    .point{
+        &__one{ 
+            right: 400px;
+        }
+        &__two{
+        top: 370px;
+        right: 470px;
+        }
+        &__three{
+        top: 650px;
+        right: 400px;
+        }
+    }
+}
+@media screen and(max-width:1210px){
+    .trees{
+        right: -35%;
+        z-index: 2;
+    }
+    .bulba{
+        max-width: 800px;
+        z-index: 4;
+    }
+    .point{
+        &__one{ 
+            right: 300px;
+        }
+        &__two{
+        top: 370px;
+        right: 370px;
+        }
+        &__three{
+        top: 650px;
+        right: 300px;
+        }
+    }
+}
+@media screen and(max-width:1111px){
+    .trees{
+        right: -40%;
+        z-index: 2;
+    }
+    .bulba{
+        max-width: 700px;
+        z-index: 4;
+    }
+    .point{
+        &__one{ 
+            right: 200px;
+        }
+        &__two{
+        top: 370px;
+        right: 270px;
+        }
+        &__three{
+        top: 650px;
+         right: 200px;
+        }
+    }
+}
+@media screen and(max-width:1021px){
+    .trees{
+        right: -50%;
+        z-index: 2;
+    }
+    .bulba{
+        max-width: 600px;
+        z-index: 4;
+    }
+    .point{
+        &__one{ 
+            top: 145px;
+            right: 100px;
+        }
+        &__two{
+        top: 370px;
+        right: 170px;
+        }
+        &__three{
+        top: 650px;
+        right: 100px;
+        }
+    }
+    .copperpro{
+        max-width: 450px;
+    }
+}
+@media screen and(max-width:975px){
+    .hero{
+        background: url(../assets/img/hero/hero-bg945.png);
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        &__logo{
+        font-weight: 400;
+        font-size: 60px;
+        }
+        &__left{
+            padding: 205px 0;
+            max-width:453px;
+        }
+        &__price{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 3;
+        word-spacing: 70px;
+       }
+       &__name{
+        font-weight: 800;
+        font-size: 30px;
+        max-width: 317px;
+       }
+       &__line{
+           max-width:388px;
+           margin: 15px;
+       }
+    }
+    .trees{
+        display: none;
+    }
+    .treestwo{
+        display: block;
+        position: absolute;
+        right: -10%;
+       bottom: -20%;
+        z-index: 2;
+    }
+    .destilator{
+        height: 580px;
+    }
+    .point{
+        &__one{ 
+            top: 230px;
+            right: 260px;
+        }
+        &__two{
+    top: 330px;
+    right: 310px;
+        }
+        &__three{
+    top: 540px;
+    right: 260px;
+        }
+    }
+    .copperpro{
+        max-width: 275px;
+    }
+    .point{
+        width: 15px;
+        height: 15px;
+    }
+    .button{
+        max-width: 250px;
+    }
+}
+@media screen and(max-width:768px){
+    .hero{
+        &__left{
+            padding: 285px 0;
+            max-width:453px;
+        }
+    }
+    .trees{
+        display: none;
+    }
+    .treestwo{
+        display: block;
+        position: absolute;
+        right: -20%;
+       bottom: -30%;
+        z-index: 2;
+    }
+    .destilator{
+        height: 532px;
+    }
+    .point{
+        &__one{ 
+            top: 430px;
+            right: 240px;
+        }
+        &__two{
+    top: 540px;
+    right: 280px;
+        }
+        &__three{
+    top: 715px;
+    right: 240px;
+        }
+    }
+    .point{
+        width: 12px;
+        height: 12px;
+    }
+    .copperpro{
+        max-width: 245px;
+    }
+}
+@media screen and(max-width:587px){
+    .hero{
+        &__logo{
+        font-weight: 400;
+        font-size: 30px;
+        }
+        &__left{
+            padding: 175px 0;
+            max-width:453px;
+        }
+        &__price{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 3;
+        word-spacing: 40px;
+       }
+       &__name{
+        font-weight: 800;
+        font-size: 20px;
+        max-width: 188px;
+       }
+       &__line{
+           max-width:199px;
+           margin: 12px;
+       }
+    }
+    .destilator{
+        height: 432px;
+    }
+    .point{
+        display: none;
+    }
+    .copperpro{
+        max-width: 245px;
+    }
+    .button{
+        margin-top: 60px;
+        max-width: 155px;
+        height: 50px;
+    }
+}
+@media screen and(max-width:460px){
+    .hero{
+        &__logo{
+        font-weight: 400;
+        font-size: 30px;
+        }
+        &__left{
+            padding: 155px 0px 305px 0px;
+            max-width:453px;
+        }
+        &__price{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 3;
+        word-spacing: 40px;
+       }
+       &__name{
+        font-weight: 800;
+        font-size: 20px;
+        max-width: 188px;
+       }
+       &__line{
+           max-width:199px;
+           margin: 12px;
+       }
+    }
+    .treestwo{
+        display: none;
+    }
+    .bulba{
+        max-width: 320px;
+    }
+    .destilatormobi{
+        display: block;
+    }
+    .destilator{
+        display: none;
+    }
+    .copper{
+        display: none;
+    }
+    .button{
+        margin-top: 60px;
+    }
+}
+
