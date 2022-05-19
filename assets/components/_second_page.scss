@@ -16,7 +16,7 @@
     }
 
     &__line {
-        width: 623px;
+        max-width: 623px;
         height: 0px;
         left: 262px;
         top: 451px;
@@ -27,7 +27,7 @@
     &__title {
         font-family: 'Mont';
         font-weight: 600;
-        font-size: 50px;
+        font-size: 40px;
         width: 533px;
         background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
         -webkit-background-clip: text;
@@ -41,7 +41,7 @@
         font-family: 'Mont';
         font-weight: 900;
         font-size: 30px;
-        width: 170px;
+        max-width: 170px;
         background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
