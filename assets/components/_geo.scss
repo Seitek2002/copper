@@ -1,4 +1,5 @@
 .geo {
+    background: url(../assets/img/geo/background.png) center;
     &__title {
         font-family: 'Lighthaus';
         font-weight: 400;
@@ -20,5 +21,6 @@
         justify-content: space-between;
         align-items: center;
         background: url(../img/geo/background.png);
+        margin-bottom: 70px;
     }
 }

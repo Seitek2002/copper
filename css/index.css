@@ -161,6 +161,10 @@ ul {
   padding: 0 20px;
 }
 
+.geo {
+  background: url(../assets/img/geo/background.png) center;
+}
+
 .geo__title {
   font-family: 'Lighthaus';
   font-weight: 400;
@@ -188,6 +192,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   background: url(../img/geo/background.png);
+  margin-bottom: 70px;
 }
 
 .values__content {
