@@ -165,7 +165,7 @@ ul {
   font-family: 'Lighthaus';
   font-weight: 400;
   font-size: 40px;
-  color: #000;
+  color: #000000;
 }
 
 .button {
@@ -214,14 +214,14 @@ ul {
   font-family: "Mont";
   font-weight: 800;
   font-size: 16px;
-  color: #000;
+  color: #000000;
   background: transparent;
   border: 1px solid #031412;
   margin-left: 15px;
 }
 
 .btn-2:hover {
-  background: #000;
+  background: #000000;
   color: #ffffff;
   border: 5px solid #ffffff;
   -webkit-transition: 0.4s;
@@ -248,6 +248,64 @@ ul {
 
 .data__column--margin {
   margin-left: 30px;
+}
+
+.special {
+  background: url(../assets/img/special/bg.png) center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  padding-top: 19px;
+}
+
+.special__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.special__left {
+  max-width: 533px;
+}
+
+.special__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.special__img {
+  margin-left: 146px;
+}
+
+.special__promo {
+  font-family: "Lighthaus";
+  font-weight: 400;
+  font-size: 140px;
+  color: #ffffff;
+}
+
+.special__proposal {
+  font-family: "Mont";
+  font-weight: 500;
+  font-size: 35px;
+  color: #ffffff;
+  line-height: 35px;
+  margin: 0 0 40px 0;
+}
+
+.special__title {
+  font-weight: 400;
+  font-size: 160px;
+  color: #ffffff;
+  position: absolute;
+  bottom: -60px;
+  right: -50px;
+  max-width: 686px;
+  text-align: right;
 }
 
 .order__content {
@@ -327,7 +385,7 @@ ul {
   max-width: 302px;
   font-weight: 800;
   font-size: 18px;
-  color: #000;
+  color: #000000;
   line-height: 20.23px;
   height: 37px;
 }
@@ -336,7 +394,7 @@ ul {
   font-family: "mont";
   font-weight: 400;
   font-size: 14px;
-  color: #000;
+  color: #000000;
   margin-top: 12px;
 }
 
@@ -370,7 +428,7 @@ ul {
   position: relative;
   font-weight: 600;
   font-size: 27px;
-  color: #000;
+  color: #000000;
   padding-left: 50px;
   font-family: "Mont";
 }
@@ -453,14 +511,14 @@ ul {
 .distiller__item {
   font-weight: 600;
   font-size: 20px;
-  color: #000;
+  color: #000000;
   font-family: "Mont";
 }
 
 .distiller__title {
   font-weight: 800;
   font-size: 16px;
-  color: #000;
+  color: #000000;
   max-width: 238px;
   font-family: "Mont";
 }
@@ -486,5 +544,22 @@ ul {
   font-weight: 600;
   font-size: 14px;
   color: #A1A1A1;
+}
+
+.distiller__disscount__disscount {
+  font-size: 14px;
+  position: relative;
+  color: #A1A1A1;
+  text-decoration: none;
+}
+
+.distiller__disscount__disscount:before {
+  content: "";
+  border-bottom: 1px solid #A1A1A1;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
 }
 /*# sourceMappingURL=index.css.map */

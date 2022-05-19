@@ -18,16 +18,19 @@
 
     &__btn{
         @include btn(327px,50px,#fff);
-        border: 1px solid #A1A1A1;
-       @include font(800,18px,#A1A1A1);
+        border: 1px solid $bg-darkGray;
+       @include font(800,18px,$bg-darkGray);
        font-family: "Mont";
     }
 }
 
 .join{
+
+    
+
     max-width: 922px;
     display: flex;
-    background: #E6E8E7;
+    background: $bg-deepGray;
     padding-top: 21px;
     padding-bottom: 20px;
     justify-content: space-between;
@@ -108,7 +111,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+        background: $bg-greenGold;
     }
 
     &__item{
@@ -117,7 +120,7 @@
         width: 327px;
         height: 50px;
         padding-left: 19px;
-        border: 1px solid #A1A1A1;
+        border: 1px solid $bg-darkGray;
         margin-bottom: 30px;
     }
 
@@ -141,8 +144,9 @@
 .distiller{
 
     .distiller__item_red{
-        color: #9B0000;
+        color: $bg-deepRed;
     } // Модификатор
+
     .distiller__item_padding{
         padding-top: 17px;
     } // Модификатор
@@ -176,7 +180,23 @@
     }
 
     &__disscount{
-        @include font (600,14px,#A1A1A1);
+        @include font (600,14px,$bg-darkGray);
+
+        &__disscount {
+            font-size: 14px;
+            position: relative;
+            color: $bg-darkGray;
+            text-decoration: none;
+          }
+          
+          &__disscount:before {
+            content: "";
+            border-bottom: 1px solid $bg-darkGray;
+            position: absolute;
+            width: 100%;
+            height: 50%;
+            transform: rotate(12deg);
+          }
 
     }
 }
