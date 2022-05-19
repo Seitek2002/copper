@@ -198,18 +198,18 @@ ul {
 
 .geo__title {
   font-family: 'Lighthaus';
+  max-width: 310px;
   font-weight: 400;
   font-size: 50px;
   color: #031412;
-  max-width: 310px;
 }
 
 .geo__subtitle {
-  font-weight: normal;
-  font-size: 20px;
-  color: #031412;
   font-family: 'Mont';
   max-width: 365px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #031412;
 }
 
 .geo__content {
@@ -230,9 +230,6 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -243,7 +240,7 @@ ul {
   font-family: Lighthaus;
   font-weight: 400;
   font-size: 145px;
-  color: #fff;
+  color: #ffffff;
   max-width: 686px;
   line-height: 74.9%;
   text-align: right;
@@ -288,7 +285,7 @@ ul {
 }
 
 .values__left {
-  margin-right: 5px;
+  margin-right: 54px;
 }
 
 .header {

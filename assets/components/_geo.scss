@@ -2,18 +2,14 @@
     background: url(../assets/img/geo/background.png) center;
     &__title {
         font-family: 'Lighthaus';
-        font-weight: 400;
-        font-size: 50px;
-        color: #031412;
         max-width: 310px;
+        @include font (400, 50px, #031412);
     }
 
     &__subtitle {
-        font-weight: normal;
-        font-size: 20px;
-        color: #031412;
         font-family: 'Mont';
         max-width: 365px;
+        @include font (400, 20px, #031412);
     }
 
     &__content {

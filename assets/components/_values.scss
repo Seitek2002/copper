@@ -2,7 +2,6 @@
 
     &__content {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         position: relative;
     }
@@ -11,23 +10,18 @@
 
     &__imgtext {
         font-family: Lighthaus;
-        font-weight: 400;
-        font-size: 145px;
-        color: #fff;
+        @include font (400, 145px, $text-white);
         max-width: 686px;
         line-height: 74.9%;
         text-align: right;
         position: absolute;
-
         bottom: 0;
         left: 0;
     }
 
     &__name {
         font-family: Lighthaus;
-        font-weight: 400;
-        font-size: 50px;
-        color: #031412;
+        @include font (400, 50px, #031412);
         max-width: 292px;
     }
 
@@ -55,6 +49,6 @@
     }
 
     &__left {
-        margin-right: 5px;
+        margin-right: 54px;
     }
 }
