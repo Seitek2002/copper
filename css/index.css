@@ -189,4 +189,51 @@ ul {
   background: #ffffff;
   border: 5px solid #8e6445;
 }
+
+.counter {
+  font-family: "Mont";
+  padding: 140px 0;
+  height: 1000px;
+}
+
+.counter__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.counter__description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #031412;
+  margin-top: 23px;
+}
+
+.counter__left {
+  max-width: 517px;
+}
+
+.counter__suptitle {
+  font-weight: 900;
+  font-size: 50px;
+  color: transparent;
+  background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.counter__nums {
+  font-weight: 800;
+  font-size: 250px;
+  color: rgba(0, 0, 0, 0.3);
+  background: url(../assets/img/counter/forest.png) right top;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 /*# sourceMappingURL=index.css.map */

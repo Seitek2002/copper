@@ -1,0 +1,31 @@
+.counter {
+    font-family: "Mont";
+    padding: 140px 0;
+    height: 1000px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__description {
+        @include font(400, 20px, #031412);
+        margin-top: 23px;
+    }
+    &__left {
+        max-width: 517px;
+    }
+    &__suptitle {
+        @include font(900, 50px, transparent);
+        background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    &__nums {
+        @include font(800, 250px, rgba(0, 0, 0, 0.3));
+        background: url(../assets/img/counter/forest.png) right top;
+        background-attachment: fixed;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
