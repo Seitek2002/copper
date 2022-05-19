@@ -23,8 +23,68 @@
 }
 
 
-
-.order__left{
-    display: flex;
-    justify-content: space-between;
+.btn {
+    font-family: 'Mont';
+    @include font (700, 18px, $text-white);
+    background: $btn-bg;
+    border: none;
+    &:hover {
+        font-family: 'Mont';
+        @include font (700, 18px, #8e6445);
+        background: $text-white;
+        border: 5px solid #8e6445;
+        transition: 0.4s;
+    }
 }
+
+.btn-2{
+    font-family: "Mont";
+    @include font (800,16px, $text-black);
+    background: transparent;
+    border: 1px solid #031412;
+    margin-left: 15px;
+
+    &:hover{
+        background: $text-black;
+        color: $text-white;
+        border: 5px solid $text-white;
+        transition: 0.4s;
+    }
+    
+
+    
+}
+
+.join__icon--head{
+    position: absolute;
+    top: -11px;
+    right: 0;
+    width: 63px;
+    height: 63px;
+    z-index: 1;
+
+}
+
+.join__icon--body{
+    position: absolute;
+    top: 61px;
+    right: -18px;
+    width: 94px;
+    height: 52px;
+    z-index: 1;
+}
+
+
+.data__column--margin{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+

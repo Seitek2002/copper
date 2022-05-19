@@ -1,6 +1,182 @@
 .order{
+    
+
+    &__content{
+        display: flex;     
+    }
+
+    &__right{
+        max-width: 446px;
+    }
+    
+   
     &__top{
         display: flex;
         justify-content: space-between;
+        max-width: 922px;
+    }
+
+    &__btn{
+        @include btn(327px,50px,#fff);
+        border: 1px solid #A1A1A1;
+       @include font(800,18px,#A1A1A1);
+       font-family: "Mont";
+    }
+}
+
+.join{
+    max-width: 922px;
+    display: flex;
+    background: #E6E8E7;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    margin-top: 31px;
+
+    &__left{
+        display: flex;
+        align-items: center;
+    }
+
+    &__img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 82px;
+        height: 82px;
+        background: #fff;  
+        border-radius: 50%;    
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    &__title{
+        font-family: "Mont";
+        max-width: 302px;
+        @include font (800,18px, $text-black);
+        line-height: 20.23px;
+        height: 37px;
+    }
+    &__subtitle{
+        font-family: "mont";
+        @include font (400,14px,$text-black);
+        margin-top: 12px;
+    }
+
+    &__right{
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        position: relative;
+    }
+
+
+    &__btn{
+        width: 186px;
+        height: 50px;   
+        z-index: 2;  
+        cursor: pointer;
+    }
+}
+
+
+.data{
+
+
+    .data__column--margin{
+        margin-left: 30px;
+    } // модификатор
+    
+    margin-top: 48px;
+
+    &__title{
+        position: relative;
+        @include font (600,27px,$text-black);
+        padding-left: 50px;
+        font-family: "Mont";
+    }
+
+    &__title:before{
+        content:"1";
+        @include font (800,30px,$text-white);
+        font-family: "Mont";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+    }
+
+    &__item{
+        @include font (600,18px,#A1A1A1);
+        font-family: "Mont";
+        width: 327px;
+        height: 50px;
+        padding-left: 19px;
+        border: 1px solid #A1A1A1;
+        margin-bottom: 30px;
+    }
+
+    &__row{
+        display: flex;
+        margin-top: 34px;
+    }
+
+    &__column{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+.swiper{
+    height: 226px;
+}
+
+.distiller{
+
+    .distiller__item_red{
+        color: #9B0000;
+    } // Модификатор
+    .distiller__item_padding{
+        padding-top: 17px;
+    } // Модификатор
+    
+
+    display: flex;
+
+    &__img{
+        width: 101px;
+        height: 101px;
+    }
+    &__item{
+        @include font (600,20px,$text-black);
+        font-family: "Mont";
+    }
+
+    &__title{
+        @include font (800,16px,$text-black);
+        max-width: 238px;
+        font-family: "Mont";
+    }
+    &__price{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__info{
+        padding-right: 20px;
+        padding-left: 24px;
+    }
+
+    &__disscount{
+        @include font (600,14px,#A1A1A1);
+
     }
 }
