@@ -17,6 +17,8 @@
     &__right {
         display: flex;
         align-items: flex-end;
+        flex-wrap: wrap;
+        justify-content: flex-end;
     }
 
     &__share {
@@ -38,7 +40,11 @@
     }
 
     &__img {
-        margin-left: 52px;
+        // margin-left: 52px;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+
     }
 
     &__picture {
@@ -52,7 +58,7 @@
         font-size: 16px;
         color: #031412;
         margin-bottom: 20px;
-        
+
     }
 
     &__title {
@@ -63,8 +69,11 @@
         margin-top: 50px;
         margin-bottom: 20px;
     }
-    &__advantages{
+
+    &__advantages {
         padding-left: 15px;
         margin-bottom: 20px;
     }
+
+    @media screem and (width:885px)
 }
