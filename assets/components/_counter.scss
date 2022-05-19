@@ -35,33 +35,37 @@
 
 
 @media screen and (max-width:1280px) {
-    .counter__content{
-        flex-wrap: wrap;
-        justify-content: center;
-        text-align: center;
-    }
-    .counter__right {
-        margin-top: 90px;
-    }
-    .counter__title {
-        max-width: 335px;
-        margin: 0 auto;
+    .counter {
+        &__content{
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        &__right {
+            margin-top: 90px;
+        }
+        &__title {
+            max-width: 335px;
+            margin: 0 auto;
+        }
     }
 }
 @media screen and (max-width:780px) {
-    .counter__nums {
-        font-size: 100px;
-    }
-    .counter__description {
-        font-size: 16px;
-    }
-    .counter__title {
-        font-size: 20px;
-    }
-    .counter__suptitle {
-        font-size: 18px;
-    }
-    .counter__description {
-        max-width: 320px;
+    .counter {
+        &__nums {
+            font-size: 100px;
+        }
+        &__description {
+            font-size: 16px;
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__suptitle {
+            font-size: 18px;
+        }
+        &__description {
+            max-width: 320px;
+        }
     }
 }
