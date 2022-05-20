@@ -199,23 +199,24 @@
 @media screen and(max-width: 950px) {
     .thankss {
         &__backmain {
-           
            padding: 17px 109px;
         }
         &__top {
             margin-top: 80px;
             margin-right: auto;
-            margin-left: auto;
-            
+            margin-left: auto;   
+        }
+        &__ok {
+            margin-left: 10%;
         }
     }
 }
-@media screen and(max-width: 460px) {
+@media screen and(max-width: 497px) {
     .thankss {
         &__title2 {
-            width: 200px;
-            display: flex;
-            flex-wrap: nowrap;
+            font-family: 'Lighthaus';
+            font-weight: 400;
+            font-size: 30px;
         }
         
     }
@@ -239,9 +240,9 @@
             padding-right: 90px;
         }
         &__title2 {
-            width: 200px;
-            display: flex;
-            flex-wrap: nowrap;
+            font-family: 'Lighthaus';
+            font-weight: 400;
+            font-size: 30px;
         }
     }
 }
