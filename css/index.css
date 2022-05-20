@@ -499,6 +499,8 @@ ul {
 .advantage {
   font-family: "Mont";
   background: url(../assets/img/advantage/bg.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .advantage .title {
@@ -578,6 +580,85 @@ ul {
 
 .box .continuation__icon {
   padding-left: 7px;
+}
+
+@media screen and (max-width: 1346px) {
+  .advantage {
+    font-family: "Mont";
+    background: url(../assets/img/advantage/bg.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .advantage .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantage__sector {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 74px;
+  }
+  .advantage__box {
+    padding-top: 15px;
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .box__bg--img {
+    margin-top: 34px;
+    width: 76px;
+    height: 76px;
+    background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .box__name {
+    padding-top: 24px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #031412;
+  }
+  .box__text {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #031412;
+  }
+  .box__bottom--continuation {
+    padding-top: 15px;
+  }
+  .box__continuation {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 134.4%;
+    background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .box .continuation__icon {
+    padding-left: 7px;
+  }
 }
 
 @media screen and (max-width: 490px) {
@@ -743,10 +824,12 @@ ul {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 703px) {
   .advantage {
-    font-family: 'Mont';
-    background-image: url(../img/advantage/bg.png);
+    font-family: "Mont";
+    background: url(../assets/img/advantage/bg.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .advantage .title {
     display: -webkit-box;
@@ -765,15 +848,11 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-bottom: 74px;
   }
   .advantage__box {
-    margin-right: 15px;
-    margin-top: 15px;
-  }
-  .box {
     padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 74px;
+    padding-right: 10px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
@@ -781,40 +860,17 @@ ul {
     margin-top: 34px;
     width: 76px;
     height: 76px;
-    background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+    background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
     max-width: 100%;
-  }
-  .box__icon1 {
-    left: 19px;
-    top: 16px;
-  }
-  .box__icon2 {
-    left: 9px;
-    top: 10px;
-  }
-  .box__icon3 {
-    left: 18px;
-    top: 17px;
-  }
-  .box__icon4 {
-    left: 14px;
-    top: 16px;
-  }
-  .box__icon5 {
-    left: 17px;
-    top: 16px;
-  }
-  .box__icon6 {
-    left: 16px;
-    top: 16px;
-  }
-  .box__icon7 {
-    left: 19px;
-    top: 16px;
-  }
-  .box__icon8 {
-    left: 14px;
-    top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .box__name {
     padding-top: 24px;
@@ -837,7 +893,7 @@ ul {
     font-weight: 800;
     font-size: 14px;
     line-height: 134.4%;
-    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+    background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -872,8 +928,10 @@ ul {
 
 @media screen and (max-width: 400px) {
   .advantage {
-    font-family: 'Mont';
-    background-image: url(../img/advantage/bg.png);
+    font-family: "Mont";
+    background: url(../assets/img/advantage/bg.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .advantage .title {
     display: -webkit-box;
@@ -882,8 +940,6 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 24px;
-    text-align: center;
   }
   .advantage__sector {
     display: -webkit-box;
@@ -894,56 +950,29 @@ ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-bottom: 74px;
   }
   .advantage__box {
-    margin-right: 15px;
-    margin-top: 15px;
-  }
-  .box {
     padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 74px;
+    padding-right: 10px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
   .box__bg--img {
     margin-top: 34px;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%);
+    width: 76px;
+    height: 76px;
+    background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
     max-width: 100%;
-  }
-  .box__icon1 {
-    left: 19px;
-    top: 16px;
-  }
-  .box__icon2 {
-    left: 9px;
-    top: 10px;
-  }
-  .box__icon3 {
-    left: 18px;
-    top: 17px;
-  }
-  .box__icon4 {
-    left: 14px;
-    top: 16px;
-  }
-  .box__icon5 {
-    left: 17px;
-    top: 16px;
-  }
-  .box__icon6 {
-    left: 16px;
-    top: 16px;
-  }
-  .box__icon7 {
-    left: 19px;
-    top: 16px;
-  }
-  .box__icon8 {
-    left: 14px;
-    top: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .box__name {
     padding-top: 24px;
@@ -966,7 +995,7 @@ ul {
     font-weight: 800;
     font-size: 14px;
     line-height: 134.4%;
-    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+    background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
