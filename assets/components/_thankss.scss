@@ -50,7 +50,7 @@
     &__bottle {
         width: 212px;
         height: 169px;
-        margin-left: -160px;
+        
     }
     
     &__title {
@@ -221,7 +221,7 @@
         
     }
 }
-@media screen and(max-width: 460px) {
+@media screen and(max-width: 490px) {
     .thankss {
         &__top {
             display: flex;
@@ -277,13 +277,37 @@
             margin-left: 20px;
         }
         &__input {
-            padding-right: 70px;
+            padding-right: 50px;
         }
         &__input2 {
-            padding-right: 70px;
+            padding-right: 50px;
         }
-        &__title2 {
-            width: 250px;
+        &__block {
+            max-width: 320px;
+            margin: 0 auto;
+        }
+    }
+}
+@media screen and(max-width: 331px) {
+    .thankss {
+        &__backmain {
+            padding: 17px 50px;  
+        }
+        &__items {
+            margin-right: 18px;
+        }
+        &__items2 {
+            margin-left: 18px;
+        }
+        &__input {
+            padding-right: 40px;
+        }
+        &__input2 {
+            padding-right: 40px;
+        }
+        &__block {
+            max-width: 300px;
+            margin: 0 auto;
         }
     }
 }

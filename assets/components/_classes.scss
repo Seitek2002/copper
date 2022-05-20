@@ -1,6 +1,8 @@
 .container {
     max-width: 1952px;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .title {
@@ -24,6 +26,16 @@
 }
 @media screen and(max-width: 460px) {
     .button {
-        @include btn (300px, 50px, $btn-bg);
+        @include btn (290px, 55px, $btn-bg);
+    }
+}
+@media screen and(max-width: 490px) {
+    .button {
+        @include btn (290px, 55px, $btn-bg);
+    }
+}
+@media screen and(max-width: 360px) {
+    .button {
+        @include btn (270px, 55px, $btn-bg);
     }
 }

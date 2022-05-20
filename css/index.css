@@ -158,6 +158,8 @@ ul {
 .container {
   max-width: 1952px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .title {
@@ -194,8 +196,24 @@ ul {
 
 @media screen and (max-width: 460px) {
   .button {
-    width: 300px;
-    height: 50px;
+    width: 290px;
+    height: 55px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .button {
+    width: 290px;
+    height: 55px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .button {
+    width: 270px;
+    height: 55px;
     background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
   }
 }
@@ -444,7 +462,6 @@ ul {
 .thankss__bottle {
   width: 212px;
   height: 169px;
-  margin-left: -160px;
 }
 
 .thankss__title {
@@ -634,20 +651,20 @@ ul {
     margin-right: auto;
     margin-left: auto;
   }
-}
-
-@media screen and (max-width: 460px) {
-  .thankss__title2 {
-    width: 200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+  .thankss__ok {
+    margin-left: 10%;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 497px) {
+  .thankss__title2 {
+    font-family: 'Lighthaus';
+    font-weight: 400;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 490px) {
   .thankss__top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -669,12 +686,9 @@ ul {
     padding-right: 90px;
   }
   .thankss__title2 {
-    width: 200px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    font-family: 'Lighthaus';
+    font-weight: 400;
+    font-size: 30px;
   }
 }
 
@@ -707,13 +721,36 @@ ul {
     margin-left: 20px;
   }
   .thankss__input {
-    padding-right: 70px;
+    padding-right: 50px;
   }
   .thankss__input2 {
-    padding-right: 70px;
+    padding-right: 50px;
   }
-  .thankss__title2 {
-    width: 250px;
+  .thankss__block {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 331px) {
+  .thankss__backmain {
+    padding: 17px 50px;
+  }
+  .thankss__items {
+    margin-right: 18px;
+  }
+  .thankss__items2 {
+    margin-left: 18px;
+  }
+  .thankss__input {
+    padding-right: 40px;
+  }
+  .thankss__input2 {
+    padding-right: 40px;
+  }
+  .thankss__block {
+    max-width: 300px;
+    margin: 0 auto;
   }
 }
 
