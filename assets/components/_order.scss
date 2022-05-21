@@ -6,7 +6,10 @@
     }
 
     &__right{
-        max-width: 446px;
+        
+        margin-left: 23px;
+        margin-top: 82px;
+        max-width: 442px;
     }
     
    
@@ -26,9 +29,30 @@
 
 .join{
 
-    
+    position: relative;
 
-    max-width: 922px;
+    // image pos
+
+    .join__icon--head{
+        position: absolute;
+        top: 6px;
+        right: 41px;
+        width: 63px;
+        height: 63px;
+        z-index: 1;
+    
+    }
+    
+    .join__icon--body{
+        position: absolute;
+        top: 76px;
+        right: 24px;
+        width: 94px;
+        height: 52px;
+        z-index: 1;
+    }
+
+    
     display: flex;
     background: $bg-deepGray;
     padding-top: 21px;
@@ -70,7 +94,6 @@
         display: flex;
         align-items: center;
         margin-right: 30px;
-        position: relative;
     }
 
 
@@ -81,7 +104,6 @@
         cursor: pointer;
     }
 }
-
 
 .data{
 
@@ -137,8 +159,188 @@
 
 }
 
+.delivery{
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid $text-deepGray;
+    &__title{
+        position: relative;
+        @include font (600,27px,$text-black);
+        padding-left: 50px;
+        font-family: "Mont";
+    }
+
+    &__title:before{
+        content:"2";
+        @include font (800,30px,$text-white);
+        font-family: "Mont";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: $bg-greenGold;
+    }
+
+    &__radio{
+        margin-top: 30px;
+    }
+
+    &__text{
+        margin-top: 15px;
+        @include font (400,14px,$text-darkGreen);
+        max-width: 398px;
+        font-family: "Mont";
+    }
+
+    &__input{
+        appearance: none;
+        position: absolute;
+    }
+
+    &__label{
+        @include font (800,20px,$text-darkGray);
+        padding-left: 24px;
+        position: relative;
+        
+    }
+
+    &__input:checked ~ &__label{
+        background: $btn_bg;
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        
+    }
+
+    &__label:before{
+        content:"";
+        width: 17px;
+        height: 17px;
+        display: block;
+        position: absolute;
+        background: $text-white;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        border: 1px solid $text-darkGray;
+    }
+
+    &__label:after{
+        content:"";
+        position: absolute;
+        display: block;
+        top: 2px;
+        left: 2px;
+        width: 15px;
+        height: 15px;
+        opacity: 0;
+        z-index: 2;
+        background: $btn-bg;
+        border-radius: 50%;
+    }
+
+    &__input:checked + &__label:before{
+        border: $btn-bg;
+    }
+
+    &__input:checked + &__label:after{
+        opacity: 1;
+    }
+}
+
+.payment{
+
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid $text-deepGray;
+
+    &__title{
+        @include font (600,27px,$text-darkGreen);
+        position: relative;
+        padding-left: 50px;
+        font-family: "Mont";
+    }
+
+    &__title:before{
+        content: "3";
+        display: block;
+        display: flex;
+        color: $text-white;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        background: $bg-greenGold;
+        top: 0;
+        left: 0;
+        font-family: "Mont";
+    }
+
+    &__radio{
+        margin-top: 30px;
+    }
+
+    &__input{
+        appearance: none;
+        position: absolute;
+    }
+
+    &__label{
+        @include font (800,20px,$text-darkGray);  
+        padding-left: 24px; 
+        position: relative;         
+    }
+
+    &__label:before{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        top: 0;
+        left: 0;
+        background: $text_white;
+        border-radius: 50%;
+        border: 1px solid $text-darkGray;
+        z-index: 1;
+    }
+
+    &__label:after{
+        content: "";
+        display: block;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        background: $btn_bg;
+        border-radius: 50%;
+        z-index: 2;
+        opacity: 0;
+    }
+
+    &__input:checked + &__label:before{
+        border: 1px solid $btn_bg;
+    }
+    &__input:checked + &__label:after{
+        opacity: 1;
+    }
+
+    &__input:checked ~ &__label{
+        background: $btn_bg;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
 .swiper{
     height: 226px;
+
 }
 
 .distiller{
@@ -150,53 +352,377 @@
     .distiller__item_padding{
         padding-top: 17px;
     } // Модификатор
+
+    .distiller__price_padding{
+        padding-top: 13px;
+    } // Модификатор
     
 
     display: flex;
-
+    
     &__img{
         width: 101px;
         height: 101px;
     }
     &__item{
-        @include font (600,20px,$text-black);
-        font-family: "Mont";
+        @include font (600,20px,$text-darkGreen);
+        font-family: "Mont";     
+    }
+
+    &__info{
+        padding-left: 24px;
+        padding-top: 5px;
+        padding-right: 20px;
     }
 
     &__title{
         @include font (800,16px,$text-black);
-        max-width: 238px;
         font-family: "Mont";
+        padding-right: 69px;
+        box-sizing: border-box;
     }
+
     &__price{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center;       
     }
 
-    &__info{
-        padding-right: 20px;
-        padding-left: 24px;
-    }
+    // &__pricein{
+    //     margin-left: 153px;
+    // }
 
+   
     &__disscount{
         @include font (600,14px,$bg-darkGray);
 
-        &__disscount {
-            font-size: 14px;
-            position: relative;
-            color: $bg-darkGray;
-            text-decoration: none;
-          }
-          
-          &__disscount:before {
-            content: "";
-            border-bottom: 1px solid $bg-darkGray;
+    }
+    &__disscount {
+        font-size: 14px;
+        position: relative;
+        color: $bg-darkGray;
+        text-decoration: none;
+      }
+      
+      &__disscount:before {
+        content:"";
+        border-bottom: 1px solid $bg-darkGray;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        transform: rotate(12deg);
+      }
+}
+
+.total {
+
+    input[placeholder]{
+        text-overflow:ellipsis;
+    }
+    
+    &__basket{
+        position: absolute;
+        top: -28px;
+        right: -7px;
+        z-index: -1;
+    }
+    position: relative;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 32px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+
+    .total__button_tiny{
+        width: 126px;
+        height: 50px;
+        @include font (800,14px,$text-white);
+        background: $btn_bg;
+        border: none;
+    }  // Модификатор 
+
+    .total__button_big{
+        width: 382px;
+        height: 50px;
+        @include font (800,18px,$text-white);
+        background: $btn_bg;
+        border: none;
+        margin-top: 31px;
+    } // Модификатор 
+    
+
+    &__code{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    &__top{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    
+
+    &__input{
+        width: 256px;
+        height: 50px;
+        @include font (600,14px,$text-darkGray);
+        font-family: "Mont";
+        border: 1px solid $text-deepGray;
+        padding-left: 18px;
+        box-sizing: border-box;
+        border-right: none;
+    }
+
+    &__title{
+        @include font (400,35px,$text-darkGreen );
+        font-family: "Mont";
+        margin-top: 25px;
+    }
+
+    &__subtitle{
+        @include font (800,40px,$text-darkGreen);
+        font-family: "Mont";
+        margin-top: 20px;
+    }
+
+
+    &__bottom{
+        margin-top: 30px;
+        padding:31px 30px 0 30px;
+        border-top: 1px solid $text-deepGray;
+        
+        
+        
+    }
+
+
+    &__delivery{
+        display: flex;
+        align-items: center;
+    }
+
+    &__text{
+        @include font (600,16px,$text-darkGray);
+        font-family: "Mont";
+        max-width: 194px;
+        margin-left: 18px;
+    }  
+}
+
+
+// media screens
+
+@media screen and (max-width:1309px){
+
+    .join{
+
+        .join__icon--head{
             position: absolute;
-            width: 100%;
-            height: 50%;
-            transform: rotate(12deg);
-          }
+            top: 30px;
+            right: 41px;
+            width: 63px;
+            height: 63px;
+            z-index: 1;
+        
+        }
+        
+        .join__icon--body{
+            position: absolute;
+            top: 105px;
+            right: 24px;
+            width: 94px;
+            height: 52px;
+            z-index: 1;
+        }
+
+    }
+
+   .join__right{
+        display: flex;
+        flex-direction: column;       
+    }
+
+    .btn-2{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width:1214px){
+    .order{
+        &__content{
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__right{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+    }
+
+    .distiller{
+        &__title{
+            padding-right: 0px;
+        }
+    }
+   
+}
+@media screen and (max-width:768px){
+    .order{
+        &__top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__title{
+            margin-top: 35px;
+        }
+    }
+
+    .data{
+        &__item{
+            width: 318px;
+        }
+    }
+}
+@media screen and (max-width:740px){
+
+    .data{
+        &__item{
+            width: 289px;
+        }
+    }
+
+    @media screen and (max-width:680px){
+
+        .data{
+            &__item{
+                width: 275px;
+            }
+        }
+
+    }
+    
+}
+@media screen and (max-width:654px){
+    .order{
+        &__btn{
+            width: 290px;
+        }
+        &__title{
+            @include font (400,30px,$text-darkGreen)
+        }
+    }
+    .join{
+        display: flex;
+        flex-direction: column;
+
+        &__left{
+            display: flex;
+            flex-direction: column;
+        }
+        &__title{
+            text-align: center;
+            margin-top: 10px;
+        }
+        &__subtitle{
+            padding-left: 11px;
+        }
+        &__right{
+            margin-top: 10px;
+            margin-right: 0px;
+        }
+
+        .join__icon--head{
+            top: 204px;
+        }
+        .join__icon--body{
+            top: 278px;
+        }
+    }
+
+    .data{      
+        .data__column--margin{
+            margin-left: 0px;
+        }
+
+        &__row{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+}
+@media screen and (max-width:444px){
+
+    .distiller{
+        &__title:after{
+            content: "";
+            
+
+        }
+    }
+    .total{
+
+        .total__button_tiny{
+            width: 126px;
+            height: 50px;
+            @include font (800,14px,$text-white);
+            background: $btn_bg;
+            border: none;
+        }  // Модификатор 
+    
+        .total__button_big{
+            width: 290px;
+            height: 50px;
+            @include font (800,18px,$text-white);
+            background: $btn_bg;
+            border: none;
+            margin-top: 31px;
+        } // Модификатор 
+
+        &__input{
+            width: 130px;
+            height: 50px;
+        }
 
     }
 }
+@media screen and (max-width:390px){
+
+  .container{
+      padding: 0 5px;
+  }  
+}
+@media screen and (max-width:350px){
+
+    .distiller{
+        &__info{
+            padding-right: 25px;
+            padding-left: 5px;
+        }
+
+        &__title{
+            font-size: 14px;
+        }
+    }
+    .total{
+
+        
+        &__top{
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+
+        &__bottom{
+            padding-left: 14px;
+            padding-right: 14px;
+        }
+    }
+}
+
