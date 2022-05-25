@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Mont';
   src: url("../assets/fonts/Mont/Mont-Black.eot");
@@ -780,7 +781,6 @@ ul {
 .total {
   position: relative;
   overflow: hidden;
-  padding-top: 40px;
   padding-bottom: 32px;
   -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
@@ -824,6 +824,7 @@ ul {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  padding-top: 40px;
 }
 
 .total__top {
@@ -1087,6 +1088,405 @@ ul {
   .total__bottom {
     padding-left: 14px;
     padding-right: 14px;
+  }
+}
+
+.basket__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.basket__left {
+  width: 100%;
+}
+
+.basket__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.basket .top__right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.basket .top__text1, .basket .top__text2, .basket .top__text3 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #A1A1A1;
+  font-family: "Mont";
+}
+
+.basket .top__text3 {
+  padding-right: 66px;
+}
+
+.bistiller {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 14px;
+  padding-top: 18px;
+  border-top: 1px solid #E6E8E7;
+  position: relative;
+}
+
+.bistiller__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bistiller__description {
+  max-width: 268px;
+  height: 23px;
+  font-weight: 800;
+  font-size: 18px;
+  color: #000000;
+  margin-left: 27px;
+  font-family: "Mont";
+  padding-bottom: 20px;
+}
+
+.bistiller__right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bistiller__piece, .bistiller__price {
+  font-weight: 600;
+  font-size: 20px;
+  color: #031412;
+  font-family: "Mont";
+}
+
+.bistiller__price {
+  position: relative;
+}
+
+.bistiller .disscount:before {
+  content: "1953 грн";
+  position: absolute;
+  font-weight: 600;
+  font-size: 14px;
+  color: #A1A1A1;
+  top: -15px;
+}
+
+.bistiller .disscount:after {
+  content: "";
+  position: absolute;
+  width: 58px;
+  height: 1.5px;
+  top: -7px;
+  left: 0;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+  background: #A1A1A1;
+  opacity: 0.3;
+}
+
+.bistiller .bistiller__price_red {
+  color: #9B0000;
+}
+
+.bistiller__trash {
+  position: absolute;
+  top: 15px;
+  right: 37px;
+}
+
+.bistiller__btn {
+  margin-top: 29px;
+  width: 327px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #A1A1A1;
+  font-weight: 800;
+  font-size: 18px;
+  color: #A1A1A1;
+  font-family: "Mont";
+}
+
+.basket__btn {
+  display: none;
+  width: 327px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #A1A1A1;
+  font-weight: 800;
+  font-size: 18px;
+  color: #A1A1A1;
+  font-family: "Mont";
+}
+
+.quantum {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.quantum__content {
+  position: relative;
+  padding-top: 23px;
+  padding-bottom: 41px;
+}
+
+.quantum__top {
+  margin-left: 30px;
+}
+
+.quantum__bottom {
+  border-top: 1px solid #E6E8E7;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 31px;
+  padding-top: 27px;
+}
+
+.quantum__delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.quantum__title {
+  font-weight: 400;
+  font-size: 35px;
+  color: #031412;
+  font-family: "Mont";
+}
+
+.quantum__subtitle {
+  font-weight: 800;
+  font-size: 40px;
+  color: #031412;
+  font-family: "Mont";
+  margin-top: 15px;
+}
+
+.quantum__text {
+  font-weight: 600;
+  font-size: 16px;
+  color: #808080;
+  font-family: "Mont";
+  max-width: 194px;
+  margin-left: 15px;
+}
+
+.quantum__cart {
+  position: absolute;
+  top: -38px;
+  right: -7px;
+  max-width: 100%;
+}
+
+.quantum__btn {
+  margin-top: 29px;
+  font-family: 'Mont';
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  width: 374px;
+  height: 50px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  border: none;
+}
+
+.quantum__btn:hover {
+  font-family: 'Mont';
+  font-weight: 700;
+  font-size: 18px;
+  color: #8e6445;
+  width: 374px;
+  height: 50px;
+  background: #ffffff;
+  border: 5px solid #8e6445;
+}
+
+@media screen and (max-width: 1128px) {
+  .basket__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .basket__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .quantum {
+    max-width: 666px;
+    width: 100%;
+    margin-top: 39px;
+  }
+  .quantum__title, .quantum__subtitle {
+    text-align: center;
+  }
+  .quantum__cart {
+    max-width: 157px;
+  }
+  .quantum__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .quantum__text {
+    max-width: 236px;
+  }
+  .bistiller__btn {
+    display: none;
+  }
+  .bistiller__trash {
+    top: 56px;
+    right: 0px;
+  }
+  .basket__btn {
+    display: block;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 682px) {
+  .bistiller__description {
+    padding-bottom: 72px;
+  }
+  .bistiller__trash {
+    top: 13px;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .bistiller__description {
+    font-weight: 800;
+    font-size: 16px;
+    color: #031412;
+    padding-bottom: 64px;
+  }
+  .quantum__title {
+    text-align: left;
+    font-weight: 400;
+    font-size: 28px;
+    color: #031412;
+  }
+  .quantum__subtitle {
+    text-align: left;
+    font-weight: 800;
+    font-size: 34px;
+    color: #031412;
+  }
+  .quantum__cart {
+    width: 100px;
+    height: 100px;
+    top: -24px;
+    right: 0px;
+  }
+  .quantum__btn {
+    width: 320px;
+  }
+  .basket__btn {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .basket__top {
+    display: none;
+  }
+  .basket__btn {
+    width: 290px;
+  }
+  .bistiller {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bistiller__description {
+    max-width: 183px;
+    padding-bottom: 58px;
+  }
+  .bistiller__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .quantum__cart {
+    width: 69px;
+    height: 72px;
+    top: -13px;
+  }
+  .quantum__title {
+    font-weight: 400;
+    font-size: 24px;
+    color: #031412;
+  }
+  .quantum__subtitle {
+    font-weight: 800;
+    font-size: 30px;
+    color: #031412;
+  }
+  .quantum__btn {
+    width: 249px;
   }
 }
 /*# sourceMappingURL=index.css.map */

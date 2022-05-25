@@ -1,0 +1,395 @@
+
+.basket{
+    &__content{
+        display: flex;
+    }
+
+    &__left{
+        width: 100%;
+    }
+    
+}
+
+.basket{
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+
+    .top__right{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    // style text
+
+    .top__text1 , .top__text2 , .top__text3{
+        @include font (600,16px,$text-darkGray);
+        font-family: "Mont";
+    }
+
+    .top__text3{
+        
+        padding-right: 66px;
+    }
+}
+
+
+
+
+
+.bistiller{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    padding-top: 18px;
+    border-top: 1px solid $text-deepGray;
+    position: relative;
+
+    &__left{
+        display: flex;
+        align-items: center;
+    }
+
+    &__description{
+        max-width: 268px;
+        height: 23px;
+        @include font (800,18px,$text-black);
+        margin-left: 27px;
+        font-family: "Mont";
+        padding-bottom: 20px;
+    }
+
+
+
+    &__right{
+        width:50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__piece , &__price{
+        @include font (600,20px,$text-darkGreen);
+        font-family: "Mont";
+    }
+
+
+
+
+
+
+
+
+    &__price{
+        position: relative;
+    }
+
+    .disscount:before{
+        content: "1953 грн";
+        position: absolute;
+        @include font (600,14px ,$text-darkGray);
+        top: -15px;          
+    }
+    .disscount:after{
+        content:"";
+        position: absolute;
+        width: 58px;
+        height: 1.5px;
+        top: -7px; 
+        left: 0;
+        transform: rotate(12deg);
+        background: $text-darkGray;      
+        opacity: 0.3;
+    }
+    .bistiller__price_red{
+        color: #9B0000;
+    }
+
+    // trash img position
+
+    &__trash{
+        position: absolute;
+        top: 15px;
+        right: 37px;
+    }
+
+    // btn
+    &__btn{
+        margin-top: 29px;
+        @include btn(327px,50px,#fff);
+        border: 1px solid $bg-darkGray;
+       @include font(800,18px,$bg-darkGray);
+       font-family: "Mont";
+    }
+}
+
+
+.basket__btn{
+    display: none;
+    @include btn(327px,50px,#fff);
+    border: 1px solid $bg-darkGray;
+   @include font(800,18px,$bg-darkGray);
+   font-family: "Mont";
+}
+
+
+
+.quantum{
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+
+
+    &__content{
+        position: relative;
+        padding-top:23px;
+        padding-bottom: 41px;
+    }
+
+    &__top{
+        margin-left: 30px;
+    }
+
+    &__bottom{
+        border-top: 1px solid $text-deepGray;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 31px;
+        padding-top: 27px;
+    }
+
+    &__delivery{
+        display: flex;
+        align-items: center;
+        box-sizing: border-box; 
+    }
+
+
+
+
+    //text style
+
+    &__title{
+        @include font (400,35px,$text-darkGreen);
+        font-family: "Mont";
+      
+    }
+    &__subtitle{
+        @include font (800,40px,$text-darkGreen);
+        font-family: "Mont";
+        margin-top: 15px;
+       ;
+    }
+
+    &__text{
+        @include font (600,16px,#808080);
+        font-family: "Mont";
+        max-width: 194px;
+        margin-left: 15px;
+    }
+
+    // img pos
+    &__cart{
+        position: absolute;
+        top: -38px;
+        right: -7px;
+        max-width: 100%;    
+    }
+
+    //button
+    &__btn{
+        margin-top: 29px;
+        
+        font-family: 'Mont';
+    @include font (700, 18px, $text-white);
+    @include btn (374px, 50px, $btn-bg);
+    border: none;
+    &:hover {
+        font-family: 'Mont';
+        @include font (700, 18px, #8e6445);
+        @include btn (374px, 50px, $text-white);
+        border: 5px solid #8e6445;
+    }
+    }
+
+}
+
+
+
+
+// media screens
+
+@media screen and (max-width:1128px){
+
+    .basket{
+
+        &__content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__right{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .quantum{
+        max-width: 666px;
+        width: 100%;       
+        margin-top: 39px;
+        
+        &__title , &__subtitle{
+            text-align: center;
+           
+        }
+
+        &__cart{
+            max-width: 157px;
+        }
+
+       &__bottom{
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+       }
+
+       &__text{
+           max-width: 236px;
+       }
+       
+    }
+
+    .bistiller{
+        &__btn{
+            display: none;
+        }
+
+        &__trash{
+         top: 56px;
+         right: 0px;
+      }
+        }
+    
+
+    .basket__btn{
+        display: block;
+        margin-top: 30px;
+    }
+
+        
+  
+}
+
+@media screen and (max-width:682px){
+
+    .bistiller{
+        &__description{
+            padding-bottom: 72px;
+        }
+
+        &__trash{
+            top: 13px;
+        }
+    }
+    
+}
+
+@media screen and (max-width:509px){
+
+    .bistiller{
+        &__description{
+            @include font (800,16px ,$text-darkGreen);
+            padding-bottom: 64px;
+        }
+    }
+
+
+    .quantum{
+        &__title{
+            text-align: left;
+            @include font (400, 28px ,$text-darkGreen);           
+        }
+        &__subtitle{
+            text-align: left;
+            @include font (800,34px,$text-darkGreen);
+        }
+
+        &__cart{
+            width: 100px;
+            height: 100px;
+            top: -24px;
+            right: 0px;
+        }
+        &__btn{
+            width: 320px;
+        }
+     
+    }
+
+    .basket__btn{
+        width: 320px;
+    }
+
+}
+
+@media screen and (max-width:466px){
+    
+    .basket{
+        &__top{
+            display: none;
+        }
+
+        &__btn{
+            width: 290px;
+        }
+    }
+
+    .bistiller{
+        display: flex;
+        flex-direction: column;
+
+
+        &__description{
+            max-width: 183px;
+            padding-bottom: 58px;
+        }
+
+        &__right{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    .quantum{
+        &__cart{
+            width: 69px;
+            height: 72px;
+            top: -13px;
+        }
+
+        &__title{
+            @include font (400,24px,$text-darkGreen);
+        }
+        &__subtitle{
+            @include font (800,30px,$text-darkGreen);
+        }
+
+        &__btn{
+            width: 249px;
+        }
+    }
+
+
+    
+}
+
