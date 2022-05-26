@@ -276,4 +276,76 @@ ul {
     max-width: 320px;
   }
 }
+
+.product__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product__item {
+  max-width: 447px;
+  overflow: hidden;
+  font-family: "Mont";
+  position: relative;
+  margin-top: 42px;
+}
+
+.product__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 32px;
+}
+
+.product__name {
+  font-weight: 600;
+  font-size: 20px;
+  color: #031412;
+  line-height: 96.4%;
+  max-width: 60%;
+}
+
+.product__price {
+  font-weight: 800;
+  font-size: 30px;
+  color: #031412;
+  line-height: 96.4%;
+}
+
+.product__favorite--animate {
+  display: none;
+}
+
+.product__icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 18px 9px;
+  cursor: pointer;
+}
+
+.product__icon:hover .product__favorite--animate {
+  display: inline;
+}
+
+.product__icon:hover .product__favorite {
+  display: none;
+}
 /*# sourceMappingURL=index.css.map */

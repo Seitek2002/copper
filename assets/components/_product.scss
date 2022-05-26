@@ -1,0 +1,55 @@
+.product {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 447px;
+        overflow: hidden;
+        font-family: "Mont";
+        position: relative;
+        margin-top: 42px;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+    }
+    &__name {
+        font-weight: 600;
+        font-size: 20px;
+        color: #031412;
+        line-height: 96.4%;
+        max-width: 60%;
+    }
+    &__price {
+        font-weight: 800;
+        font-size: 30px;
+        color: #031412;
+        line-height: 96.4%;
+    }
+    &__favorite {
+        &--animate {
+            display: none;
+        }
+    }
+    &__icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px 9px;
+        cursor: pointer;
+        &:hover {
+            .product__favorite--animate {
+                display: inline;
+            }
+            .product__favorite {
+                display: none;
+            }
+        }
+    }
+}
