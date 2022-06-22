@@ -1,0 +1,61 @@
+.personalorders {
+    padding-top: 72px;
+
+    &__content {
+        font-family: 'Mont';
+        display: flex;
+    }
+
+    &__order {
+        display: flex;
+        align-items: center;
+        margin-left: 24px;
+
+        &--img {
+            width: 90px;
+        }
+
+        &--name {
+            max-width: 268px;
+            margin-left: 28px;
+        }
+
+        &--quantity {
+            font-weight: 600;
+            font-size: 20px;
+            color: $text-darkGreen;
+            margin-right: 5%;
+        }
+
+        &--price {
+            font-weight: 800;
+            font-size: 20px;
+            color: $text-deepRed;
+        }
+    }
+
+    &__exit {
+        display: flex;
+
+        &--name {
+            margin-left: 13px;
+        }
+    }
+
+    &__btn {
+        margin-bottom: 30px;
+        background: $bg-satGreen;
+        width: 326px;
+        padding: 17px 0 16px 0;
+        border-radius: 0;
+        border: 0;
+    }
+
+    &__title {
+        margin-bottom: 51px;
+        font-family: 'Lighthaus';
+        font-weight: 400;
+        font-size: 50px;
+        color: $text-darkGreen;
+    }
+}

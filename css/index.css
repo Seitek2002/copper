@@ -160,4 +160,151 @@ ul {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.personalorders {
+  padding-top: 72px;
+}
+
+.personalorders__content {
+  font-family: 'Mont';
+  display: flex;
+}
+
+.personalorders__order {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.personalorders__order--img {
+  width: 90px;
+}
+
+.personalorders__order--name {
+  max-width: 268px;
+  margin-left: 28px;
+}
+
+.personalorders__order--quantity {
+  font-weight: 600;
+  font-size: 20px;
+  color: #031412;
+  margin-right: 5%;
+}
+
+.personalorders__order--price {
+  font-weight: 800;
+  font-size: 20px;
+  color: #9B0000;
+}
+
+.personalorders__exit {
+  display: flex;
+}
+
+.personalorders__exit--name {
+  margin-left: 13px;
+}
+
+.personalorders__btn {
+  margin-bottom: 30px;
+  background: #4B7159;
+  width: 326px;
+  padding: 17px 0 16px 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.personalorders__title {
+  margin-bottom: 51px;
+  font-family: 'Lighthaus';
+  font-weight: 400;
+  font-size: 50px;
+  color: #031412;
+}
+
+.wishlist__content {
+  margin: 0 auto;
+  max-width: 1380px;
+  display: flex;
+  justify-content: center;
+}
+
+.wishlist__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wishlist__item {
+  margin-right: 30px;
+  margin-bottom: 24px;
+  width: 327px;
+}
+
+.wishlist__item--img {
+  background: #000000;
+  max-width: 100%;
+  height: 360px;
+}
+
+.reviews__swiper {
+  display: flex;
+}
+
+.reviews__swiper-button-prev, .reviews__swiper-button-next {
+  width: 80px;
+  color: #031412;
+  border: 1px solid #031412;
+  font-size: 15px;
+}
+
+.reviews__swiper-button-prev:after {
+  font-size: 22px;
+}
+
+.reviews__swiper-button-next:after {
+  font-size: 22px;
+}
+
+.reviews__swiper-button-next:hover, .reviews__swiper-button-prev:hover {
+  background: linear-gradient(92.16deg, #5E3928 21.33%, #E4A16F 93.02%);
+  color: #ffffff;
+  width: 82px;
+  height: 44px;
+  border: none;
+}
+
+.reviews__swiper-button-prev:after, .reviews__swiper-rtl .reviews__swiper-button-next:after {
+  content: none;
+}
+
+.reviews__swiper-button-next:after, .reviews__swiper-rtl .reviews__swiper--button-next:after {
+  content: none;
+}
+
+.box {
+  text-align: center;
+  background: #4B7159;
+  width: 436px;
+  height: 332px;
+}
+
+.right__arrow {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 7px;
+}
+
+.left__arrow {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 7px;
+}
 /*# sourceMappingURL=index.css.map */
