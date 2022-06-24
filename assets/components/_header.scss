@@ -1,36 +1,4 @@
 .header {
-    padding-top: 44px;
-    background: linear-gradient(92.09deg, #5e3928 -79.4%, #e4a16f 84.12%);
-    &__left {
-        display: flex;
-        align-items: center;
-    }
-    &__content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    &__logo {
-        margin-right: 77px;
-    }
-    &__item {
-        margin-right: 55px;
-    }
-    &__list {
-        display: flex;
-    }
-    &__link {
-        font-family: "Mont";
-        color: white;
-        transition: .5s;
-        &:hover {
-            background: linear-gradient(92.09deg, #5e3928 -79.4%, #e4a16f 84.12%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-    }    
-
     background: url(../assets/img/header/header-bg.png);
     position: relative;
 
