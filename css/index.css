@@ -717,6 +717,165 @@ ul {
   }
 }
 
+.advantage {
+  font-family: "Mont";
+  background: url(../assets/img/advantage/bg.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.advantage .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advantage__sector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 74px;
+}
+
+.advantage__box {
+  padding-top: 15px;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box__bg--img {
+  margin-top: 34px;
+  width: 76px;
+  height: 76px;
+  background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box__name {
+  padding-top: 24px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #031412;
+}
+
+.box__text {
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 134.4%;
+  color: #031412;
+}
+
+.box__bottom--continuation {
+  padding-top: 15px;
+}
+
+.box__continuation {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 134.4%;
+  background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.box .continuation__icon {
+  padding-left: 7px;
+}
+
+.geography {
+  padding: 80px 0;
+  background: #F6F6F6;
+}
+
+.geography__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.geography__content {
+  max-width: 365px;
+}
+
+.geography__description {
+  font-family: 'Mont';
+  margin-top: 38px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #031412;
+}
+
+.geography__pictures {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1340px) {
+  .geography__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .geography__content {
+    text-align: center;
+    margin: 0 auto 35px;
+    max-width: 607px;
+  }
+  .geography__description {
+    margin-top: 22px;
+    font-weight: 200;
+    font-size: 16px;
+  }
+  .geography__pictures {
+    margin: 0 auto;
+  }
+  .geography__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .geography {
+    padding-top: 38px;
+  }
+  .geography__content {
+    max-width: 290px;
+  }
+  .geography__pictures {
+    margin: 25px auto 0;
+  }
+  .geography__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #031412;
+  }
+}
+
 .news {
   padding-top: 120px;
   font-family: 'Mont';
@@ -967,92 +1126,6 @@ ul {
 
 .description p {
   margin-bottom: 30px;
-}
-
-.advantage {
-  font-family: "Mont";
-  background: url(../assets/img/advantage/bg.png) center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.advantage .title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.advantage__sector {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 74px;
-}
-
-.advantage__box {
-  padding-top: 15px;
-  padding-right: 10px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.box__bg--img {
-  margin-top: 34px;
-  width: 76px;
-  height: 76px;
-  background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
-  max-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.box__name {
-  padding-top: 24px;
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 96.4%;
-  color: #031412;
-}
-
-.box__text {
-  padding-top: 15px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 134.4%;
-  color: #031412;
-}
-
-.box__bottom--continuation {
-  padding-top: 15px;
-}
-
-.box__continuation {
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 134.4%;
-  background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.box .continuation__icon {
-  padding-left: 7px;
 }
 
 @media screen and (max-width: 1346px) {
