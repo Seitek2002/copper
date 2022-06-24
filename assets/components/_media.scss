@@ -39,4 +39,31 @@
             margin-left: -55px;
         }
     }
+}        
+@media screen and (max-width: 768px) {
+    .about__flex {
+        flex-wrap: wrap;
+        max-width: 500px;
+        // margin: 0 auto;
+    }
+
+    .about__hero{
+        margin: 0 auto;
+    }
+
+    .hero__img{
+        max-width: 100%;
+    }
+
+}
+@media screen and (max-width:320px) {
+    .about__flex {
+        flex-wrap: wrap;
+        max-width: 500px;
+        // margin: 0 auto;
+    }
+
+    .about__hero {
+        margin: 0 auto;
+    }
 }
