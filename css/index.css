@@ -155,6 +155,10 @@ ul {
   padding: 0;
 }
 
+body {
+  position: relative;
+}
+
 .container {
   max-width: 1380px;
   margin: 0 auto;
