@@ -29,5 +29,383 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
+    }    
+
+    background: url(../assets/img/header/header-bg.png);
+    position: relative;
+
+    &__logo {
+        margin-right: 50px;
+    }
+
+    &__link {
+        font-family: "Mont";
+        margin: 0 25px;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 16px;
+
+        &:hover {
+            background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            border-bottom: 2px solid transparent;
+            border-image: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+            border-image-slice: 1;
+        }
+      
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 140px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__list--icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__img--icon {
+        position: absolute;
+        background-color: #fff;
+        margin: 0 10px;
+        border: 1px solid #fff;
+        padding: 50px 7px 7px 7px;
+        top: 0;
+        right: 20%;
+
+    }
+
+    &__img--icon:hover {
+        border: 1px solid #fff;
+        padding: 50px 7px 50px 7px;
+        transition-duration: 1s;
+    }
+
+    &__posi-user {
+        position: absolute;
+        top: 0;
+        right: 15%;
+        z-index: 2;
+    }
+
+    &__posi-shop {
+        position: absolute;
+        top: 0;
+        right: 10%;
+        z-index: 2;
+    }
+}
+
+.burger {
+    display: none;
+    position: relative;
+    cursor: pointer;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+
+    &__list {
+        padding-top: 209px;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        height: 100vh;
+        width: 100vw;
+    }
+
+    &__menu {
+        padding: 10px 30px 10px 10px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__line {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__line--lines {
+        background: #fff;
+        width: 20px;
+        margin: 0 auto;
+        height: 4px;
+        border-radius: 25%;
+
+    }
+
+    &__line--round {
+        background: #fff;
+        width: 5px;
+        height: 4px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+
+    &__close {
+        display: none;
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        line-height: 0.5;
+        z-index: 2;
+
+    }
+    &__posi-like{
+        position: absolute;
+        border: 1px solid #fff;
+        padding: 50px 7px 7px 7px;
+        background: #fff;
+        top: -89%;
+        right: 400%;
+        display: none;
+    }
+    &__menu.active ~ &__list--icon &__item{
+        .burger__posi-like{
+            display: block;
+        }
+    }
+    &__menu.active &__close {
+        display: flex;
+    }
+
+    &__menu.active &__line {
+        display: none;
+    }
+
+    &__menu.active~&__list {
+        display: block;
+    }
+
+    .header__item {
+        margin-top: 15px;
+        text-align: center;
+
+    }
+}
+
+@media screen and(max-width:1100px) {
+    .header {
+        &__posi-like {
+            display: none;
+        }
+
+        &__row {
+            display: block;
+        }
+
+        &__list {
+            margin: 20px 120px;
+        }
+
+        &__posi-user {
+            position: absolute;
+            top: 0;
+            right: 18%;
+        }
+
+        &__posi-shop {
+            position: absolute;
+            top: 0;
+            right: 10%;
+        }
+
+        &__img--icon {
+            padding: 30px 7px 7px 7px;
+
+        }
+
+        &__img--icon:hover {
+            padding: 30px 7px 7px 7px;
+        }
+    }
+}
+
+@media screen and(max-width:877px) {
+    .header {
+        &__list {
+            max-width: 100%;
+            margin: 20px 80px;
+        }
+    }
+}
+
+@media screen and(max-width:877px) {
+    .header {
+        &__list {
+            max-width: 100%;
+            margin: 10px 50px;
+        }
+    }
+}
+
+@media screen and(max-width:768px) {
+    .header {
+        &__list {
+            max-width: 100%;
+            margin: 10px 10px;
+        }
+    }
+}
+
+@media screen and(max-width:656px) {
+    .header {
+
+        &__link {
+
+            margin: 0 15px;
+        }
+
+        &__posi-user {
+            position: absolute;
+            top: 0;
+            right: 20%;
+        }
+
+        &__posi-shop {
+            position: absolute;
+            top: 0;
+            right: 10%;
+        }
+      
+    }
+}
+
+@media screen and(max-width:560px) {
+    .header {
+        &__link {
+            margin: 0 10px;
+        }
+    }
+}
+
+@media screen and(max-width:506px) {
+    .burger {
+        display: block;
+
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .header {
+        &__list {
+            display: none;
+        }
+
+        &__posi-user {
+            position: absolute;
+            top: 0;
+            right: 40%;
+        }
+
+        &__posi-shop {
+            position: absolute;
+            top: 0;
+            right: 25%;
+        }
+
+        &__img--icon {
+            padding: 50px 7px 7px 7px;
+           
+
+        }
+
+        &__img--icon:hover {
+            padding: 50px 7px 7px 7px;
+        }
+    }
+
+}
+
+@media screen and(max-width:490px) {
+    .burger {
+        &__posi-like{
+            right: 380%;
+        }
+
+    }
+}
+@media screen and(max-width:452px) {
+    .burger {
+        &__posi-like{
+            position: absolute;
+            right: 360%;
+        }
+
+    }
+}
+@media screen and(max-width:426px) {
+    .burger {
+        &__posi-like{
+            position: absolute;
+            right: 340%;
+        }
+
+    }
+}
+@media screen and(max-width:400px) {
+    .header {
+        &__logo {
+            width: 110px;
+        }
+
+        &__posi-user {
+            position: absolute;
+            top: 0;
+            right: 40%;
+            padding: 48px 7px 7px 7px;
+        }
+
+        &__posi-shop {
+            position: absolute;
+            top: 0;
+            right: 22%;
+            margin-top: -2px;
+        }
+    }
+}
+@media screen and(max-width:388px) {
+    .burger {
+        &__posi-like{
+            position: absolute;
+            right: 320%;
+        }
+
+    }
+}
+@media screen and(max-width:346px) {
+    .burger {
+        &__posi-like{
+            position: absolute;
+            right: 300%;
+        }
+
     }
 }
