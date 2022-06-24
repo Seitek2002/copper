@@ -553,6 +553,102 @@ ul {
   }
 }
 
+.about__bacgr {
+  background: #E5E5E5;
+  max-width: 100%;
+}
+
+.about__tirle {
+  font-family: 'Lighthaus';
+  font-weight: 400;
+  font-size: 100px;
+  color: #031412;
+}
+
+.about__item {
+  margin-top: 128px;
+}
+
+.about__line {
+  width: 623px;
+  height: 0px;
+  left: 262px;
+  top: 451px;
+  border: 1px solid #031412;
+  margin-top: 50px;
+}
+
+.about__title {
+  font-family: 'Mont';
+  font-weight: 600;
+  font-size: 50px;
+  width: 533px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-left: 39px;
+}
+
+.about__ivah {
+  font-family: 'Mont';
+  font-weight: 900;
+  font-size: 30px;
+  width: 170px;
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 58px;
+}
+
+.about__ask {
+  margin-top: 60px;
+}
+
+.about .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__betw {
+  margin-top: 54px;
+  margin-left: 39px;
+}
+
+.about__img {
+  margin-top: 64px;
+  width: 34px;
+  height: 25.9px;
+}
+
+.about__two {
+  margin-left: 553px;
+  width: 34px;
+  height: 25.9px;
+  left: 0px;
+  top: 4.05px;
+}
+
+.about__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about .about__hero {
+  margin-left: 170px;
+  padding: 50px 0;
+}
+
+.about .about__hero .hero__img {
+  max-width: 100%;
+}
+
 .history {
   background: url(../assets/img/history/bg.png) center;
   padding-top: 72px;
@@ -678,7 +774,6 @@ ul {
   }
   .hero__img {
     max-width: 100%;
-    padding: 0px 250px;
   }
 }
 
@@ -691,101 +786,5 @@ ul {
   .about__hero {
     margin: 0 auto;
   }
-}
-
-.about__bacgr {
-  background: #E5E5E5;
-  max-width: 100%;
-}
-
-.about__tirle {
-  font-family: 'Lighthaus';
-  font-weight: 400;
-  font-size: 100px;
-  color: #031412;
-}
-
-.about__item {
-  margin-top: 128px;
-}
-
-.about__line {
-  width: 623px;
-  height: 0px;
-  left: 262px;
-  top: 451px;
-  border: 1px solid #031412;
-  margin-top: 50px;
-}
-
-.about__title {
-  font-family: 'Mont';
-  font-weight: 600;
-  font-size: 50px;
-  width: 533px;
-  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-left: 39px;
-}
-
-.about__ivah {
-  font-family: 'Mont';
-  font-weight: 900;
-  font-size: 30px;
-  width: 170px;
-  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-top: 58px;
-}
-
-.about__ask {
-  margin-top: 60px;
-}
-
-.about .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.about__betw {
-  margin-top: 54px;
-  margin-left: 39px;
-}
-
-.about__img {
-  margin-top: 64px;
-  width: 34px;
-  height: 25.9px;
-}
-
-.about__two {
-  margin-left: 553px;
-  width: 34px;
-  height: 25.9px;
-  left: 0px;
-  top: 4.05px;
-}
-
-.about__flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.about .about__hero {
-  margin-left: 170px;
-  padding: 50px 0;
-}
-
-.about .about__hero .hero__img {
-  max-width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
