@@ -1,0 +1,79 @@
+.oil {
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 31px;
+    }
+
+    &__essential {
+        font-family: 'Lighthaus';
+        font-weight: 400;
+        font-size: 40px;
+        color: #031412;
+        max-width: 578px;
+
+    }
+
+    &__right {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    &__share {
+
+        font-family: 'Mont';
+        font-weight: 800;
+        font-size: 16px;
+        color: #031412;
+    }
+
+    &__icon {
+        width: 20px;
+        margin-left: 18px;
+    }
+
+    &__pic {
+        margin-left: 18px;
+        width: 12px;
+    }
+
+    &__img {
+        // margin-left: 52px;
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__picture {
+        width: 100%;
+        margin-bottom: 46px;
+    }
+
+    &__info {
+        font-family: 'Mont';
+        font-weight: 300;
+        font-size: 16px;
+        color: #031412;
+        margin-bottom: 20px;
+
+    }
+
+    &__title {
+        font-family: 'Mont';
+        font-weight: 700;
+        font-size: 24px;
+        color: #031412;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    &__advantages {
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    @media screem and (width:885px)
+}
