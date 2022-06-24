@@ -717,7 +717,549 @@ ul {
   }
 }
 
-@media screen and (max-width: 785px) {
+.news {
+  padding-top: 120px;
+  font-family: 'Mont';
+}
+
+.news__sector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news__item {
+  max-width: 683px;
+  height: 209px;
+  padding-left: 28px;
+  margin-bottom: 160px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news__top {
+  position: relative;
+}
+
+.news__img {
+  max-width: 100%;
+}
+
+.news__img--bottom:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(7, 44, 38, 0.7)), to(rgba(7, 44, 38, 0)));
+  background: linear-gradient(180deg, rgba(7, 44, 38, 0.7) 0%, rgba(7, 44, 38, 0) 100%);
+}
+
+.news__item--mini {
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+  width: 90px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.news__item--date {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.news__item--title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 28px;
+  left: 26px;
+  margin: 0;
+  line-height: 96.4%;
+  text-align: center;
+}
+
+.news__bottom {
+  margin-top: 26px;
+}
+
+.news__item--text {
+  margin-bottom: 20px;
+}
+
+.news__item--text--text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 132.4%;
+  color: #031412;
+}
+
+.news__continuation {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 134.4%;
+  background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile__icon {
+  width: 30px;
+  height: 30px;
+  padding: 13px 10px;
+}
+
+.profile__icon path {
+  background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.profile__item {
+  margin-left: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile__item::before {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: -1;
+}
+
+.products__item {
+  max-width: 445px;
+  margin: 0 auto;
+  height: 491px;
+  overflow: hidden;
+  position: relative;
+  background: url(../assets/img/products/dark-shadow.png) bottom no-repeat;
+}
+
+.products__item:hover {
+  background: url(../assets/img/products/bright-shadow.png) bottom no-repeat;
+  -webkit-box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.2);
+}
+
+.products__img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.products__name {
+  font-family: "Mont";
+  position: absolute;
+  bottom: 27px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.special__bg {
+  text-align: center;
+}
+
+.special__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -469px;
+}
+
+.special__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.special__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.special__promo {
+  font-family: 'Lighthaus';
+  font-weight: 400;
+  font-size: 140px;
+  color: #ffffff;
+  margin-top: 30px;
+  height: 1px;
+}
+
+.special__proposal {
+  font-family: 'Mont';
+  font-weight: 500;
+  font-size: 35px;
+  color: #ffffff;
+  line-height: 35px;
+  width: 533px;
+  margin-top: -40px;
+}
+
+.special__title {
+  font-weight: 400;
+  font-size: 160px;
+  color: #ffffff;
+  text-align: right;
+  position: absolute;
+  width: 686px;
+  height: 240px;
+  line-height: 120px;
+  margin-top: 235px;
+  margin-left: 486px;
+}
+
+.special__img {
+  margin-top: -233px;
+  margin-right: 240px;
+}
+
+.special__button {
+  margin-top: -180px;
+}
+
+.description {
+  padding-top: 150px;
+}
+
+.description__text {
+  max-width: 100%;
+  font-family: 'Mont';
+  margin: 33px 0 190px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 132.4%;
+  color: #031412;
+}
+
+.description p {
+  margin-bottom: 30px;
+}
+
+.advantage {
+  font-family: "Mont";
+  background: url(../assets/img/advantage/bg.png) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.advantage .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.advantage__sector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 74px;
+}
+
+.advantage__box {
+  padding-top: 15px;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box__bg--img {
+  margin-top: 34px;
+  width: 76px;
+  height: 76px;
+  background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box__name {
+  padding-top: 24px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 96.4%;
+  color: #031412;
+}
+
+.box__text {
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 134.4%;
+  color: #031412;
+}
+
+.box__bottom--continuation {
+  padding-top: 15px;
+}
+
+.box__continuation {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 134.4%;
+  background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.box .continuation__icon {
+  padding-left: 7px;
+}
+
+@media screen and (max-width: 1346px) {
+  .advantage {
+    font-family: "Mont";
+    background: url(../assets/img/advantage/bg.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .advantage .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantage__sector {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 74px;
+  }
+  .advantage__box {
+    padding-top: 15px;
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 500px;
+  }
+  .about__hero {
+    margin: 0 auto;
+  }
+  .hero__img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about__flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 500px;
+  }
+  .about__hero {
+    margin: 0 auto;
+  }
+  .box__bg--img {
+    margin-top: 34px;
+    width: 76px;
+    height: 76px;
+    background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .box__name {
+    padding-top: 24px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #031412;
+  }
+  .box__text {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #031412;
+  }
+  .box__bottom--continuation {
+    padding-top: 15px;
+  }
+  .box__continuation {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 134.4%;
+    background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .box .continuation__icon {
+    padding-left: 7px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .news__item--title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+    bottom: 15px;
+    left: 12px;
+    margin: 0;
+    line-height: 96.4%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .news {
+    padding-top: 120px;
+    font-family: "Mont";
+  }
+  .news__sector {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .news__item {
+    max-width: 683px;
+    height: 209px;
+    padding-left: 28px;
+    margin-bottom: 130px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .news__top {
+    position: relative;
+  }
+  .news__img {
+    max-width: 100%;
+  }
+  .news__item--mini {
+    background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+    width: 76px;
+    height: 27px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .news__item--date {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .news__item--title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    margin: 0;
+    line-height: 96.4%;
+    text-align: center;
+  }
+  .news__bottom {
+    margin-top: 10px;
+  }
+  .news__item--text {
+    margin-bottom: 14px;
+  }
+  .news__item--text--text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 132.4%;
+    color: #031412;
+  }
+  .news__continuation {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 134.4%;
+    background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+@media screen and (max-width: 365px) and (max-width: 785px) {
   .special__bg {
     text-align: center;
     max-width: 770px;
@@ -725,7 +1267,7 @@ ul {
     margin-left: -710px;
   }
   .special__promo {
-    font-family: 'Lighthaus';
+    font-family: "Lighthaus";
     font-weight: 400;
     font-size: 100px;
     color: #ffffff;
@@ -734,7 +1276,7 @@ ul {
     width: 400px;
   }
   .special__proposal {
-    font-family: 'Mont';
+    font-family: "Mont";
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
@@ -764,27 +1306,200 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-  .about__flex {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    max-width: 500px;
+  .description {
+    padding-top: 65px;
   }
-  .about__hero {
-    margin: 0 auto;
+  .description__text {
+    font-family: 'Mont';
+    margin: 17px 0 92px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 132.4%;
+    color: #031412;
   }
-  .hero__img {
-    max-width: 100%;
+  .description p {
+    margin-bottom: 14px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .about__flex {
+@media screen and (max-width: 703px) {
+  .advantage {
+    font-family: "Mont";
+    background: url(../assets/img/advantage/bg.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .advantage .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantage__sector {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    max-width: 500px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 74px;
   }
-  .about__hero {
-    margin: 0 auto;
+  .advantage__box {
+    padding-top: 15px;
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .box__bg--img {
+    margin-top: 34px;
+    width: 76px;
+    height: 76px;
+    background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .box__name {
+    padding-top: 24px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #031412;
+  }
+  .box__text {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #031412;
+  }
+  .box__bottom--continuation {
+    padding-top: 15px;
+  }
+  .box__continuation {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 134.4%;
+    background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .box .continuation__icon {
+    padding-left: 7px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .description {
+    padding-top: 64px;
+  }
+  .description .title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 105.9%;
+    color: #031412;
+  }
+  .description__text {
+    font-family: 'Mont';
+    margin: 13px 0 30px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 132.4%;
+    color: #031412;
+  }
+  .description p {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .advantage {
+    font-family: "Mont";
+    background: url(../assets/img/advantage/bg.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .advantage .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .advantage__sector {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 74px;
+  }
+  .advantage__box {
+    padding-top: 15px;
+    padding-right: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .box__bg--img {
+    margin-top: 34px;
+    width: 76px;
+    height: 76px;
+    background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .box__name {
+    padding-top: 24px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 96.4%;
+    color: #031412;
+  }
+  .box__text {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.4%;
+    color: #031412;
+  }
+  .box__bottom--continuation {
+    padding-top: 15px;
+  }
+  .box__continuation {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 134.4%;
+    background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .box .continuation__icon {
+    padding-left: 7px;
   }
 }
 /*# sourceMappingURL=index.css.map */

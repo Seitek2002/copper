@@ -1,0 +1,18 @@
+.description{
+    padding-top: 150px;
+   
+    &__text{
+        max-width: 100%;
+        font-family: 'Mont';
+        margin: 33px 0 190px 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 132.4%; 
+        color: #031412;
+        
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+}

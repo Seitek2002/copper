@@ -1,42 +1,24 @@
-@media screen and (max-width: 785px) {
-    .special {
-        &__bg {
-            text-align: center;
-            max-width: 770px;
-            min-height: 483px;
-            margin-left: -710px;
+@media screen and (max-width:1346px) {
+    .advantage {
+        font-family: "Mont";
+        background: url(../assets/img/advantage/bg.png) center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .title {
+            display: flex;
+            justify-content: center;
         }
-        &__promo {
-            font-family: 'Lighthaus';
-            @include font (400, 100px, $text-white);
-            margin-top: 75px;
-            height: 1px;
-            width: 400px;
-
+        &__sector {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 74px;
         }
-        &__proposal {
-            font-family: 'Mont';
-            @include font (600, 20px, $text-white);
-            line-height: 19px;
-            width: 306px;
-            margin-top: -80px;
-        }
-        &__button {
-            margin-top: -230px;
-        }
-        &__img {
-            margin-top: -233px;
-            margin-left: -285px;
-        }
-        &__title {
-            @include font (400, 80px, $text-white);
-            text-align: right;
-            position: absolute;
-            width: 421px;
-            height: 240px;
-            line-height: 60px;
-            margin-top: 350px;
-            margin-left: -55px;
+        &__box {
+            padding-top: 15px;
+            padding-right: 10px;
+    
+            box-sizing: border-box;
         }
     }
 }        
@@ -66,4 +48,364 @@
     .about__hero {
         margin: 0 auto;
     }
+
+    .box {
+        &__bg--img {
+            margin-top: 34px;
+            width: 76px;
+            height: 76px;
+            background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__name {
+            padding-top: 24px;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 96.4%;
+            color: #031412;
+        }
+    
+        &__text {
+            padding-top: 15px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 134.4%;
+            color: #031412;
+        }
+        &__bottom--continuation {
+            padding-top: 15px;
+        }
+        &__continuation {
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 134.4%;
+            background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .continuation__icon {
+            padding-left: 7px;
+        }
+    }
 }
+@media screen and (max-width:490px) {
+    .news{
+
+        &__item--title{
+            font-size: 15px;
+            font-weight: 600;
+
+            color: #ffffff;
+            position: absolute;
+            bottom: 15px;
+            left: 12px;
+            margin: 0;
+            line-height: 96.4%;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 365px) {
+    .news {
+        padding-top: 120px;
+        font-family: "Mont";
+        &__sector {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            max-width: 683px;
+            height: 209px;
+            padding-left: 28px;
+            margin-bottom: 130px;
+            box-sizing: border-box;
+        }
+        &__top {
+            position: relative;
+        }
+        &__img {
+            max-width: 100%;
+        }
+
+        &__item--mini {
+            background: linear-gradient(92.18deg, #5e3928 20.13%, #e4a16f 92.93%);
+            width: 76px;
+            height: 27px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        &__item--date {
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            color: #ffffff;
+        }
+        &__item--title {
+            font-size: 12px;
+            font-weight: 600;
+
+            color: #ffffff;
+            position: absolute;
+            bottom: 12px;
+            left: 10px;
+            margin: 0;
+            line-height: 96.4%;
+            text-align: center;
+        }
+        &__bottom {
+            margin-top: 10px;
+        }
+        &__item--text {
+            margin-bottom: 14px;
+        }
+        &__item--text--text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 132.4%;
+            color: #031412;
+        }
+        &__continuation {
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 134.4%;
+            background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+
+    @media screen and (max-width: 785px) {
+        .special {
+            &__bg {
+                text-align: center;
+                max-width: 770px;
+                min-height: 483px;
+                margin-left: -710px;
+            }
+            &__promo {
+                font-family: "Lighthaus";
+                @include font(400, 100px, $text-white);
+                margin-top: 75px;
+                height: 1px;
+                width: 400px;
+            }
+            &__proposal {
+                font-family: "Mont";
+                @include font(600, 20px, $text-white);
+                line-height: 19px;
+                width: 306px;
+                margin-top: -80px;
+            }
+            &__button {
+                margin-top: -230px;
+            }
+            &__img {
+                margin-top: -233px;
+                margin-left: -285px;
+            }
+            &__title {
+                @include font(400, 80px, $text-white);
+                text-align: right;
+                position: absolute;
+                width: 421px;
+                height: 240px;
+                line-height: 60px;
+                margin-top: 350px;
+                margin-left: -55px;
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .description{
+        padding-top: 65px;
+       
+    
+        &__text{
+           
+            font-family: 'Mont';
+            margin: 17px 0 92px 0;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 132.4%; 
+            color: #031412;
+        }
+    
+        p {
+            margin-bottom: 14px;
+        }
+    }
+}
+@media screen and (max-width:703px) {
+    .advantage {
+        font-family: "Mont";
+        background: url(../assets/img/advantage/bg.png) center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .title {
+            display: flex;
+            justify-content: center;
+        }
+        &__sector {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 74px;
+        }
+        &__box {
+            
+            padding-top: 15px;
+            padding-right: 10px;
+            
+            box-sizing: border-box;
+        }
+    }
+    .box {
+        &__bg--img {
+            margin-top: 34px;
+            width: 76px;
+            height: 76px;
+            background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__name {
+            padding-top: 24px;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 96.4%;
+            color: #031412;
+        }
+    
+        &__text {
+            padding-top: 15px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 134.4%;
+            color: #031412;
+        }
+        &__bottom--continuation {
+            padding-top: 15px;
+        }
+        &__continuation {
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 134.4%;
+            background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .continuation__icon {
+            padding-left: 7px;
+        }
+    }
+    
+}
+@media screen and (max-width:420px) {
+    .description{
+        padding-top: 64px;
+       
+        .title{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 105.9%;
+            color: #031412;
+         }
+        &__text{
+           
+            font-family: 'Mont';
+            margin: 13px 0 30px 0;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 132.4%; 
+            color: #031412;
+        }
+    
+        p {
+            margin-bottom: 14px;
+        }
+    }
+}
+@media screen and (max-width:400px) {
+    .advantage {
+        font-family: "Mont";
+        background: url(../assets/img/advantage/bg.png) center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .title {
+            display: flex;
+            justify-content: center;
+        }
+        &__sector {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-bottom: 74px;
+        }
+        &__box {
+            padding-top: 15px;
+            padding-right: 10px;
+            
+            box-sizing: border-box;
+        }
+    }
+    .box {
+        &__bg--img {
+            margin-top: 34px;
+            width: 76px;
+            height: 76px;
+            background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__name {
+            padding-top: 24px;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 96.4%;
+            color: #031412;
+        }
+    
+        &__text {
+            padding-top: 15px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 134.4%;
+            color: #031412;
+        }
+        &__bottom--continuation {
+            padding-top: 15px;
+        }
+        &__continuation {
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 134.4%;
+            background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .continuation__icon {
+            padding-left: 7px;
+        }
+    }
+    
+}
+
+
+

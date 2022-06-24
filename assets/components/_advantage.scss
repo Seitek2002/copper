@@ -1,0 +1,64 @@
+.advantage {
+    font-family: "Mont";
+    background: url(../assets/img/advantage/bg.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+    &__sector {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 74px;
+    }
+    &__box {
+        padding-top: 15px;
+        padding-right: 10px;
+
+        box-sizing: border-box;
+    }
+}
+.box {
+    &__bg--img {
+        margin-top: 34px;
+        width: 76px;
+        height: 76px;
+        background: linear-gradient(278.32deg, #0b3f37 -7.03%, #cb8d62 136.33%);
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__name {
+        padding-top: 24px;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 96.4%;
+        color: #031412;
+    }
+
+    &__text {
+        padding-top: 15px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 134.4%;
+        color: #031412;
+    }
+    &__bottom--continuation {
+        padding-top: 15px;
+    }
+    &__continuation {
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 134.4%;
+        background: linear-gradient(65.81deg, #5e3928 -24.09%, #e4a16f 104.02%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .continuation__icon {
+        padding-left: 7px;
+    }
+}
