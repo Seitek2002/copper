@@ -1,0 +1,32 @@
+.counter {
+    font-family: 'Mont';
+    padding: 140px 0;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        max-width: 310px
+    }
+    &__description {
+        @include font (400, 20px, #031412);
+        max-width: 517px;
+        margin-top: 23px;
+    }
+    &__subtitle {
+        @include font (900, 50px, transparent);
+         background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+    }
+    &__nums {
+        @include font (800, 250px, rgba(0, 0, 0,0.3));
+        background: url(../assets/img/value/fon.png) center;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+    }
+}
