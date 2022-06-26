@@ -156,6 +156,35 @@ ul {
   display: flex;
 }
 
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: .35;
+  cursor: auto;
+  pointer-events: none;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: 2%;
+  margin-left: 20px;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: 99%;
+  margin-right: 20px;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  opacity: .35;
+  cursor: auto;
+  pointer-events: none;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  top: 2%;
+  margin-left: 20px;
+}
+
 .header__link {
   font-family: "Mont";
 }
@@ -487,6 +516,23 @@ ul {
     width: 700px;
     height: 100px;
     margin-left: -150px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .products_block {
+    width: 110px;
+    height: 310px;
+    margin-right: 10px;
+  }
+  .products_box {
+    margin-top: 700px;
+    width: 350px;
+    height: 100px;
+    margin-left: -200px;
+  }
+  .products_cp {
+    margin-right: 100px;
   }
 }
 /*# sourceMappingURL=index.css.map */
