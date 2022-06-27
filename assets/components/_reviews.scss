@@ -1,14 +1,16 @@
 .reviews {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &__content {
+        max-width: 1260px;
+        height: 600px;
+        margin: 0 auto;
+    }
 
     &__swiper {
-        width: 1440px;
         height: 390px;
-
-        &__swiper-wrapper {
-            max-width: 100%;
-            display: flex;
-            justify-content: space-between;
-        }
 
         &-button-prev, &-button-next {
             width: 80px;
@@ -16,6 +18,8 @@
             color: $text-darkGreen;
             border: 1px solid #031412;
             font-size: 15px;
+            top: 27%;
+            background: $bg-white;
         }
 
         &-button-prev, &-rtl &-button-next {
@@ -32,23 +36,19 @@
 
         &-button-next:hover, &-button-prev:hover {
             background: $bg-blackGold;
-            color: $text-white;
             width: 82px;
             height: 44px;
             border: none;
         }
 
-        &-button-prev:after, &-rtl &-button-next:after {
-            content: none;
-        }
-
-        &-button-next:after, &-rtl &--button-next:after {
+        &-button-prev:after, &-rtl &-button-next:after, &-button-next:after, &-rtl &--button-next:after {
             content: none;
         }
 
         &-swiper-pagination .swiper-pagination-bullet {
             border-radius: 0%;
             background-color: $bg-darkGreen;
+            opacity: 1;
         }
 
         &-swiper-pagination .swiper-pagination-bullet-active {
@@ -56,13 +56,13 @@
             background: $bg-unsatGold;
         }
     }
-    
+
 }
 
 .box {
     text-align: center;
     background: $bg-satGreen;
-    width: 436px;
+    width: 400px;
     height: 332px;
 }
 
