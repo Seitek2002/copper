@@ -66,7 +66,7 @@
             padding-left: 7px;
         }
     }
-} 
+}  
 @media screen and (max-width:1340px) {
     .geography {
         &__wrapper {
@@ -89,7 +89,7 @@
             font-size: 40px;
         }
     }
-}  
+}   
 @media screen and (max-width:1280px) {
     .counter {
         &__content {
@@ -110,7 +110,51 @@
             font-size: 30px;
         }
     }
-}
+} 
+@media screen and (max-width:1100px) {
+    .header {
+        &__posi-like {
+            display: none;
+        }
+
+        &__row {
+            display: block;
+        }
+
+        &__list {
+            margin: 20px 120px;
+        }
+
+        &__posi-user {
+            position: absolute;
+            top: 0;
+            right: 18%;
+        }
+
+        &__posi-shop {
+            position: absolute;
+            top: 0;
+            right: 10%;
+        }
+
+        &__img--icon {
+            padding: 30px 7px 7px 7px;
+
+        }
+
+        &__img--icon:hover {
+            padding: 30px 7px 7px 7px;
+        }
+    }
+} 
+@media screen and (max-width:877px) {
+    .header {
+        &__list {
+            max-width: 100%;
+            margin: 20px 80px;
+        }
+    }
+} 
 @media screen and (max-width:770px) {
     .counter {
         padding: 40px 0 23px;
@@ -130,7 +174,7 @@
             font-size: 100px;
         }
     }
-}
+} 
 @media screen and (max-width:768px) {
     .description{
         padding-top: 65px;
@@ -150,7 +194,13 @@
             margin-bottom: 14px;
         }
     }
-}
+    .header {
+        &__list {
+            max-width: 100%;
+            margin: 10px 10px;
+        }
+    }
+} 
 @media screen and (max-width:703px) {
     .advantage {
         font-family: "Mont";
@@ -218,7 +268,36 @@
         }
     }
     
-}
+} 
+@media screen and (max-width:656px) {
+    .header {
+
+        &__link {
+
+            margin: 0 15px;
+        }
+
+        &__posi-user {
+            position: absolute;
+            top: 0;
+            right: 20%;
+        }
+
+        &__posi-shop {
+            position: absolute;
+            top: 0;
+            right: 10%;
+        }
+      
+    }
+} 
+@media screen and (max-width:560px) {
+    .header {
+        &__link {
+            margin: 0 10px;
+        }
+    }
+} 
 @media screen and (max-width:510px) {
     .geography {
         padding-top: 38px;
@@ -234,7 +313,50 @@
             color: #031412;
         }
     }
-}
+} 
+@media screen and (max-width:506px) {
+    .burger {
+        display: block;
+        &__posi-like,
+        &__list {
+            z-index: 1;
+        }
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .header {
+        &__list {
+            display: none;
+        }
+
+        &__posi-user {
+            position: absolute;
+            top: 0;
+            right: 40%;
+        }
+
+        &__posi-shop {
+            position: absolute;
+            top: 0;
+            right: 25%;
+        }
+
+        &__img--icon {
+            padding: 50px 7px 7px 7px;
+           
+
+        }
+
+        &__img--icon:hover {
+            padding: 50px 7px 7px 7px;
+        }
+
+    }
+
+} 
 @media screen and (max-width:490px) {
     .news{
 
@@ -251,7 +373,22 @@
             text-align: center;
         }
     }
-}
+    .burger {
+        &__posi-like{
+            right: 380%;
+        }
+
+    }
+} 
+@media screen and (max-width:452px) {
+    .burger {
+        &__posi-like{
+            position: absolute;
+            right: 360%;
+        }
+
+    }
+} 
 @media screen and (max-width:420px) {
     .description{
         padding-top: 64px;
@@ -276,7 +413,16 @@
             margin-bottom: 14px;
         }
     }
-}
+} 
+@media screen and (max-width:426px) {
+    .burger {
+        &__posi-like{
+            position: absolute;
+            right: 340%;
+        }
+
+    }
+} 
 @media screen and (max-width:400px) {
     .advantage {
         font-family: "Mont";
@@ -342,9 +488,36 @@
             padding-left: 7px;
         }
     }
-    
-}
-@media screen and (max-width: 365px) {
+    .header {
+        &__logo {
+            width: 110px;
+        }
+
+        &__posi-user {
+            position: absolute;
+            top: 0;
+            right: 40%;
+            padding: 48px 7px 7px 7px;
+        }
+
+        &__posi-shop {
+            position: absolute;
+            top: 0;
+            right: 22%;
+            margin-top: -2px;
+        }
+    }
+} 
+@media screen and (max-width:388px) {
+    .burger {
+        &__posi-like{
+            position: absolute;
+            right: 320%;
+        }
+
+    }
+} 
+@media screen and  (max-width: 365px) {
     .news {
         padding-top: 120px;
         font-family: "Mont";
@@ -460,6 +633,13 @@
             }
         }
     }
+} 
+@media screen and (max-width:346px) {
+    .burger {
+        &__posi-like{
+            position: absolute;
+            right: 300%;
+        }
+
+    }
 }
-
-
