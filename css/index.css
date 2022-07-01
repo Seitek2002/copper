@@ -408,13 +408,20 @@ body {
 }
 
 .burger .header__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 15px;
   text-align: center;
 }
 
 @media screen and (max-width: 1235px) {
   .header__posi-like {
-    display: none;
+    top: 0;
+    right: 26%;
   }
   .header__row {
     display: block;
@@ -455,6 +462,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .header__posi-like {
+    display: none;
+  }
   .header__list {
     max-width: 100%;
     margin: 10px 50px;
@@ -541,15 +551,19 @@ body {
 }
 
 @media screen and (max-width: 490px) {
+  .header {
+    width: 100%;
+  }
   .burger__posi-like {
-    right: 150px;
+    display: block;
+    right: 55%;
   }
 }
 
 @media screen and (max-width: 452px) {
   .burger__posi-like {
     position: absolute;
-    right: 150px;
+    right: 360%;
   }
 }
 
